@@ -1,0 +1,286 @@
+.button {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  position: relative;
+  font-family: 'LoL Display';
+  text-transform: uppercase;
+  color: #CDBE91;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  padding: 5px 1.3em;
+  height: 100%;
+  min-height: 32px;
+  cursor: pointer;
+  box-shadow: 0 0 1px 1px #010A13, inset 0 0 1px 1px #010A13;
+  background: #1E2328;
+  border: 2px solid transparent;
+
+  * {
+    cursor: pointer;
+  }
+
+  .content {
+    position: relative;
+  }
+
+  .buttonBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 400ms cubic-bezier(0, 0, 0.33, 1);
+    opacity: 0;
+    backface-visibility: hidden;
+    background-image: linear-gradient(to bottom, #1E232A 0%, #1E232A 40%, rgba(118,97,51,0.8) 140%);
+  }
+
+  .borderIdle {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    pointer-events: none;
+    opacity: 1;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to top, #785B28 0%, #C89C3C 55%, #C8A355 71%, #C8AA6E 100%);
+    border-image-slice: 1;
+    transition: opacity 300ms linear;
+  }
+
+  .borderTransition {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    pointer-events: none;
+    opacity: 0;
+    border: 2px solid transparent;
+		transition: border-color 300ms linear, opacity 300ms linear;
+  }
+
+  /* SFX */
+  .glow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(4px);
+  }
+
+  .flare {
+    &::before {
+      content: '';
+      position: absolute;
+      top: -25px;
+      left: -25px;
+      width: 48px;
+      height: 48px;
+      opacity: 0;
+      background: transparent url('../../static/lcu/sheen.png') top center no-repeat;
+      pointer-events: none;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -25px;
+      right: -25px;
+      width: 48px;
+      height: 48px;
+      opacity: 0;
+      background: transparent url('../../static/lcu/sheen.png') top center no-repeat;
+      pointer-events: none;
+    }
+  }
+
+  .sheenWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+
+    .sheen {
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      width: 100%;
+      height: 150%;
+      transform: translateY(-100%);
+      pointer-events: none;
+      background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 92%, rgba(255,255,255,0) 100%);
+      filter: blur(2px);
+    }
+  }
+}
+
+/* hover state */
+.button.hover {
+  color: #F0E6D2;
+  animation: hoverTextShadow 600ms cubic-bezier(0, 0, 0.33, 1) 1;
+
+  .borderTransition {
+    opacity: 1;
+    border-image: linear-gradient(to top, #C89C3C 0%, #DCC188 50%, #E1C998 71%, #F0E6D8 100%);
+    border-image-slice: 1;
+  }
+
+  .glow {
+    animation: hoverGlow 600ms cubic-bezier(0, 0, 0.33, 1) 1;
+  }
+
+  .buttonBg {
+    opacity: 1;
+  }
+}
+
+/* down state */
+.button.down {
+  color: #5C5B57;
+  transition: color 100ms linear;
+  animation: none;
+
+  .buttonBg {
+    opacity: 1;
+  }
+}
+
+/* click state */
+.button.click {
+  color: #E4E1D8;
+  border-image: linear-gradient(to top, #FFFFFF 0%, #FFFFFF 33%, #FFFFFF 66%, #FFFFFF 100%);
+  border-image-slice: 1;
+  animation: clickScale 130ms linear 1, hoverTextShadow 400ms linear 1;
+
+
+  .borderTransition {
+    border-image: linear-gradient(to top, #C89C3C 0%, #DCC188 50%, #E1C998 71%, #F0E6D8 100%);
+    border-image-slice: 1;
+    transition: opacity 400ms linear;
+    opacity: 1;
+  }
+
+  .glow {
+    animation: hoverGlow 600ms cubic-bezier(0, 0, 0.33, 1) 1;
+  }
+
+  .sheen {
+    animation: clickSheen 330ms 1 linear;
+  }
+
+  .buttonbg {
+    opacity: 1;
+  }
+
+  .flare {
+    &::before {
+      animation: clickFlare 400ms cubic-bezier(0, 0, 0.33, 1) 0ms 1;
+    }
+
+    &::after {
+      animation: clickFlare 400ms cubic-bezier(0, 0, 0.33, 1) 30ms 1;
+    }
+  }
+}
+
+.button.disabled {
+  cursor: default;
+  color: #5C5B57;
+  background-color: #1E2328;
+  border-image: initial;
+
+  * {
+		cursor: default;
+    animation: none;
+  }
+
+  .flare, .glow, .sheen-wrapper, .buttonBg {
+    display: none;
+  }
+
+  .borderTransition {
+		border-color: #5C5B57;
+    opacity: 1;
+  }
+
+  .borderIdle {
+		opacity: 0;
+  }
+}
+
+@keyframes hoverTextShadow {
+  0% {
+    text-shadow: 0 0 4px #F0E6D8;
+  }
+
+  50% {
+    text-shadow: 0 0 4px rgba(240,230,216,0.5);
+  }
+
+  100% {
+    text-shadow: 0 0 4px rgba(240,230,216,0);
+  }
+}
+@keyframes hoverGlow {
+  0% {
+    box-shadow: 0 0 5px 4px rgba(240,230,216,0.5),0 0 2px 1px rgba(240,230,216,0.5) inset;
+  }
+
+  50% {
+    box-shadow: 0 0 5px 4px rgba(240,230,216,0.3),0 0 2px 1px rgba(240,230,216,0.3) inset;
+  }
+
+  100% {
+    box-shadow: 0 0 5px 4px rgba(240,230,216,0),0 0 2px 1px rgba(240,230,216,0) inset;
+  }
+}
+@keyframes clickFlare {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.6;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes clickScale {
+  from {
+    transform: scale(0.94);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes clickSheen {
+  from {
+    transform: translateY(-100%) rotate(0deg);
+  }
+
+  10% {
+    transform: translateY(-80%) rotate(-5deg);
+  }
+
+  to {
+    transform: translateY(100%) rotate(0deg);
+  }
+}

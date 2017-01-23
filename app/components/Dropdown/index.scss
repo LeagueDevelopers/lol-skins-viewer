@@ -1,0 +1,108 @@
+.dropdown {
+	position: relative;
+	width: 100%;
+	font-family: 'LoL Body';
+	color: #A09B8C;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 16px;
+	letter-spacing: 0.025em;
+	-webkit-font-smoothing: subpixel-antialiased;
+
+	.control {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 7px 14px;
+		background-color: rgba(30,35,40,0.5);
+		border: 1px solid transparent;
+		border-image: linear-gradient(to top,#695625 0%,#A9852D 23%,#B88D35 93%,#C8AA6E 100%) 1;
+		cursor: pointer;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+
+		&:hover {
+			background: linear-gradient(to top,rgba(88,83,66,0.5),rgba(30,35,40,0.5));
+			border: 1px solid transparent;
+			border-image: linear-gradient(to top,#c89b3c,#f0e6d2) 1;
+		}
+
+		&.active {
+			background: rgba(30,35,40,0.5);
+			color: #463714;
+			border: 1px solid #463714;
+		}
+
+		.arrow {
+			position: absolute;
+			right: 5px;
+			padding: 0 5px;
+			cursor: pointer;
+			background: url('static/lcu/up-down-arrow.png') no-repeat;
+			width: 13px;
+			height: 19px;
+		}
+	}
+
+	.options {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 100%;
+		width: 100%;
+		max-height: 400px;
+		background: #010A13;
+		border: 1px solid transparent;
+		border-image: linear-gradient(to top, #695625, #463714) 1;
+		transition: max-height 400ms linear;
+
+		&.hidden {
+			max-height: 0px;
+			border: 0;
+			& > .option {
+				display: none;
+			}
+		}
+
+		.option {
+			display: flex;
+			align-items: center;
+			position: relative;
+			color: #CDBE91;
+			cursor: pointer;
+			height: 30px;
+			padding-right: 31px;
+			line-height: 30px;
+			margin: 0;
+			overflow: hidden;
+			padding: 2px 9px 0 7px;
+			border-top: 1px solid #1F2123;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+
+			&:hover {
+				color: #f0e6d2;
+				background-color: #1e2328;
+			}
+
+			&:active {
+				color: #463714;
+				background-color: rgba(30,35,40,0.5);
+			}
+
+			&.selected::after {
+				content: '';
+				background: url('static/lcu/dropdown-check.png') center no-repeat;
+				width: 14px;
+				height: 11px;
+				position: absolute;
+				right: 10px;
+				top: 50%;
+				transform: translate(0,-50%);
+			}
+		}
+	}
+}

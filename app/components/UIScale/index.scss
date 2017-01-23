@@ -1,0 +1,19 @@
+@import '~variables.scss';
+
+.uiScale {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	align-self: flex-start;
+
+	.info {
+		font-family: 'LoL Body';
+		color: $lcu-text-light;
+		font-size: 1em;
+		text-align: center;
+	}
+
+	.dropdownWrapper {
+		padding: 8px;
+	}
+}

@@ -1,0 +1,38 @@
+.titleBar {
+  display: flex;
+  position: fixed;
+  height: 20px;
+  top: 0;
+  width: 100%;
+  -webkit-app-region: drag;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  .button {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    -webkit-mask-size: contain;
+		-webkit-mask-position: center;
+		-webkit-mask-repeat: no-repeat;
+    background-color: #A09B8C;
+	  -webkit-app-region: no-drag;
+		border: 0;
+
+		&:hover {
+			background-color: lighten(#A09B8C, 40%);
+		}
+  }
+
+  .minimize {
+    -webkit-mask-image: url('static/lcu/minimize.png');
+		margin-right: 15px;
+  }
+
+  .close {
+    -webkit-mask-image: url('static/lcu/close.svg');
+		height: 10px;
+		width: 10px;
+		margin-right: 10px;
+  }
+}

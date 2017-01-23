@@ -1,0 +1,24 @@
+.skinsList {
+//	min-width: 600px;
+	display: flex;
+	flex: 1;
+	flex-flow: row wrap;
+	line-height: 0;
+	padding-top: 15px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	align-content: flex-start;
+
+	&::-webkit-scrollbar {
+	  width: 11px;
+	  background-color: transparent;
+	}
+
+	&::-webkit-scrollbar-thumb {
+	  border: 3px solid transparent;
+	  border-radius: 6px;
+	  background-clip: padding-box;
+	  min-height: 32px;
+	  background-color: #785a28;
+	}
+}

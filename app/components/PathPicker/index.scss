@@ -1,0 +1,102 @@
+@import '~variables.scss';
+
+.pathPicker {
+  display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	.info {
+		padding-left: 10px;
+		font-family: 'LoL Body';
+		color: $lcu-text-light;
+		font-size: 1em;
+		text-align: center;
+//		margin-bottom: 10px;
+	}
+
+  .picker {
+		height: 48px;
+		padding: 8px;
+
+		.reset {
+			position: absolute;
+			left: -19px;
+			font-size: 1.3em;
+			transition: opacity 0.2s ease-out, visibility 0.2s ease-out;
+			color: #785A28;
+			cursor: pointer;
+			-webkit-transform: translate3d(0,0,0);
+			z-index: 10;
+
+			&:hover {
+				color: lighten(#785A28, 10%);
+			}
+
+			&:active {
+				color: darken(#785A28, 10%);
+			}
+
+			&.hidden {
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
+
+    :global(.input) {
+      padding: 0 110px 0 9px;
+			font-size: 1.2em;
+
+			&:placeholder-shown {
+				font-size: 1em;
+			}
+    }
+
+    .browse {
+      position: absolute;
+      height: 50%;
+      right: 12px;
+			min-height: 25px;
+    }
+  }
+
+  .state {
+    display: flex;
+    flex-direction: row;
+		position: relative;
+
+    .path, .hasLeague {
+      display: flex;
+      padding: 8px 16px 16px 8px;
+      position: relative;
+      align-items: center;
+      margin-right: 16px;
+
+      .text {
+        font-family: 'LoL Display';
+        font-size: 16px;
+        font-weight: bold;
+        color: $lcu-text-light;
+			}
+
+      .status {
+        border: 2px solid;
+        border-radius: 50%;
+        z-index: 200000;
+        height: 11px;
+        width: 11px;
+        position: absolute;
+        right: 0px;
+
+        &.on {
+          background-color: #09A646;
+          border-color: #66F8A0;
+        }
+
+        &.off {
+          border-color: lighten(#C0392B, 15%);
+          background-color: #C0392B;
+        }
+      }
+    }
+  }
+}
