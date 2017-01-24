@@ -1,4 +1,3 @@
-import { app } from 'electron';
 import os from 'os';
 import { autoUpdater } from 'electron-updater';
 import { dispatchToRenderer, env } from 'utils';
@@ -33,7 +32,7 @@ export default function AutoUpdater (browserWindow) {
     autoUpdater.quitAndInstall();
     return true;
   });
-  autoUpdater.addListener('download-progress', (event, progress) => {
+  autoUpdater.addListener('download-progress', progress => {
     debug('Update Progress', progress);
     dispatchToRenderer(updateProgress(Math.floor(progress.percent) || 0));
   });

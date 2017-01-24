@@ -33,7 +33,7 @@
       ]
     },
     "files": [
-      "dist/renderer",
+      "dist/renderer/",
       "node_modules/",
       "dist/app.html",
       "dist/main.js",
@@ -133,7 +133,7 @@
   "license": "MIT",
   "main": "main.js",
   "productName": "LoLSkinsViewer",
-  "repository": "s-coimbra21/lol-skins-viewer",
+  "repository": "LeagueOSS/lol-skins-viewer",
   "scripts": {
     "build": "npm run clean && npm run build-main && npm run build-renderer",
     "build-main": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.electron.js --progress --profile --colors",

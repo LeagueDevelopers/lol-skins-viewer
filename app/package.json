@@ -1,9 +1,9 @@
 {
-  "name": "LoLSkinsViewer",
+  "name": "lol-skins-viewer",
   "productName": "LoLSkinsViewer",
   "version": "1.0.0",
   "description": "An application that can show you all the skins you own",
-  "main": "./main.js",
+  "main": "./dist/main.js",
   "author": {
     "name": "S. Coimbra",
     "url": "https://github.com/s-coimbra21"
