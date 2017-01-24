@@ -18,7 +18,7 @@ A: Not yet.
 
 #### Q: This app looks a lot like the League Client Update, why?
 
-A: I like how the LCU looks and wanted this app's users to feel at home with an already familiar UI.
+A: I like how the LCU looks and wanted this app's users to feel at home by using an already familiar UI.
 
 #### Q: Can I contribute?
 
