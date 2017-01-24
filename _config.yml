@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+title: LoL Skins Viewer
+description: Map your skin collection with one simple app
+show_downloads: true
+latest_url: https://github.com/LeagueOSS/lol-skins-viewer/releases/latest
