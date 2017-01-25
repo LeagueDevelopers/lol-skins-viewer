@@ -27,6 +27,7 @@
     "react-collapse": "^2.3.3",
     "react-dom": "^15.4.1",
     "react-height": "^2.1.1",
+    "react-markdown": "^2.4.4",
     "react-modal": "^1.6.4",
     "react-motion": "^0.4.5",
     "react-redux": "^5.0.2",
