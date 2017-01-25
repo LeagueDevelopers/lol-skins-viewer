@@ -1,26 +1,31 @@
 import settings from 'electron-settings';
 import logger from 'loglevel';
+import { validatePath } from 'utils';
 import { validSettingsSelector, hasChangesSelector, isValidSelector } from 'selectors/settings';
 
 export function changeSetting (setting, nextValue) {
-  switch (setting) {
-    case 'clientPath':
-      return {
-        type: 'PATH_CHANGE',
-        payload: nextValue
-      };
-    case 'scale':
-      return {
-        type: 'SCALE_CHANGE',
-        payload: nextValue
-      };
-    default:
-      return {
-        type: 'ERROR',
-        payload: 'Error changing settings, no arguments provided.',
-        error: true
-      };
-  }
+  return async (dispatch) => {
+    switch (setting) {
+      case 'clientPath': {
+        const nextPath = await validatePath(nextValue);
+        return dispatch({
+          type: 'PATH_CHANGE',
+          payload: nextPath
+        });
+      }
+      case 'scale':
+        return dispatch({
+          type: 'SCALE_CHANGE',
+          payload: nextValue
+        });
+      default:
+        return dispatch({
+          type: 'ERROR',
+          payload: 'Error changing settings, no arguments provided.',
+          error: true
+        });
+    }
+  };
 }
 
 export function resetSetting (name) {

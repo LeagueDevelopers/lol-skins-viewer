@@ -1,11 +1,15 @@
 import _settings from 'electron-settings';
 import u from 'updeep';
-import { validatePath } from 'utils';
+import { validatePathSync } from 'utils';
 
+/* TODO: We should calculate the initial redux state in the
+ * main process before the window is shown (or show a loading screen).
+ * Ideally there should be no fs Sync functions
+ */
 function getDefaultState () {
   return {
     clientPath: {
-      ...validatePath(_settings.getSync('clientPath')),
+      ...validatePathSync(_settings.getSync('clientPath')),
       hasChanged: false
     },
     scale: {
@@ -37,7 +41,7 @@ function hasChanged (current, initial = DEFAULT_STATE) {
 export default function settings (state = DEFAULT_STATE, action) {
   switch (action.type) {
     case 'PATH_CHANGE':
-      return u({ clientPath: hasChanged(validatePath(action.payload)) }, state);
+      return u({ clientPath: hasChanged(action.payload) }, state);
     case 'SCALE_CHANGE':
       return u({ scale: { value: action.payload, hasChanged: true } }, state);
     case 'RESET_SETTING':

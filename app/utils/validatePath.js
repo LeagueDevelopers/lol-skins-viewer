@@ -1,7 +1,6 @@
 import { remote } from 'electron';
 import path from 'path';
-import fs from 'fs';
-import isValidPath from 'is-valid-path';
+import fs from 'fs-promise';
 import isRelative from 'is-relative';
 import normalize from 'normalize-path';
 
@@ -16,12 +15,36 @@ function resolvePath (nextPath) {
   }
 }
 
+async function exists (pathToCheck) {
+  try {
+    return await fs.exists(pathToCheck);
+  } catch (e) {
+    return false;
+  }
+}
+
+async function isDirectory (pathToCheck) {
+  try {
+    return (await fs.lstat(pathToCheck)).isDirectory();
+  } catch (e) {
+    return false;
+  }
+}
+
+async function readdir (dir) {
+  try {
+    return await fs.readdir(dir);
+  } catch (e) {
+    return [];
+  }
+}
+
 /* This might not be very performant, consider not validating
  * on every update?
  *
  * isValid: true if it is the League directory
  */
-export default function validatePath (nextPath) {
+export async function validatePath (nextPath) {
   if (!nextPath) {
     return {
       value: '',
@@ -29,13 +52,35 @@ export default function validatePath (nextPath) {
       isValid: false
     };
   }
-  if (!isValidPath(nextPath)) {
+
+  const absolutePath = resolvePath(nextPath);
+  if (!absolutePath || !await exists(absolutePath)) {
     return {
       value: nextPath,
       isValidPath: false,
       isValid: false
     };
   }
+  const dirIsValid = await isDirectory(absolutePath);
+  // TODO: OSX Compatibility
+  const files = await readdir(absolutePath);
+  const isValid = files.some(f => (f && f.toLowerCase()) === 'leagueclient.exe');
+  return {
+    value: isValid ? normalize(nextPath) : nextPath,
+    isValidPath: dirIsValid,
+    isValid
+  };
+}
+
+export function validatePathSync (nextPath) {
+  if (!nextPath) {
+    return {
+      value: '',
+      isValidPath: false,
+      isValid: false
+    };
+  }
+
   const absolutePath = resolvePath(nextPath);
   if (!absolutePath || !fs.existsSync(absolutePath)) {
     return {
@@ -49,8 +94,7 @@ export default function validatePath (nextPath) {
   // TODO: OSX Compatibility
   const files = fs.readdirSync(absolutePath);
   const isValid =
-    files.some(f => /LeagueClient\.[a-z]{3}/i.test(f))
-    && files.some(f => f === 'RADS');
+    files.some(f => (f && f.toLowerCase()) === 'leagueclient.exe');
   return {
     value: isValid ? normalize(nextPath) : nextPath,
     isValidPath: dirIsValid,
