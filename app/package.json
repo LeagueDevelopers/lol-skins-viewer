@@ -30,7 +30,7 @@
     "react-height": "^2.1.1",
     "react-modal": "^1.6.4",
     "react-motion": "^0.4.5",
-    "react-redux": "^4.4.6",
+    "react-redux": "^5.0.2",
     "react-router": "^3.0.0",
     "react-router-redux": "^4.0.7",
     "recompose": "^0.21.0",
