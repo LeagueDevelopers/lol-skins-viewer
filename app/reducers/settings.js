@@ -31,19 +31,19 @@ function getDefaultState () {
  */
 const DEFAULT_STATE = getDefaultState();
 
-function hasChanged (current, initial = DEFAULT_STATE) {
+function hasChanged (current, key, initial = DEFAULT_STATE) {
   return {
     ...current,
-    hasChanged: current.value !== initial.clientPath.value
+    hasChanged: current.value !== initial[key].value
   };
 }
 
 export default function settings (state = DEFAULT_STATE, action) {
   switch (action.type) {
     case 'PATH_CHANGE':
-      return u({ clientPath: hasChanged(action.payload) }, state);
+      return u({ clientPath: hasChanged(action.payload, 'clientPath') }, state);
     case 'SCALE_CHANGE':
-      return u({ scale: { value: action.payload, hasChanged: true } }, state);
+      return u({ scale: hasChanged(action.payload, 'scale') }, state);
     case 'RESET_SETTING':
       return u({ [action.payload]: getDefaultState()[action.payload] }, state);
     case 'SETTINGS_RESET':
