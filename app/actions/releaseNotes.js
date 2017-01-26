@@ -10,7 +10,7 @@ export function fetchReleaseNotes (lastChecked = new Date(0).toUTCString()) {
     json: true
   })
   .then(res => {
-    const releases = res.map(r => ({ body: r.body, name: r.name })) || [];
+    const releases = res.map(r => ({ body: r.body.replace('LoL Skins Viewer', 'Patch'), name: r.name })) || [];
     const nextLastChecked = releases.length ? new Date().toUTCString() : lastChecked;
     return dispatch({
       type: 'RECEIVE_RELEASE_NOTES',
