@@ -1,5 +1,5 @@
 {
-  "name": "LoLSkinsViewer",
+  "name": "lol-skins-viewer",
   "description": "An application that can show you all the skins you own",
   "version": "0.0.0",
   "author": {
@@ -12,14 +12,15 @@
   "build": {
     "appId": "org.jinx.LoLSkinsViewer",
     "category": "public.app-category.tools",
-    "publish": [
-      {
-        "provider": "github"
-      }
-    ],
+    "publish": [{
+      "provider": "github"
+    }],
+    "directories": {
+      "buildResources": "build",
+      "output": "release"
+    },
     "dmg": {
-      "contents": [
-        {
+      "contents": [{
           "x": 410,
           "y": 150,
           "type": "link",
@@ -116,10 +117,6 @@
   "devEngines": {
     "node": ">=6.x",
     "npm": ">=3.x"
-  },
-  "directories": {
-    "buildResources": "build",
-    "output": "release"
   },
   "keywords": [
     "electron",
