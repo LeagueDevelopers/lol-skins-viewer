@@ -33,3 +33,6 @@ app/node_modules
 # App packaged
 release
 app/dist
+
+# Visual studio code
+.vscode/

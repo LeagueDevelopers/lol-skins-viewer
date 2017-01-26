@@ -6,7 +6,7 @@ import { validatePathSync } from 'utils';
  * main process before the window is shown (or show a loading screen).
  * Ideally there should be no fs Sync functions
  */
-function getDefaultState () {
+function getCurrentSettings () {
   return {
     clientPath: {
       ...validatePathSync(_settings.getSync('clientPath')),
@@ -29,12 +29,12 @@ function getDefaultState () {
  *    ...otherProps
  * }
  */
-const DEFAULT_STATE = getDefaultState();
+let DEFAULT_STATE = getCurrentSettings();
 
-function hasChanged (current, key, initial = DEFAULT_STATE) {
+function hasChanged (current, key, previous = DEFAULT_STATE) {
   return {
     ...current,
-    hasChanged: current.value !== initial[key].value
+    hasChanged: current.value !== previous[key].value
   };
 }
 
@@ -43,12 +43,13 @@ export default function settings (state = DEFAULT_STATE, action) {
     case 'PATH_CHANGE':
       return u({ clientPath: hasChanged(action.payload, 'clientPath') }, state);
     case 'SCALE_CHANGE':
-      return u({ scale: hasChanged(action.payload, 'scale') }, state);
+      return u({ scale: hasChanged({ value: action.payload }, 'scale') }, state);
     case 'RESET_SETTING':
-      return u({ [action.payload]: getDefaultState()[action.payload] }, state);
+      return u({ [action.payload]: getCurrentSettings()[action.payload] }, state);
     case 'SETTINGS_RESET':
     case 'SETTINGS_SAVE':
-      return getDefaultState();
+      DEFAULT_STATE = getCurrentSettings();
+      return DEFAULT_STATE;
     default:
       return state;
   }
