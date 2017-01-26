@@ -1,4 +1,4 @@
-import fs from 'mz/fs';
+import fs from 'fs-promise';
 import path from 'path';
 import watch from 'watch';
 import { dispatchToRenderer, parseLockfile, processIsRunning } from 'utils';
@@ -32,7 +32,11 @@ function pollLogin () {
 }
 
 async function onLockfile (filePath) {
+  debug('Reading Lockfile %s', filePath);
   const file = await fs.readFile(filePath, { encoding: 'utf8' });
+  if (!file) {
+    return false;
+  }
   debug('Found Lockfile %s', file);
 
   const lcuInstance = parseLockfile(file);
@@ -49,6 +53,14 @@ async function onLockfile (filePath) {
   }
 }
 
+async function exists (filePath) {
+  try {
+    return await fs.exists(filePath, fs.constants.F_OK);
+  } catch (e) {
+    return false;
+  }
+}
+
 export default {
   async start () {
     if (watcher) {
@@ -57,22 +69,26 @@ export default {
     }
     const clientPath = await PersistentSettings.getClientPath();
     const lockfilePath = path.resolve(clientPath, 'lockfile');
-
-    debug('Path', lockfilePath);
-    watch.createMonitor(clientPath, {
-      interval: 5,
-      filter: fullpath => path.normalize(fullpath) === lockfilePath
-    }, monitor => {
-      monitor.on('created', f => onLockfile(f));
-      monitor.on('changed', f => onLockfile(f));
-      monitor.on('removed', () => dispatchToRenderer(down()));
-      watcher = monitor;
+    if (await exists(lockfilePath)) {
+      onLockfile(lockfilePath);
+    }
+    return await new Promise(resolve => {
+      watch.createMonitor(clientPath, {
+        interval: 5,
+        filter: fullpath => path.normalize(fullpath) === lockfilePath
+      }, monitor => {
+        monitor.on('created', f => onLockfile(f));
+        monitor.on('changed', f => onLockfile(f));
+        monitor.on('removed', () => dispatchToRenderer(down()));
+        watcher = monitor;
+        resolve(monitor);
+      });
     });
   },
 
   stop () {
     if (watcher) {
-      watcher.close();
+      watcher.stop();
       watcher = null;
     }
   },
