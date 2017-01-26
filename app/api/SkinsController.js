@@ -1,3 +1,4 @@
+// @flow
 import request from 'request-promise-native';
 import type { Summoner, Champion } from '../types';
 

@@ -25,6 +25,18 @@ body {
   flex-direction: column;
 }
 
+.tabbed-container {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+
+	.tabs {
+		display: flex;
+		flex-direction: row;
+		margin-left: 35px;
+	}
+}
+
 .loading {
 	position: fixed;
 	width: 100vw;

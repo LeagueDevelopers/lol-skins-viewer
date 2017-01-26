@@ -17,6 +17,7 @@ module.exports = {
     "import/prefer-default-export": "off",
     "import/no-unresolved": ["error", { "ignore": ["electron"] }],
     "import/no-extraneous-dependencies": "off",
+    "import/extensions": "off",
     "no-use-before-define": "off",
     "promise/param-names": 2,
     "promise/always-return": 2,

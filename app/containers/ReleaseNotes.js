@@ -8,7 +8,7 @@ import * as releaseNotesActionCreators from '../actions/releaseNotes';
 
 @connect(
   state => ({
-    releaseNotes: state.releaseNotes.notes,
+    releases: state.releaseNotes.releases,
     lastChecked: state.releaseNotes.lastChecked
   }),
   dispatch => ({
@@ -17,7 +17,7 @@ import * as releaseNotesActionCreators from '../actions/releaseNotes';
 )
 export default class ReleaseNotesContainer extends Component {
   static propTypes = {
-    releaseNotes: PropTypes.array,
+    releases: PropTypes.array,
     lastChecked: PropTypes.any,
     releaseNotesActions: PropTypes.object.isRequired
   }
@@ -28,10 +28,10 @@ export default class ReleaseNotesContainer extends Component {
   }
 
   render () {
-    const { releaseNotes } = this.props;
+    const { releases } = this.props;
     return (
       <section className="release-notes">
-        <ReleaseNotes notes={releaseNotes} />
+        {releases.map(release => <ReleaseNotes key={release.name} notes={release.body} />)}
       </section>
     );
   }
