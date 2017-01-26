@@ -16,6 +16,7 @@
     "electron-debug": "^1.1.0",
     "electron-settings": "^2.2.2",
     "electron-updater": "^1.1.1",
+    "escape-string-regexp": "^1.0.5",
     "font-awesome": "^4.7.0",
     "fs-promise": "^1.0.0",
     "fuse.js": "^2.6.1",
@@ -40,6 +41,7 @@
     "request-promise-native": "^1.0.3",
     "reselect": "^2.5.4",
     "source-map-support": "^0.4.6",
-    "updeep": "^1.0.0"
+    "updeep": "^1.0.0",
+    "watch": "^1.0.1"
   }
 }

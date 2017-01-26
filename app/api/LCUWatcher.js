@@ -1,6 +1,6 @@
-import fs from 'fs';
+import fs from 'mz/fs';
 import path from 'path';
-import chokidar from 'chokidar';
+import watch from 'watch';
 import { dispatchToRenderer, parseLockfile, processIsRunning } from 'utils';
 import { down, up, login } from 'actions/app';
 import store from '../store';
@@ -31,8 +31,8 @@ function pollLogin () {
       });
 }
 
-function onLockfile (filePath) {
-  const file = fs.readFileSync(filePath, { encoding: 'utf8' });
+async function onLockfile (filePath) {
+  const file = await fs.readFile(filePath, { encoding: 'utf8' });
   debug('Found Lockfile %s', file);
 
   const lcuInstance = parseLockfile(file);
@@ -52,19 +52,22 @@ function onLockfile (filePath) {
 export default {
   async start () {
     if (watcher) {
-      watcher.close();
+      watcher.stop();
       watcher = null;
     }
     const clientPath = await PersistentSettings.getClientPath();
-    watcher = chokidar.watch(path.join(clientPath, 'lockfile'), {
-      interval: 3000,
-      awaitWriteFinish: true
-    })
-        .on('error', debug) // TODO: Might want to show something on the UI
-        .on('add', onLockfile)
-        .on('change', onLockfile)
-        .on('unlink', () => dispatchToRenderer(down()));
-    return watcher;
+    const lockfilePath = path.resolve(clientPath, 'lockfile');
+
+    debug('Path', lockfilePath);
+    watch.createMonitor(clientPath, {
+      interval: 5,
+      filter: fullpath => path.normalize(fullpath) === lockfilePath
+    }, monitor => {
+      monitor.on('created', f => onLockfile(f));
+      monitor.on('changed', f => onLockfile(f));
+      monitor.on('removed', () => dispatchToRenderer(down()));
+      watcher = monitor;
+    });
   },
 
   stop () {
