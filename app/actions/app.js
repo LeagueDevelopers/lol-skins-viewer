@@ -1,7 +1,6 @@
-// @flow
-import type { Summoner } from '../types';
+// import type { Summoner } from '../types';
 
-export function up (instance: Object) {
+export function up (instance) {
   if (instance) {
     return {
       type: 'LCU_UP',
@@ -15,7 +14,7 @@ export function up (instance: Object) {
   };
 }
 
-export function login (summoner: Summoner) {
+export function login (summoner) {
   if (summoner) {
     return {
       type: 'LCU_LOGIN',

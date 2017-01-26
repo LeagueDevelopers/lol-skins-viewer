@@ -1,0 +1,44 @@
+.navigationItemWrapper {
+  display: flex;
+  cursor: pointer;
+  margin-right: 30px;
+  min-width: 28px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+	margin-top: 9px;
+
+  .navigationItem {
+    position: relative;
+    color: #CDBE91;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    font-family: 'LoL Display';
+    transition: text-shadow 0.3s ease-in-out;
+    width: 100%;
+    min-height: 20px;
+
+    &.active {
+      color: #F0E6D2;
+
+      &:after {
+        content: "";
+        height: 1px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 20px;
+        margin: 0;
+        background: linear-gradient(to left, transparent, #cdbe91, transparent);
+      }
+    }
+
+    .content {
+      display: block;
+      text-align: center;
+      cursor: pointer;
+      line-height: normal;
+    }
+  }
+}

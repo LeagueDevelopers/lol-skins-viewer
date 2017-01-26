@@ -1,6 +1,5 @@
 .navigationItemWrapper {
   display: flex;
-  position: relative;
   cursor: pointer;
   margin-right: 30px;
   min-width: 28px;
@@ -15,16 +14,7 @@
     letter-spacing: 0.075em;
     text-transform: uppercase;
     font-family: 'LoL Display';
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    outline: none;
     transition: text-shadow 0.3s ease-in-out;
-    display: block;
-    width: 100%;
-    min-height: 20px;
 
     &.active {
       color: #F0E6D2;

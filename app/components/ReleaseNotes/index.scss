@@ -1,0 +1,37 @@
+@import "~variables.scss";
+
+.releaseNotes {
+	position: relative;
+	width: 70%;
+	font-family: 'LoL Body';
+	color: $lcu-text-dark;
+
+	&::after {
+		position: absolute;
+    bottom: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+		background: linear-gradient(90deg, #636159,#636159 65%,rgba(0,0,0,0));
+	}
+
+	&:last-of-type {
+		&::after {
+			background: none;
+		}
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $lcu-text-light;
+		font-family: 'LoL Display';
+	}
+
+	& > div > * {
+		margin-left: 15px;
+	}
+
+	& > div > h1, h2 {
+		margin-left: 0;
+	}
+}
