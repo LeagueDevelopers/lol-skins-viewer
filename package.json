@@ -137,7 +137,6 @@
     "clean": "rimraf app/dist",
     "dev": "cross-env DEBUG=lsv:* npm run hot-server -- --start-hot",
     "hot-server": "cross-env NODE_ENV=development node --max_old_space_size=2096 -r babel-register server.js",
-    "inspect-main": "electron-inspector",
     "lint": "eslint --ignore-path .gitignore --format=node_modules/eslint-formatter-pretty app test *.js",
     "release": "npm run build && build",
     "package-all": "npm run build && build -mw",

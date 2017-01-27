@@ -9,13 +9,14 @@ import CopyWebpackPlugin from 'copy-webpack-plugin';
 import baseConfig from './webpack.config.base';
 
 export default validate(merge(baseConfig, {
-  devtool: 'source-map',
+  devtool: 'inline-source-map',
 
   entry: ['babel-polyfill', './app/index.main'],
 
   // 'main.js' in root
   output: {
     path: __dirname,
+    devtoolModuleFilenameTemplate: '[absolute-resource-path]',
     filename: './app/dist/main.js'
   },
 
