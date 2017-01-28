@@ -1,5 +1,6 @@
 // @flow
 import request from 'request-promise-native';
+import flatMap from 'lodash.flatmap';
 import type { Summoner, Champion } from '../types';
 
 function transformResult (champions): Champion[] {
@@ -35,8 +36,29 @@ export function getData (proxyPort: number, summoner : Summoner) {
     uri: `http://127.0.0.1:${proxyPort}/lol-collections/v1/inventories/${summoner.id}/champions`,
     json: true
   })
-    .then(champions => ({
-      ownedChampionIds: champions.filter(c => c.ownership.owned).map(c => c.id),
-      champions: transformResult(champions)
-    }));
+    .then(async res => {
+      const champions = transformResult(res);
+      const ownedChampionIds = res.filter(c => c.ownership.owned).map(c => c.id);
+      const skinIds = flatMap(champions, c => c.skins).map(s => s.id);
+      const skinMetadata = {};
+      for (const id of skinIds) {
+        const meta = await request({
+          uri: `http://127.0.0.1:${proxyPort}/lol-loot/v1/player-loot/CHAMPION_SKIN_${id}`,
+          json: true
+        });
+        skinMetadata[id] = {
+          id,
+          lootId: meta.lootId,
+          rarity: meta.rarity,
+          name: meta.name,
+          value: meta.value,
+          tags: Array.isArray(meta.tags) ? meta.tags : meta.tags.split(',')
+        };
+      }
+      return {
+        champions,
+        skinMetadata,
+        ownedChampionIds
+      };
+    });
 }
