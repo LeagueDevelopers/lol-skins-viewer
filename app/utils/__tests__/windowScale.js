@@ -39,7 +39,7 @@ describe('util: windowScale', () => {
 
   testSizes.forEach(size => {
     it(`ensures the initial window size fits the screen's dimensions (screen width: ${size.width})`, () => {
-      require('electron').setWidth(size.width);
+      require('electron').setWidth(size.width); // eslint-disable-line global-require
       const result = getInitialWindowDimensions();
       expect(result.dimensions.width).toBeLessThanOrEqual(size.width);
       expect(result.scale).toBeLessThanOrEqual(MAX_FACTOR);
