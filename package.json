@@ -12,15 +12,18 @@
   "build": {
     "appId": "org.jinx.LoLSkinsViewer",
     "category": "public.app-category.tools",
-    "publish": [{
-      "provider": "github"
-    }],
+    "publish": [
+      {
+        "provider": "github"
+      }
+    ],
     "directories": {
       "buildResources": "build",
       "output": "release"
     },
     "dmg": {
-      "contents": [{
+      "contents": [
+        {
           "x": 410,
           "y": 150,
           "type": "link",
@@ -55,6 +58,7 @@
     "asar": "^0.13.0",
     "babel-core": "^6.18.2",
     "babel-eslint": "^7.1.1",
+    "babel-jest": "^18.0.0",
     "babel-loader": "^6.2.8",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-dev-expression": "^0.2.1",
@@ -69,7 +73,6 @@
     "babel-preset-react-optimize": "^1.0.1",
     "babel-preset-stage-0": "^6.16.0",
     "babel-register": "^6.18.0",
-    "chai": "^3.5.0",
     "concurrently": "^3.1.0",
     "copy-webpack-plugin": "^4.0.1",
     "cross-env": "^3.1.3",
@@ -95,10 +98,11 @@
     "fbjs-scripts": "^0.7.1",
     "file-loader": "^0.9.0",
     "html-webpack-plugin": "^2.24.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^18.1.0",
     "jsdom": "^9.8.3",
     "json-loader": "^0.5.4",
     "minimist": "^1.2.0",
-    "mocha": "^3.2.0",
     "node-sass": "^4.0.0",
     "react-addons-test-utils": "^15.4.1",
     "redux-logger": "^2.7.4",
@@ -144,7 +148,7 @@
     "package-win": "npm run build && build --win --x64",
     "postinstall": "concurrently \"install-app-deps\" \"node node_modules/fbjs-scripts/node/check-dev-engines.js package.json\"",
     "start-hot": "cross-env HOT=1 NODE_ENV=development electron ./app/dist/main",
-    "test": "cross-env NODE_ENV=test BABEL_DISABLE_CACHE=1 mocha --retries 2 --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
+    "test": "jest --config .jest.json",
     "test-e2e": "cross-env NODE_ENV=test BABEL_DISABLE_CACHE=1 mocha --retries 2 --compilers js:babel-register --require ./test/setup.js ./test/e2e.js",
     "test-watch": "npm test -- --watch"
   },

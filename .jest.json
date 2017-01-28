@@ -1,0 +1,39 @@
+{
+  "verbose": true,
+  "testRegex": "(/__tests__/.*|(\\.|/)spec)\\.jsx?$",
+  "setupFiles": ["<rootDir>/test/setup.js"],
+  "modulePaths": [
+    "<rootDir>/app",
+    "<rootDir>/app/actions",
+    "<rootDir>/app/api",
+    "<rootDir>/app/components",
+    "<rootDir>/app/containers",
+    "<rootDir>/app/reducers",
+    "<rootDir>/app/selectors",
+    "<rootDir>/app/static",
+    "<rootDir>/app/store",
+    "<rootDir>/app/types",
+    "<rootDir>/app/utils"
+  ],
+  "moduleFileExtensions": ["js", "jsx", "test.js"],
+  "moduleDirectories": ["node_modules"],
+  "moduleNameMapper": {
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+    "\\.(css|less)$": "identity-obj-proxy"
+  },
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "app/**/*.{js}",
+    "!**/node_modules/**",
+    "!**/vendor/**",
+    "!**/dist/**",
+    "!**/containers/**",
+    "!**/__tests__/**",
+    "!**/processIsRunning.js",
+    "!**/*.test.js",
+    "!**/*.development.js",
+    "!app/index.main.js"
+  ],
+  "coverageReporters": ["text"],
+  "coveragePathIgnorePatterns": ["<rootDir>/build/", "<rootDir>/node_modules/", "<rootDir>/app/node_modules/", "<rootDir>/app/dist", "<rootDir>/app/types"]
+}

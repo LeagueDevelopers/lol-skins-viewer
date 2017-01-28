@@ -6,7 +6,8 @@ module.exports = {
   "env": {
     "browser": true,
     "mocha": true,
-    "node": true
+    "node": true,
+    "jest": true
   },
   "rules": {
     "no-unused-expressions": ["error", { "allowShortCircuit": true }],

@@ -1,9 +1,12 @@
 import electron from 'electron';
 
-const SIZES = [
+export const MIN_FACTOR = 0.8;
+export const MAX_FACTOR = 1.25;
+
+export const SIZES = [
   { width: 1600, height: 900 },
   { width: 1280, height: 720 },
-  { width: 1024, height: 578 }
+  { width: 1024, height: 576 }
 ];
 
 export function computeScaleFactor (width) {
@@ -18,9 +21,9 @@ export function getSize (factor) {
 }
 
 export function clampScaleFactor (_factor) {
-  let factor = _factor;
-  if (factor > 1.25) factor = 1.25;
-  if (factor < 0.75) factor = 0.75;
+  let factor = Number(_factor);
+  if (factor > MAX_FACTOR) factor = MAX_FACTOR;
+  if (factor < MIN_FACTOR) factor = MIN_FACTOR;
   return factor;
 }
 
@@ -32,12 +35,15 @@ export function getScaleFactor (width) {
 export function getInitialWindowDimensions () {
   const primaryDisplay = electron.screen.getPrimaryDisplay();
   const workAreaWidth = primaryDisplay.workAreaSize.width;
-  const finalDimensions = SIZES.reduce((prev, curr) => {
-    if (Math.abs(curr.width - workAreaWidth) < Math.abs(prev.width - workAreaWidth)) {
+  const workAreaHeight = primaryDisplay.workAreaSize.height;
+  const finalDimensions = SIZES.reduceRight((prev, curr) => {
+    // if it fits the screen, use this size
+    if (workAreaWidth - curr.width > 0) {
       return curr;
     }
+    // otherwise take the previous size that did fit
     return prev;
-  });
+  }, { width: workAreaWidth, height: workAreaHeight });
   return {
     dimensions: finalDimensions,
     scale: getScaleFactor(finalDimensions.width)
