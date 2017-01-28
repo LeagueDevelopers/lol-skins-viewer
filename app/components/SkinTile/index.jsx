@@ -1,4 +1,6 @@
 import React from 'react';
+import LazyLoad from 'react-lazyload';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import { pure } from 'recompose';
 
 import Image from 'components/Image';
@@ -12,7 +14,17 @@ function SkinTile (props: Skin) {
   const { name, tilePath } = props;
   return (
     <div className={style.skinTile}>
-      <Image className={style.skinTileBg} path={tilePath} />
+      <LazyLoad once overflow resize offset={400}>
+        <ReactCSSTransitionGroup
+          transitionName="fade"
+          transitionAppear
+          transitionAppearTimeout={500}
+          transitionEnter={false}
+          transitionLeave={false}
+        >
+          <Image key={tilePath} className={style.skinTileBg} path={tilePath} />
+        </ReactCSSTransitionGroup>
+      </LazyLoad>
       <span className={style.skinName}>{name}</span>
     </div>
   );
