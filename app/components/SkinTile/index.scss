@@ -49,11 +49,3 @@
     1px 1px 0 black;
   }
 }
-
-:global(.fade-appear) {
-    opacity: 0.01;
-}
-:global(.fade-appear.fade-appear-active) {
-    opacity: 1;
-    transition: opacity .5s ease-in;
-}
