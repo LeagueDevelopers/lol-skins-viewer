@@ -4,10 +4,10 @@ import { pure } from 'recompose';
 
 import style from './index.scss';
 
-function RadioOption ({ children, label, checked, onClick, ...otherProps }) {
+function RadioOption ({ children, label, checked, disabled, onClick, ...otherProps }) {
   return (
     <div
-      className={cx(style.radioOption, checked && style.active)}
+      className={cx(style.radioOption, checked && style.active, disabled && style.disabled)}
       onClick={onClick}
       {...otherProps}
     >
@@ -22,6 +22,7 @@ function RadioOption ({ children, label, checked, onClick, ...otherProps }) {
 RadioOption.propTypes = {
   children: PropTypes.node,
   label: PropTypes.string,
+  disabled: PropTypes.bool,
   checked: PropTypes.bool.isRequired,
   onClick: PropTypes.func
 };

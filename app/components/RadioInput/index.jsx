@@ -12,6 +12,7 @@ import style from './index.scss';
  */
 export default class RadioInput extends PureComponent {
   static propTypes = {
+    disabled: PropTypes.bool,
     value: PropTypes.any,
     onClick: PropTypes.func,
     options: PropTypes.array.isRequired,
@@ -27,13 +28,14 @@ export default class RadioInput extends PureComponent {
     }
   }
   render () {
-    const { options, value } = this.props;
+    const { options, disabled, value } = this.props;
     return (
       <div className={style.radioInput}>
         {options.map(o =>
           <Option
             key={o.label || o.key}
             checked={o.value === value}
+            disabled={disabled || o.disabled}
             onClick={() => this.handleSelect(o)}
             label={o.label}
           >
