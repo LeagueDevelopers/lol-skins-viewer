@@ -11,7 +11,9 @@ function RadioOption ({ children, label, checked, onClick, ...otherProps }) {
       onClick={onClick}
       {...otherProps}
     >
-      <div className={style.square} />
+      <div className={style.checkbox}>
+        <div className={style.square} />
+      </div>
       <span className={style.text}>{children || label}</span>
     </div>
   );

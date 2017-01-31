@@ -1,9 +1,96 @@
+@import "~variables.scss";
+
+$radio-border: linear-gradient(to bottom, rgb(62.7%, 48.2%, 18%) 0%, rgb(43.5%, 32.5%, 14.5%) 80%);
+$radio-border-hover: linear-gradient(-45deg, rgb(78.8%, 61.6%, 24.7%) 0%, rgb(92.9%, 87.8%, 78%) 80%);
+$radio-border-pressed: linear-gradient(-45deg, #684e23 0%, #493915 80%);
+
 .radioOption {
-	.square {}
-	.text {}
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-family: 'LoL Body';
+	color: $lcu-gold-medium;
+	cursor: pointer;
+	padding: 0.5em 0;
+	padding-left: 2.5px;
+
+	.checkbox {
+		transform: rotateZ(45deg);
+		position: relative;
+		margin-right: 12px;
+		width: 12px;
+		height: 12px;
+		border: 2px solid transparent;
+		border-image: $radio-border;
+		border-image-slice: 1;
+
+		.square {
+			backface-visibility: hidden;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+
+			&::after {
+				content: '';
+				position: absolute;
+				top: 25%;
+				left: 25%;
+				height: 4px;
+				width: 4px;
+				background: none;
+			}
+		}
+	}
+
+	.text {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+    letter-spacing: .1em;
+	}
+
+	&:hover {
+		color: $lcu-gold;
+		.checkbox {
+			border-image: $radio-border-hover;
+			border-image-slice: 1;
+
+			.square {
+			}
+		}
+	}
+
+	&:active {
+		.checkbox {
+			border-image: $radio-border-pressed;
+			border-image-slice: 1;
+
+			.square {
+
+			}
+		}
+	}
 }
 
 .radioOption.active {
-	.square {}
-	.text {}
+	.square {
+		&::after {
+			background: $lcu-gold-medium;
+		}
+	}
+	.text {
+		color: $lcu-gold;
+	}
+
+	&:active {
+		.checkbox {
+			.square {
+				&::after {
+					background: $radio-border-pressed;
+				}
+			}
+		}
+	}
 }
