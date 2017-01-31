@@ -79,7 +79,12 @@ export default class SkinsContainer extends Component {
     const { skins, sortMethod, filters, ownedSkinsCount, skinsActions } = this.props;
     return (
       <section className="skins">
-        <SkinsSidebar count={ownedSkinsCount} sortMethod={sortMethod} filters={filters} {...skinsActions} />
+        <SkinsSidebar
+          count={ownedSkinsCount}
+          sortMethod={sortMethod}
+          filters={filters}
+          {...skinsActions}
+        />
         <SkinsList skins={skins} reload={this.reloadSkins} />
       </section>
     );
