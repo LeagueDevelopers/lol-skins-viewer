@@ -32,3 +32,10 @@ export function changeShowFilter (nextValue) {
     payload: nextValue
   };
 }
+
+export function changeSortMethod (nextValue) {
+  return {
+    type: 'SKINS_SORT_METHOD_CHANGE',
+    payload: nextValue
+  };
+}

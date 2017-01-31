@@ -1,16 +1,43 @@
 import { createSelector } from 'reselect';
 import flatMap from 'lodash.flatmap';
+import sortBy from 'lodash.sortby';
+import orderBy from 'lodash.orderby';
 import Fuse from 'fuse.js';
+
+const skinMetadataSelector = state => state.skins.skinMetadata;
 
 const nameSelector = state => state.skins.filters.name;
 
 const showUnownedSkins = state => state.skins.filters.show;
 
+const sortMethod = state => state.skins.sortMethod;
+
 const championsSelector = state => state.skins.champions;
 
 export const skinsSelector = createSelector(
   championsSelector,
-  champions => flatMap(champions, c => c.skins)
+  skinMetadataSelector,
+  (champions, skinMetadata) => flatMap(champions, c => {
+    const championTotalCount = c.skins.length;
+    const championOwnedCount = c.skins.filter(s => s.owned).length;
+    const masteryLevel = c.masteryLevel;
+    const masteryPoints = c.masteryPoints;
+    return c.skins.map(s => {
+      const metadata = skinMetadata[s.id];
+      let rpValue = 9999;
+      if (metadata && metadata.rpValue) {
+        rpValue = metadata.rpValue;
+      }
+      return {
+        ...s,
+        championTotalCount,
+        championOwnedCount,
+        masteryLevel,
+        masteryPoints,
+        rpValue
+      };
+    });
+  })
 );
 
 export const countOwnedSkins = createSelector(
@@ -23,6 +50,7 @@ export const filterOptions = [
   { value: 'OWNED', label: 'Owned Skins' },
   { value: 'UNOWNED', label: 'Unowned Skins' }
 ];
+
 const filterSkinsByOwnership = createSelector(
   skinsSelector,
   showUnownedSkins,
@@ -47,13 +75,43 @@ export const skinIndexSelector = createSelector(
   })
 );
 
+export const sortingOptions = [
+  { value: 'ALPHABETICAL', label: 'ALPHABETICAL' },
+  { value: 'MASTERY', label: 'MASTERY' },
+  { value: 'RP VALUE', label: 'RP VALUE' },
+  { value: 'SKINS OWNED', label: 'SKINS OWNED' },
+];
+
 export const filteredSkins = createSelector(
   skinIndexSelector,
   nameSelector,
-  (skinsIndex, name) => {
+  (skinIndex, name) => {
     if (!name || name === '') {
-      return skinsIndex.list;
+      return skinIndex.list;
     }
-    return skinsIndex.search(name);
+    return skinIndex.search(name);
+  }
+);
+
+export const sortedSkins = createSelector(
+  filteredSkins,
+  sortMethod,
+  (skins, sort) => {
+    switch (sort) {
+      default:
+      case 'ALPHABETICAL':
+        return sortBy(skins, ['championName', 'name']);
+      case 'MASTERY':
+        return orderBy(skins, ['masteryLevel', 'masteryPoints', 'championName', 'name'], ['desc', 'desc', 'asc', 'asc']);
+      case 'RP VALUE':
+        return orderBy(skins, [s => {
+          if (Number.isInteger(s.rpValue) && s.rpValue > 0) {
+            return s.rpValue;
+          }
+          return 9999; // Probably not obtainable, rank first
+        }, 'championName', 'name'], ['desc', 'asc', 'asc']);
+      case 'SKINS_OWNED':
+        return orderBy(skins, ['championOwnedCount', 'championName', 'name'], ['desc', 'asc', 'asc']);
+    }
   }
 );

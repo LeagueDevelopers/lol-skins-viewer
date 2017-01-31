@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { remote } from 'electron';
 
-import { filteredSkins, countOwnedSkins } from 'selectors/skins';
+import { sortedSkins, countOwnedSkins } from 'selectors/skins';
 
 import SkinsList from '../components/SkinsList';
 import SkinsSidebar from '../components/SkinsSidebar';
@@ -16,8 +16,9 @@ import * as skinsActionCreators from '../actions/skins';
     proxy: state.app.proxy,
     summoner: state.app.summoner,
     hasLoaded: state.skins.hasLoaded,
+    sortMethod: state.skins.sortMethod,
     filters: state.skins.filters,
-    skins: filteredSkins(state),
+    skins: sortedSkins(state),
     ownedSkinsCount: countOwnedSkins(state)
   }),
   dispatch => ({
@@ -31,6 +32,7 @@ export default class SkinsContainer extends Component {
     proxy: PropTypes.number.isRequired,
     hasLoaded: PropTypes.bool.isRequired,
     skins: PropTypes.array.isRequired,
+    sortMethod: PropTypes.string.isRequired,
     filters: PropTypes.object.isRequired,
     ownedSkinsCount: PropTypes.number.isRequired,
     skinsActions: PropTypes.object.isRequired,
@@ -74,10 +76,10 @@ export default class SkinsContainer extends Component {
   }
 
   render () {
-    const { skins, filters, ownedSkinsCount, skinsActions } = this.props;
+    const { skins, sortMethod, filters, ownedSkinsCount, skinsActions } = this.props;
     return (
       <section className="skins">
-        <SkinsSidebar count={ownedSkinsCount} filters={filters} {...skinsActions} />
+        <SkinsSidebar count={ownedSkinsCount} sortMethod={sortMethod} filters={filters} {...skinsActions} />
         <SkinsList skins={skins} reload={this.reloadSkins} />
       </section>
     );
