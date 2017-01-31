@@ -25,7 +25,7 @@ export const skinsSelector = createSelector(
     return c.skins.map(s => {
       const metadata = skinMetadata[s.id];
       let rpValue = 9999;
-      if (metadata && metadata.rpValue) {
+      if (metadata && metadata.rpValue && metadata.rpValue > 0) {
         rpValue = metadata.rpValue;
       }
       return {
@@ -104,12 +104,7 @@ export const sortedSkins = createSelector(
       case 'MASTERY':
         return orderBy(skins, ['masteryLevel', 'masteryPoints', 'championName', 'name'], ['desc', 'desc', 'asc', 'asc']);
       case 'RP VALUE':
-        return orderBy(skins, [s => {
-          if (Number.isInteger(s.rpValue) && s.rpValue > 0) {
-            return s.rpValue;
-          }
-          return 9999; // Probably not obtainable, rank first
-        }, 'championName', 'name'], ['desc', 'asc', 'asc']);
+        return orderBy(skins, ['rpValue', 'championName', 'name'], ['desc', 'asc', 'asc']);
       case 'SKINS_OWNED':
         return orderBy(skins, ['championOwnedCount', 'championName', 'name'], ['desc', 'asc', 'asc']);
     }

@@ -1,4 +1,4 @@
-export { default as bind } from './bind';
+export { default as call } from './call';
 export { default as lcuRequest } from './lcuRequest';
 export { validatePath, validatePathSync } from './validatePath';
 
