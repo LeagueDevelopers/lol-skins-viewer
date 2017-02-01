@@ -12,7 +12,14 @@ export default function TabbedContainer ({ router, route, children }) {
   return (
     <div className="tabbed-container">
       <div className="tabs">
-        {childRoutes.map(r => <TabNavigationItem key={r.path} to={r.path} isActive={r.isActive}>{r.name}</TabNavigationItem>)}
+        {childRoutes.map(r =>
+          <TabNavigationItem
+            key={r.path}
+            to={r.path}
+            isActive={r.isActive}
+          >
+            {r.name}
+          </TabNavigationItem>)}
       </div>
       {children}
     </div>
