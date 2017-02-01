@@ -68,7 +68,7 @@ $radio-border-disabled: rgb(23.5%, 21.6%, 19.6%);
 	}
 }
 
-.radioOption.active {
+.radioOption.checked {
 	.square {
 		&::after {
 			background: $lcu-gold-medium;

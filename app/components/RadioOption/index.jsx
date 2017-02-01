@@ -7,7 +7,7 @@ import style from './index.scss';
 function RadioOption ({ children, label, checked, disabled, onClick, ...otherProps }) {
   return (
     <div
-      className={cx(style.radioOption, checked && style.active, disabled && style.disabled)}
+      className={cx(style.radioOption, checked && style.checked, disabled && style.disabled)}
       onClick={onClick}
       {...otherProps}
     >
