@@ -33,11 +33,11 @@ export default class RadioInput extends PureComponent {
    * @memberOf RadioInput
    * @param {Object} option the which was clicked
    */
-  handleSelect = option => {
+  handleSelect = nextValue => {
     const { value, onChange, onClick } = this.props;
-    call(onClick, option.value);
-    if (option.value !== value) {
-      call(onChange, option.value);
+    call(onClick, nextValue);
+    if (nextValue !== value) {
+      call(onChange, nextValue);
     }
   }
 
@@ -51,7 +51,7 @@ export default class RadioInput extends PureComponent {
             key={o.label || o.key}
             checked={o.value === value}
             disabled={disabled || o.disabled || false}
-            onClick={() => this.handleSelect(o)}
+            onClick={() => this.handleSelect(o.value)}
             label={o.label}
             value={o.value}
           />)}

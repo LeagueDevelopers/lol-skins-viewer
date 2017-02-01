@@ -45,7 +45,7 @@ describe('<RadioOption />', () => {
   });
 
   it('should have the class "disabled" if it is disabled', () => {
-    const wrapper = mount(<RadioOption disabled />);
+    const wrapper = mount(<RadioOption checked={false} disabled />);
     expect(wrapper.first().hasClass('disabled')).toBe(true);
   });
 
