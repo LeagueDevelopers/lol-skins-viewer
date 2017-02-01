@@ -24,6 +24,7 @@
   "collectCoverage": true,
   "collectCoverageFrom": [
     "app/**/*.{js}",
+    "app/**/*.{jsx}",
     "!**/node_modules/**",
     "!**/vendor/**",
     "!**/dist/**",
