@@ -9,7 +9,6 @@ function RadioOption ({ children, label, checked, disabled, onClick, ...otherPro
     <div
       className={cx(style.radioOption, checked && style.checked, disabled && style.disabled)}
       onClick={onClick}
-      {...otherProps}
     >
       <div className={style.checkbox}>
         <div className={style.square} />

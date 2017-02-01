@@ -1,9 +1,28 @@
-export { default as bind } from './bind';
-export { default as lcuRequest } from './lcuRequest';
-export { validatePath, validatePathSync } from './validatePath';
-export { default as dispatchToRenderer } from './dispatchToRenderer';
-export { default as parseLockfile } from './parseLockfile';
-export { default as processIsRunning } from './processIsRunning';
-export { default as env } from './env';
+/* eslint-disable global-require */
+/* eslint-disable import/no-dynamic-require */
 
-module.exports.windowScale = require('./windowScale');
+/**
+ * This file exists because webpack module resolution magic has its flaws.
+ * When testing we will want import modules that may `import { moduleName } from 'utils';`,
+ * therefore, when that happens, all modules in utils are loaded. To avoid that we must
+ * create yet another index file that uses getters in order to avoid loading a module
+ * unless it is actually being used for the test in question.
+ *
+ * This is completely pointless when running the full test suite but is quite useful
+ * when writing tests
+ *
+ * There will still be cases where you will have to mock 'utils' in order to simulate
+ * either the Main process or the Renderer process environment.
+ */
+
+Object.defineProperty(module.exports, 'call', {
+  get: () => require('./call')
+});
+
+Object.defineProperty(module.exports, 'env', {
+  get: () => require('./env')
+});
+
+Object.defineProperty(module.exports, 'windowScale', {
+  get: () => require('./windowScale')
+});
