@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react';
+import { hashHistory } from 'react-router';
 import TabNavigationItem from 'components/TabNavigationItem';
 
 export default function TabbedContainer ({ router, route, children }) {
@@ -15,7 +16,7 @@ export default function TabbedContainer ({ router, route, children }) {
         {childRoutes.map(r =>
           <TabNavigationItem
             key={r.path}
-            to={r.path}
+            onClick={() => !r.isActive && hashHistory.replace(r.to)}
             isActive={r.isActive}
           >
             {r.name}

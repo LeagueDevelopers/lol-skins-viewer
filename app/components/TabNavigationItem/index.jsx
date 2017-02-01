@@ -1,18 +1,16 @@
 import React, { PropTypes } from 'react';
-import { pure } from 'recompose';
-import { hashHistory } from 'react-router';
 import cx from 'classnames';
 
 import style from './index.scss';
 
 function NavigationItem (props) {
-  const { to, children, className, isActive } = props;
+  const { onClick, children, className, isActive } = props;
   return (
-    <div className={cx(style.navigationItemWrapper, className)}>
-      <div className={cx(style.navigationItem, { [style.active]: isActive })}>
+    <div className={cx(style.navigationItem, isActive && style.active, className)}>
+      <div className={style.contentWrapper}>
         <span
           className={style.content}
-          onClick={() => !isActive && hashHistory.replace(to)}
+          onClick={onClick}
         >
           {children}
         </span>
@@ -22,13 +20,10 @@ function NavigationItem (props) {
 }
 
 NavigationItem.propTypes = {
-  to: PropTypes.string.isRequired,
+  onClick: PropTypes.func,
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
-  currentPath: PropTypes.string,
-  index: PropTypes.bool,
-  tab: PropTypes.bool,
   isActive: PropTypes.bool
 };
 
-export default pure(NavigationItem);
+export default NavigationItem;
