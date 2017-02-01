@@ -16,7 +16,7 @@ export default function TabbedContainer ({ router, route, children }) {
         {childRoutes.map(r =>
           <TabNavigationItem
             key={r.path}
-            onClick={() => !r.isActive && hashHistory.replace(r.to)}
+            onClick={() => !r.isActive && hashHistory.replace(r.path)}
             isActive={r.isActive}
           >
             {r.name}

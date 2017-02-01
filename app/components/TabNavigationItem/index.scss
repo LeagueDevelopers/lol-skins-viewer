@@ -30,19 +30,17 @@
 
 .navigationItem.active {
 	.contentWrapper {
-	  &.active {
-      color: #F0E6D2;
+    color: #F0E6D2;
 
-      &:after {
-        content: "";
-        height: 1px;
-        width: 100%;
-        position: absolute;
-        left: 0;
-        top: 20px;
-        margin: 0;
-        background: linear-gradient(to left, transparent, #cdbe91, transparent);
-      }
-    }
+    &:after {
+			content: "";
+			height: 1px;
+			width: 100%;
+			position: absolute;
+			left: 0;
+			top: 20px;
+			margin: 0;
+			background: linear-gradient(to left, transparent, #cdbe91, transparent);
+		}
 	}
 }
