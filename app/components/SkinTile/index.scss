@@ -5,6 +5,7 @@
 	height: 0;
 	padding-bottom: calc(25% - 10px); // wizardry
   margin: 0 10px 10px 0;
+	will-change: transform;
 
 	:global(.lazyload-placeholder) {
 //		padding-bottom: 100%;

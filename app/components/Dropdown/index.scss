@@ -58,6 +58,7 @@
 		border: 1px solid transparent;
 		border-image: linear-gradient(to top, #695625, #463714) 1;
 		transition: max-height 400ms linear;
+		z-index: 10;
 
 		&.hidden {
 			max-height: 0px;
