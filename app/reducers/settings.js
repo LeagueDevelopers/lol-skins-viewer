@@ -16,6 +16,11 @@ function getCurrentSettings () {
       value: _settings.getSync('scale'),
       isValid: true,
       hasChanged: false
+    },
+    lowSpec: {
+      value: _settings.getSync('lowSpec'),
+      isValid: true,
+      hasChanged: false
     }
   };
 }
@@ -33,17 +38,19 @@ let DEFAULT_STATE = getCurrentSettings();
 
 function hasChanged (current, key, previous = DEFAULT_STATE) {
   return {
-    ...current,
+    value: current,
     hasChanged: current.value !== previous[key].value
   };
 }
 
 export default function settings (state = DEFAULT_STATE, action) {
   switch (action.type) {
-    case 'PATH_CHANGE':
-      return u({ clientPath: hasChanged(action.payload, 'clientPath') }, state);
+    case 'PATH_CHANGE': {
+      const { value, ...otherProps } = action.payload;
+      return u({ clientPath: { ...hasChanged(value, 'clientPath'), ...otherProps } }, state);
+    }
     case 'SCALE_CHANGE':
-      return u({ scale: hasChanged({ value: action.payload }, 'scale') }, state);
+      return u({ scale: hasChanged(action.payload, 'scale') }, state);
     case 'RESET_SETTING':
       return u({ [action.payload]: getCurrentSettings()[action.payload] }, state);
     case 'SETTINGS_RESET':

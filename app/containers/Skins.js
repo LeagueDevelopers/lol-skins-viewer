@@ -19,7 +19,8 @@ import * as skinsActionCreators from '../actions/skins';
     sortMethod: state.skins.sortMethod,
     filters: state.skins.filters,
     skins: sortedSkins(state),
-    ownedSkinsCount: countOwnedSkins(state)
+    ownedSkinsCount: countOwnedSkins(state),
+    lowSpec: state.settings.lowSpec.value
   }),
   dispatch => ({
     skinsActions: bindActionCreators(skinsActionCreators, dispatch)
@@ -35,6 +36,7 @@ export default class SkinsContainer extends Component {
     sortMethod: PropTypes.string.isRequired,
     filters: PropTypes.object.isRequired,
     ownedSkinsCount: PropTypes.number.isRequired,
+    lowSpec: PropTypes.bool,
     skinsActions: PropTypes.object.isRequired,
     onMount: PropTypes.func,
     onUnmount: PropTypes.func
@@ -76,7 +78,7 @@ export default class SkinsContainer extends Component {
   }
 
   render () {
-    const { skins, sortMethod, filters, ownedSkinsCount, skinsActions } = this.props;
+    const { skins, sortMethod, filters, ownedSkinsCount, lowSpec, skinsActions } = this.props;
     return (
       <section className="skins">
         <SkinsSidebar
@@ -85,7 +87,7 @@ export default class SkinsContainer extends Component {
           filters={filters}
           {...skinsActions}
         />
-        <SkinsList skins={skins} reload={this.reloadSkins} />
+        <SkinsList skins={skins} reload={this.reloadSkins} disableAnimations={lowSpec} />
       </section>
     );
   }

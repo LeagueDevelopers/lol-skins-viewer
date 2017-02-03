@@ -7,16 +7,22 @@ import { windowScale } from 'utils';
  *  width: Number,
  *  height: Number
  * },
- * scale: Number
+ * scale: Number,
+ * lowSpec: Boolean
  */
 settings.defaults({
   clientPath: 'C:\\Riot Games\\League of Legends',
-  ...windowScale.getInitialWindowDimensions()
+  ...windowScale.getInitialWindowDimensions(),
+  lowSpec: false
 });
 
 settings.applyDefaultsSync();
 
 const PersistentSettings = {
+  set: (key, value) => settings.set(key, value),
+
+  get: key => settings.get(key),
+
   getClientPath () {
     return settings.get('clientPath');
   },
@@ -40,6 +46,14 @@ const PersistentSettings = {
 
   setDimensions (/* value*/) {
 //    return settings.set('dimensions', value);
+  },
+
+  getLowSpec () {
+    return settings.get('lowSpec');
+  },
+
+  setLowSpec (value) {
+    return settings.set('lowSpec', value);
   }
 };
 
