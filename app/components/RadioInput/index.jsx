@@ -48,7 +48,7 @@ export default class RadioInput extends PureComponent {
       <div className={style.radioInput}>
         {shouldRenderOptions && options.map(o =>
           <Option
-            key={o.label || o.key}
+            key={o.label}
             checked={o.value === value}
             disabled={disabled || o.disabled || false}
             onClick={() => this.handleSelect(o.value)}

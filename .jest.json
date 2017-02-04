@@ -35,6 +35,6 @@
     "!**/*.development.js",
     "!app/index.main.js"
   ],
-  "coverageReporters": ["text"],
+  "coverageReporters": ["text", "html"],
   "coveragePathIgnorePatterns": ["<rootDir>/build/", "<rootDir>/node_modules/", "<rootDir>/app/node_modules/", "<rootDir>/app/dist", "<rootDir>/app/types"]
 }

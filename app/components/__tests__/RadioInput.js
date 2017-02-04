@@ -11,6 +11,17 @@ const options = [
 ];
 
 describe.only('<RadioInput />', () => {
+  it('should render correctly', () => {
+    const props = {
+      handleChange: jest.fn(),
+      handleClick: jest.fn(),
+      selectedOption: options[1],
+      value: options[1].value,
+    };
+    const wrapper = shallow(<RadioInput options={options} {...props}>Hello</RadioInput>);
+    expect(wrapper.get(0)).toMatchSnapshot();
+  });
+
   it('should render as many children as the options it is provided', () => {
     const wrapper = shallow(<RadioInput options={options} />);
     expect(wrapper.children().length).toBe(options.length);
@@ -53,13 +64,13 @@ describe.only('<RadioInput />', () => {
   });
 
   it('should call onChange with the new value if the selection changes', () => {
+    const handleChange = jest.fn();
     const selectedOption = options[1];
     const value = selectedOption.value;
 
-    const wrapper = shallow(<RadioInput options={options} value={value} onChange={() => false} />);
+    const wrapper = shallow(<RadioInput options={options} value={value} onChange={handleChange} />);
 
-    const handleChange = jest.fn(_value => wrapper.setProps({ value: _value }));
-    wrapper.setProps({ onChange: handleChange });
+    handleChange.mockImplementation(v => wrapper.setProps({ value: v }));
 
     const nextSelect = wrapper.childAt(3);
 
@@ -70,14 +81,29 @@ describe.only('<RadioInput />', () => {
     expect(handleChange).toHaveBeenCalledTimes(1);
   });
 
-  it('should call onClick even if the selection does not change', () => {
+  it('should not call onChange with the new value if the selection does not change', () => {
+    const handleChange = jest.fn();
     const selectedOption = options[1];
     const value = selectedOption.value;
 
-    const wrapper = shallow(<RadioInput options={options} value={value} />);
+    const wrapper = shallow(<RadioInput options={options} value={value} onChange={handleChange} />);
 
-    const handleClick = jest.fn(_value => wrapper.setProps({ value: _value }));
-    wrapper.setProps({ onClick: handleClick });
+    handleChange.mockImplementation(v => wrapper.setProps({ value: v }));
+
+    const nextSelect = wrapper.childAt(1);
+
+    nextSelect.simulate('click');
+    expect(handleChange).not.toHaveBeenCalled();
+  });
+
+  it('should call onClick even if the selection does not change', () => {
+    const handleClick = jest.fn();
+    const selectedOption = options[1];
+    const value = selectedOption.value;
+
+    const wrapper = shallow(<RadioInput options={options} value={value} onClick={handleClick} />);
+
+    handleClick.mockImplementation(v => wrapper.setProps({ value: v }));
 
     const initialSelected = wrapper.childAt(1);
     expect(initialSelected.props().checked).toBe(true);
@@ -90,5 +116,16 @@ describe.only('<RadioInput />', () => {
     nextSelect.simulate('click');
     expect(handleClick).toHaveBeenCalledWith(nextSelect.props().value);
     expect(handleClick).toHaveBeenCalledTimes(2);
+  });
+
+  it('should fail gracefully if neither onClick or onChange are defined', () => {
+    const selectedOption = options[1];
+    const value = selectedOption.value;
+
+    const wrapper = shallow(<RadioInput options={options} value={value} />);
+
+    const nextSelect = wrapper.childAt(3);
+
+    nextSelect.simulate('click');
   });
 });
