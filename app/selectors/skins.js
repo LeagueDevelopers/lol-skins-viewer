@@ -87,9 +87,9 @@ export const filteredSkins = createSelector(
   nameSelector,
   (skinIndex, name) => {
     if (!name || name === '') {
-      return skinIndex.list;
+      return sortBy(skinIndex.list, ['championName', 'name']);
     }
-    return skinIndex.search(name);
+    return sortBy(skinIndex.search(name), ['championName', 'name']);
   }
 );
 
@@ -100,13 +100,13 @@ export const sortedSkins = createSelector(
     switch (sort) {
       default:
       case 'ALPHABETICAL':
-        return sortBy(skins, ['championName', 'name']);
+        return skins;
       case 'MASTERY':
-        return orderBy(skins, ['masteryLevel', 'masteryPoints', 'championName', 'name'], ['desc', 'desc', 'asc', 'asc']);
+        return orderBy(skins, ['masteryLevel', 'masteryPoints'], ['desc', 'desc']);
       case 'RP VALUE':
-        return orderBy(skins, ['rpValue', 'championName', 'name'], ['desc', 'asc', 'asc']);
-      case 'SKINS_OWNED':
-        return orderBy(skins, ['championOwnedCount', 'championName', 'name'], ['desc', 'asc', 'asc']);
+        return orderBy(skins, ['rpValue'], ['desc']);
+      case 'SKINS OWNED':
+        return orderBy(skins, ['championOwnedCount'], ['desc']);
     }
   }
 );

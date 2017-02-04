@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PureComponent, PropTypes } from 'react';
+import debounce from 'lodash.debounce';
 import cx from 'classnames';
 
 import { filterOptions, sortingOptions } from 'selectors/skins';
@@ -10,7 +11,7 @@ import SummaryRing from 'components/SummaryRing';
 
 import style from './index.scss';
 
-export default class SkinsSidebar extends Component {
+export default class SkinsSidebar extends PureComponent {
   static propTypes = {
     rpTotal: PropTypes.number.isRequired,
     count: PropTypes.number.isRequired,
@@ -25,26 +26,44 @@ export default class SkinsSidebar extends Component {
     super(props);
 
     this.state = {
-      summary: false
+      summary: false,
+      search: ''
     };
+  }
+
+  componentWillUnmount () {
+    this.debounced.flush();
   }
 
   toggleSummary = () => {
     this.setState({ summary: !this.state.summary });
   }
 
+  handleSearchChange = nextValue => {
+    this.setState({ search: nextValue });
+    this.debounced(nextValue);
+  }
+
+  changeNameFilter = nextValue => {
+    const { changeNameFilter, filters } = this.props;
+    if (filters.name !== nextValue) {
+      changeNameFilter(nextValue);
+    }
+  }
+
+  debounced = debounce(this.changeNameFilter, 300)
+
   render () {
     const {
-      rpTotal = 9999999,
+      rpTotal = 0,
       count,
       sortMethod,
       filters,
-      changeNameFilter,
       changeShowFilter,
       changeSortMethod
     } = this.props;
 
-    const { summary } = this.state;
+    const { summary, search } = this.state;
 
     return (
       <div className={style.sidebar}>
@@ -56,7 +75,7 @@ export default class SkinsSidebar extends Component {
           {!summary ? 'Total Skins' : 'Estimated RP Value'}
         </SummaryRing>
         <div className={style.filters}>
-          <Input type="search" value={filters.name} onChange={changeNameFilter} placeholder="Search" />
+          <Input type="search" value={search} onChange={this.handleSearchChange} placeholder="Search" />
           <Dropdown options={filterOptions} value={filters.show} onChange={changeShowFilter} />
           <RadioInput options={sortingOptions} value={sortMethod} onChange={changeSortMethod} />
         </div>

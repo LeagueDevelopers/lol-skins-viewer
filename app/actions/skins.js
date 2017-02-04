@@ -22,7 +22,7 @@ export function getSkins (port: number, password: string, summoner: Summoner) {
 export function changeNameFilter (nextValue) {
   return {
     type: 'SKINS_FILTER_NAME_CHANGE',
-    payload: nextValue
+    payload: nextValue || ''
   };
 }
 
