@@ -36,17 +36,17 @@ describe('<RadioOption />', () => {
 
   it('should have the class "checked" if it is checked', () => {
     const wrapper = mount(<RadioOption checked />);
-    expect(wrapper.first().hasClass('checked')).toBe(true);
+    expect(wrapper.hasClass('checked')).toBe(true);
   });
 
   it('should not have the class "checked" if it isn\'t checked', () => {
     const wrapper = shallow(<RadioOption checked={false} />);
-    expect(wrapper.first().hasClass('checked')).toBe(false);
+    expect(wrapper.hasClass('checked')).toBe(false);
   });
 
   it('should have the class "disabled" if it is disabled', () => {
     const wrapper = mount(<RadioOption checked={false} disabled />);
-    expect(wrapper.first().hasClass('disabled')).toBe(true);
+    expect(wrapper.hasClass('disabled')).toBe(true);
   });
 
   it('should call onClick when it\'s clicked', () => {

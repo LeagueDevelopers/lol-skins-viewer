@@ -1,14 +1,23 @@
 import React, { PropTypes } from 'react';
+import { call } from 'utils';
 import cx from 'classnames';
 
 import style from './index.scss';
 
+
+/**
+ * <Checkbox />
+ *
+ * A controlled checkbox.
+ * onClick is called with the click event,
+ * onChange is called with next value
+ */
 function Checkbox (props) {
-  const { className, children, value, label, onChange } = props;
+  const { className, children, value, label, onClick, onChange } = props;
   return (
     <div
       className={cx(style.checkbox, value && style.checked, className)}
-      onClick={() => onChange(!value)}
+      onClick={evt => handleClick(evt, onClick, onChange, value)}
     >
       <div className={style.box}>
         <div className={style.border} />
@@ -19,11 +28,17 @@ function Checkbox (props) {
   );
 }
 
+function handleClick (event, onClick, onChange, value) {
+  call(onClick, event);
+  call(onChange, !value);
+}
+
 Checkbox.propTypes = {
   className: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
   label: PropTypes.string,
   value: PropTypes.bool,
   onChange: PropTypes.func,
+  onClick: PropTypes.func,
   children: PropTypes.node
 };
 
