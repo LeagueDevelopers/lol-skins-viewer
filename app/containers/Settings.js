@@ -11,12 +11,14 @@ import PathPicker from 'components/PathPicker';
 import UIScale from 'components/UIScale';
 import Modal from 'components/Modal';
 import Button from 'components/Button';
+import Checkbox from 'components/Checkbox';
 
 @withRouter
 @connect(
   state => ({
     clientPath: state.settings.clientPath,
     scale: state.settings.scale,
+    lowSpec: state.settings.lowSpec,
     hasChanges: hasChangesSelector(state),
     isValid: isValidSelector(state)
   }),
@@ -28,6 +30,7 @@ export default class Settings extends Component {
   static propTypes = {
     clientPath: PropTypes.object.isRequired,
     scale: PropTypes.object.isRequired,
+    lowSpec: PropTypes.object.isRequired,
     hasChanges: PropTypes.bool.isRequired,
     isValid: PropTypes.bool.isRequired,
     settingsActions: PropTypes.object.isRequired,
@@ -84,7 +87,7 @@ export default class Settings extends Component {
     );
   }
   render () {
-    const { clientPath, scale, hasChanges, isValid, settingsActions } = this.props;
+    const { clientPath, scale, lowSpec, hasChanges, isValid, settingsActions } = this.props;
     const { transition } = this.state;
     return (
       <div className="settings">
@@ -92,6 +95,7 @@ export default class Settings extends Component {
         <div className="container">
           <PathPicker {...clientPath} {...settingsActions} />
           <UIScale {...scale} {...settingsActions} />
+          <Checkbox value={lowSpec.value} onChange={settingsActions.changeSetting.bind(this, 'lowSpec')}>Low Spec Mode</Checkbox>
         </div>
         <div className="actions">
           <Button

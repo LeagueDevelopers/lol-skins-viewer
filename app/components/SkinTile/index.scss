@@ -7,12 +7,11 @@
   margin: 0 10px 10px 0;
 	will-change: transform;
 
-	:global(.lazyload-placeholder) {
-//		padding-bottom: 100%;
+	.placeholder {
 		min-height: calc(25vw - 79px);
 	}
 
-  .skinTileBg {
+  .background {
     height: 0;
     padding-bottom: 100%;
     background-size: cover;
@@ -31,7 +30,7 @@
     }
   }
 
-  .skinName {
+  .name {
     font-family: 'LoL Body';
     font-size: 16px;
     -webkit-font-smoothing: antialiased;

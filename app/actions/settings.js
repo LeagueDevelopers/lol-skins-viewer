@@ -18,6 +18,11 @@ export function changeSetting (setting, nextValue) {
           type: 'SCALE_CHANGE',
           payload: nextValue
         });
+      case 'lowSpec':
+        return dispatch({
+          type: 'LOW_SPEC_CHANGE',
+          payload: nextValue
+        });
       default:
         return dispatch({
           type: 'ERROR',

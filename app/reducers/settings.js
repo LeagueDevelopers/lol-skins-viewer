@@ -51,6 +51,8 @@ export default function settings (state = DEFAULT_STATE, action) {
     }
     case 'SCALE_CHANGE':
       return u({ scale: hasChanged(action.payload, 'scale') }, state);
+    case 'LOW_SPEC_CHANGE':
+      return u({ lowSpec: hasChanged(action.payload, 'lowSpec') }, state);
     case 'RESET_SETTING':
       return u({ [action.payload]: getCurrentSettings()[action.payload] }, state);
     case 'SETTINGS_RESET':
