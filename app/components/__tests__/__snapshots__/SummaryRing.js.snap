@@ -1,0 +1,35 @@
+exports[`<SummaryRing /> should render correctly 1`] = `
+<div
+  className="summaryRing test"
+  onClick={[Function]}>
+  <img
+    className="bg"
+    role="presentation"
+    src="test-file-stub" />
+  <AnimatedNumber
+    className="value"
+    value={9999} />
+  <span
+    className="text">
+    test1
+  </span>
+</div>
+`;
+
+exports[`<SummaryRing /> should render correctly 2`] = `
+<div
+  className="summaryRing test"
+  onClick={[Function]}>
+  <img
+    className="bg"
+    role="presentation"
+    src="test-file-stub" />
+  <AnimatedNumber
+    className="value"
+    value={9999} />
+  <span
+    className="text">
+    test2
+  </span>
+</div>
+`;

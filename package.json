@@ -154,5 +154,7 @@
     "test-e2e": "cross-env NODE_ENV=test BABEL_DISABLE_CACHE=1 mocha --retries 2 --compilers js:babel-register --require ./test/setup.js ./test/e2e.js",
     "test-watch": "npm test -- --watch"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jest-enzyme": "^2.1.1"
+  }
 }
