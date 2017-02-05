@@ -11,6 +11,8 @@ import style from './index.scss';
  * A controlled checkbox.
  * onClick is called with the click event,
  * onChange is called with next value
+ *
+ * TODO: Disabled state
  */
 function Checkbox (props) {
   const { className, children, value, label, onClick, onChange } = props;
