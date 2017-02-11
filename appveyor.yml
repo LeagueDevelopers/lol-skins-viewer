@@ -27,9 +27,9 @@ clone_depth: 1
 install:
   - ps: Install-Product node $env:nodejs_version
   - set CI=true
-  - npm install -g npm@latest > /dev/null
+  - npm install -g npm@latest >nul 2>&1
   - set PATH=%APPDATA%\npm;%PATH%
-  - npm install -s > /dev/null
+  - npm install -s >nul 2>&1
 
 test_script:
   - node --version
