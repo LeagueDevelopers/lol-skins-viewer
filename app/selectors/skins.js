@@ -26,7 +26,7 @@ export const skinsSelector = createSelector(
       const metadata = skinMetadata[s.id];
       let tags = [];
       let rpValue = 9999;
-      if (metadata && metadata.rpValue && metadata.rpValue >= 0) {
+      if (metadata && metadata.rpValue >= 0) {
         rpValue = metadata.rpValue;
       }
       if (tags && metadata.tags) {

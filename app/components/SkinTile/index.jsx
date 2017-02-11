@@ -4,16 +4,26 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 import Image from 'components/Image';
 
+import rpImage from 'static/rp.png';
+
 import style from './index.scss';
 
 export default class SkinTile extends PureComponent {
   static propTypes = {
     id: PropTypes.any,
     name: PropTypes.string,
+    rpValue: PropTypes.number,
     tilePath: PropTypes.string.isRequired
   }
   render () {
     const { id, name, tilePath } = this.props;
+    let { rpValue } = this.props;
+    if (rpValue === 9999) {
+      rpValue = 'Limited';
+    }
+    if (rpValue === 0) {
+      rpValue = 'Free';
+    }
     return (
       <div className={style.skinTile}>
         <LazyLoad
@@ -33,7 +43,13 @@ export default class SkinTile extends PureComponent {
             <Image key={tilePath} className={style.background} path={tilePath} />
           </ReactCSSTransitionGroup>
         </LazyLoad>
-        <span className={style.name}>{name}</span>
+        <div className={style.text}>
+          <span className={style.name}>{name}</span>
+          <span className={style.price}>
+            <img alt="RP" src={rpImage} className={style.icon} />
+            {rpValue}
+          </span>
+        </div>
       </div>
     );
   }
