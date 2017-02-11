@@ -18,6 +18,8 @@ function Checkbox (props) {
   const { className, children, value, label, onClick, onChange } = props;
   return (
     <div
+      role="checkbox"
+      aria-checked={value}
       className={cx(style.checkbox, value && style.checked, className)}
       onClick={evt => handleClick(evt, onClick, onChange, value)}
     >

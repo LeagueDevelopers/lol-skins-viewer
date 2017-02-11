@@ -45,7 +45,7 @@ export default class RadioInput extends PureComponent {
     const { children, options, disabled, value } = this.props;
     const shouldRenderOptions = options && options.map && options.map.call;
     return (
-      <div className={style.radioInput}>
+      <div role="radiogroup" className={style.radioInput}>
         {shouldRenderOptions && options.map(o =>
           <Option
             key={o.label}

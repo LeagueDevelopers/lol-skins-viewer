@@ -1,11 +1,12 @@
 import React, { PureComponent, PropTypes } from 'react';
 import cx from 'classnames';
 
-import './index.scss';
+import style from './index.scss';
 
 export default class Input extends PureComponent {
   static propTypes = {
     className: PropTypes.string,
+    inputClassName: PropTypes.string,
     value: PropTypes.string.isRequired,
     type: PropTypes.string,
     placeholder: PropTypes.string,
@@ -20,24 +21,24 @@ export default class Input extends PureComponent {
       return false;
     }
   }
-  onReset = () => {
+  onClear = () => {
     const { onChange } = this.props;
     if (onChange && onChange.call) {
       onChange('');
     }
   }
   render () {
-    const { className, value, type, placeholder, hideClear, children } = this.props;
+    const { className, inputClassName, value, type, placeholder, hideClear, children } = this.props;
     const showClear = hideClear ? false : value !== '';
     return (
-      <div className={cx('inputWrapper', className)}>
+      <div className={cx(style.input, className)}>
         <i
-          className={cx('inputReset', { show: showClear })}
-          onClick={this.onReset}
+          className={cx(style.clear, { show: showClear })}
+          onClick={this.onClear}
         />
         <input
           type={type}
-          className={'input'}
+          className={cx(style.inputElement, inputClassName)}
           value={value}
           placeholder={placeholder}
           onChange={this.onChange}

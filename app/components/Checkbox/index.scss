@@ -5,7 +5,11 @@
 	align-items: center;
 	font-size: 10px;
 	cursor: pointer;
-	color: rgb(56.1%, 45.1%, 20%);
+	color: lighten(rgb(56.1%, 45.1%, 20%), 10%);
+
+	& div, span, i {
+		cursor: pointer;
+	}
 
 	&:hover {
 		.box .border {
@@ -21,7 +25,6 @@
 		display: inline-block;
 		width: 12px;
 		height: 12px;
-		cursor: pointer;
 
 		.border {
 			position: absolute;
@@ -48,7 +51,6 @@
     line-height: 16px;
     letter-spacing: 0.025em;
 		margin-left: 9px;
-		cursor: pointer;
 	}
 }
 

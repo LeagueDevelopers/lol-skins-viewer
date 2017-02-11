@@ -7,6 +7,8 @@ import style from './index.scss';
 function RadioOption ({ children, value, label, checked, disabled, onClick }) {
   return (
     <div
+      role="radio"
+      aria-checked={checked}
       className={cx(style.radioOption, checked && style.checked, disabled && style.disabled)}
       onClick={() => onClick(value)}
     >
