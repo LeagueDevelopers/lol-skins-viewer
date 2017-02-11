@@ -9,9 +9,9 @@ import * as settingsActionCreators from 'actions/settings';
 
 import PathPicker from 'components/PathPicker';
 import UIScale from 'components/UIScale';
+import MiscSettings from 'components/MiscSettings';
 import Modal from 'components/Modal';
 import Button from 'components/Button';
-import Checkbox from 'components/Checkbox';
 
 @withRouter
 @connect(
@@ -95,7 +95,7 @@ export default class Settings extends Component {
         <div className="container">
           <PathPicker {...clientPath} {...settingsActions} />
           <UIScale {...scale} {...settingsActions} />
-          <Checkbox value={lowSpec.value} onChange={settingsActions.changeSetting.bind(this, 'lowSpec')}>Low Spec Mode</Checkbox>
+          <MiscSettings {...lowSpec} {...settingsActions} />
         </div>
         <div className="actions">
           <Button

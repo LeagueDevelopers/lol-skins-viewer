@@ -17,7 +17,7 @@ export default function UIScale ({ changeSetting, value }) {
         UI Scale
       </div>
       <div className={style.dropdownWrapper}>
-        <Dropdown options={options} onChange={_value => changeSetting('scale', _value)} value={value} />
+        <Dropdown options={options} onChange={v => changeSetting('scale', v)} value={value} />
       </div>
     </div>
   );
