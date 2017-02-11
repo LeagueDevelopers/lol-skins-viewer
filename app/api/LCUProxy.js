@@ -36,11 +36,11 @@ app.use((req, res) => {
 });
 
 export default {
-  start (_port) {
+  start (port) {
     if (server) return server;
     server = http.createServer(app);
 
-    server.listen(_port || 0);
+    server.listen(port || 0);
 
     dispatchToRenderer({
       type: 'PROXY_UP',
