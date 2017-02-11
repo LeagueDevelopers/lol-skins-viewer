@@ -1,1 +1,5203 @@
-{"1001":{"id":1001,"lootId":"","rarity":"","value":-1,"tags":[""]},"1002":{"id":1002,"lootId":"CHAMPION_SKIN_1002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"1003":{"id":1003,"lootId":"CHAMPION_SKIN_1003","rarity":"LEGENDARY","value":1820,"tags":["legacy","rarity_legendary"]},"1004":{"id":1004,"lootId":"CHAMPION_SKIN_1004","rarity":"DEFAULT","value":520,"tags":["legacy"]},"1005":{"id":1005,"lootId":"CHAMPION_SKIN_1005","rarity":"DEFAULT","value":975,"tags":[""]},"1006":{"id":1006,"lootId":"CHAMPION_SKIN_1006","rarity":"DEFAULT","value":975,"tags":[""]},"1007":{"id":1007,"lootId":"CHAMPION_SKIN_1007","rarity":"DEFAULT","value":975,"tags":["legacy"]},"1008":{"id":1008,"lootId":"CHAMPION_SKIN_1008","rarity":"DEFAULT","value":975,"tags":[""]},"1009":{"id":1009,"lootId":"CHAMPION_SKIN_1009","rarity":"DEFAULT","value":750,"tags":[""]},"1010":{"id":1010,"lootId":"CHAMPION_SKIN_1010","rarity":"MYTHIC","value":2450,"tags":["exclusive","rarity_mythic"]},"2001":{"id":2001,"lootId":"CHAMPION_SKIN_2001","rarity":"DEFAULT","value":520,"tags":[""]},"2002":{"id":2002,"lootId":"CHAMPION_SKIN_2002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"2003":{"id":2003,"lootId":"CHAMPION_SKIN_2003","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"2004":{"id":2004,"lootId":"CHAMPION_SKIN_2004","rarity":"DEFAULT","value":975,"tags":[""]},"2005":{"id":2005,"lootId":"CHAMPION_SKIN_2005","rarity":"DEFAULT","value":750,"tags":[""]},"2006":{"id":2006,"lootId":"CHAMPION_SKIN_2006","rarity":"DEFAULT","value":750,"tags":[""]},"3001":{"id":3001,"lootId":"CHAMPION_SKIN_3001","rarity":"DEFAULT","value":520,"tags":[""]},"3002":{"id":3002,"lootId":"CHAMPION_SKIN_3002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"3003":{"id":3003,"lootId":"CHAMPION_SKIN_3003","rarity":"DEFAULT","value":520,"tags":[""]},"3004":{"id":3004,"lootId":"CHAMPION_SKIN_3004","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"3005":{"id":3005,"lootId":"CHAMPION_SKIN_3005","rarity":"DEFAULT","value":750,"tags":[""]},"4001":{"id":4001,"lootId":"","rarity":"","value":-1,"tags":[""]},"4002":{"id":4002,"lootId":"CHAMPION_SKIN_4002","rarity":"DEFAULT","value":520,"tags":[""]},"4003":{"id":4003,"lootId":"CHAMPION_SKIN_4003","rarity":"LEGENDARY","value":1820,"tags":["legacy","rarity_legendary"]},"4004":{"id":4004,"lootId":"CHAMPION_SKIN_4004","rarity":"DEFAULT","value":520,"tags":[""]},"4005":{"id":4005,"lootId":"CHAMPION_SKIN_4005","rarity":"DEFAULT","value":975,"tags":[""]},"4006":{"id":4006,"lootId":"CHAMPION_SKIN_4006","rarity":"DEFAULT","value":750,"tags":[""]},"4007":{"id":4007,"lootId":"CHAMPION_SKIN_4007","rarity":"DEFAULT","value":975,"tags":["legacy"]},"4008":{"id":4008,"lootId":"CHAMPION_SKIN_4008","rarity":"DEFAULT","value":750,"tags":[""]},"4009":{"id":4009,"lootId":"CHAMPION_SKIN_4009","rarity":"DEFAULT","value":750,"tags":[""]},"5001":{"id":5001,"lootId":"CHAMPION_SKIN_5001","rarity":"DEFAULT","value":520,"tags":[""]},"5002":{"id":5002,"lootId":"CHAMPION_SKIN_5002","rarity":"DEFAULT","value":520,"tags":[""]},"5003":{"id":5003,"lootId":"CHAMPION_SKIN_5003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"5004":{"id":5004,"lootId":"CHAMPION_SKIN_5004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"5005":{"id":5005,"lootId":"CHAMPION_SKIN_5005","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"5006":{"id":5006,"lootId":"CHAMPION_SKIN_5006","rarity":"DEFAULT","value":975,"tags":[""]},"6001":{"id":6001,"lootId":"CHAMPION_SKIN_6001","rarity":"DEFAULT","value":520,"tags":[""]},"6002":{"id":6002,"lootId":"CHAMPION_SKIN_6002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"6003":{"id":6003,"lootId":"CHAMPION_SKIN_6003","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"7001":{"id":7001,"lootId":"CHAMPION_SKIN_7001","rarity":"DEFAULT","value":750,"tags":[""]},"7002":{"id":7002,"lootId":"CHAMPION_SKIN_7002","rarity":"DEFAULT","value":520,"tags":[""]},"7003":{"id":7003,"lootId":"CHAMPION_SKIN_7003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"7004":{"id":7004,"lootId":"CHAMPION_SKIN_7004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"7005":{"id":7005,"lootId":"CHAMPION_SKIN_7005","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"8001":{"id":8001,"lootId":"CHAMPION_SKIN_8001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"8002":{"id":8002,"lootId":"CHAMPION_SKIN_8002","rarity":"DEFAULT","value":520,"tags":[""]},"8003":{"id":8003,"lootId":"CHAMPION_SKIN_8003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"8004":{"id":8004,"lootId":"CHAMPION_SKIN_8004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"8005":{"id":8005,"lootId":"CHAMPION_SKIN_8005","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"8006":{"id":8006,"lootId":"CHAMPION_SKIN_8006","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"8007":{"id":8007,"lootId":"CHAMPION_SKIN_8007","rarity":"DEFAULT","value":750,"tags":[""]},"9001":{"id":9001,"lootId":"CHAMPION_SKIN_9001","rarity":"DEFAULT","value":520,"tags":[""]},"9002":{"id":9002,"lootId":"CHAMPION_SKIN_9002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"9003":{"id":9003,"lootId":"CHAMPION_SKIN_9003","rarity":"DEFAULT","value":520,"tags":[""]},"9004":{"id":9004,"lootId":"CHAMPION_SKIN_9004","rarity":"DEFAULT","value":520,"tags":["legacy"]},"9005":{"id":9005,"lootId":"CHAMPION_SKIN_9005","rarity":"DEFAULT","value":750,"tags":["legacy"]},"9006":{"id":9006,"lootId":"CHAMPION_SKIN_9006","rarity":"LEGENDARY","value":975,"tags":["rarity_legendary"]},"9007":{"id":9007,"lootId":"CHAMPION_SKIN_9007","rarity":"DEFAULT","value":975,"tags":["legacy"]},"9008":{"id":9008,"lootId":"CHAMPION_SKIN_9008","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"10001":{"id":10001,"lootId":"","rarity":"","value":-1,"tags":[""]},"10002":{"id":10002,"lootId":"CHAMPION_SKIN_10002","rarity":"DEFAULT","value":520,"tags":[""]},"10003":{"id":10003,"lootId":"CHAMPION_SKIN_10003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"10004":{"id":10004,"lootId":"CHAMPION_SKIN_10004","rarity":"DEFAULT","value":975,"tags":[""]},"10005":{"id":10005,"lootId":"","rarity":"","value":-1,"tags":[""]},"10006":{"id":10006,"lootId":"CHAMPION_SKIN_10006","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"10007":{"id":10007,"lootId":"CHAMPION_SKIN_10007","rarity":"DEFAULT","value":975,"tags":["legacy"]},"10008":{"id":10008,"lootId":"CHAMPION_SKIN_10008","rarity":"DEFAULT","value":750,"tags":[""]},"11001":{"id":11001,"lootId":"CHAMPION_SKIN_11001","rarity":"DEFAULT","value":390,"tags":[""]},"11002":{"id":11002,"lootId":"CHAMPION_SKIN_11002","rarity":"DEFAULT","value":520,"tags":[""]},"11003":{"id":11003,"lootId":"CHAMPION_SKIN_11003","rarity":"DEFAULT","value":975,"tags":[""]},"11004":{"id":11004,"lootId":"CHAMPION_SKIN_11004","rarity":"DEFAULT","value":520,"tags":[""]},"11005":{"id":11005,"lootId":"CHAMPION_SKIN_11005","rarity":"DEFAULT","value":975,"tags":[""]},"11009":{"id":11009,"lootId":"CHAMPION_SKIN_11009","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"12001":{"id":12001,"lootId":"","rarity":"","value":-1,"tags":[""]},"12002":{"id":12002,"lootId":"CHAMPION_SKIN_12002","rarity":"DEFAULT","value":390,"tags":[""]},"12003":{"id":12003,"lootId":"CHAMPION_SKIN_12003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"12004":{"id":12004,"lootId":"CHAMPION_SKIN_12004","rarity":"DEFAULT","value":520,"tags":["legacy"]},"12005":{"id":12005,"lootId":"","rarity":"","value":-1,"tags":[""]},"12006":{"id":12006,"lootId":"CHAMPION_SKIN_12006","rarity":"DEFAULT","value":975,"tags":[""]},"12007":{"id":12007,"lootId":"CHAMPION_SKIN_12007","rarity":"DEFAULT","value":750,"tags":[""]},"12008":{"id":12008,"lootId":"CHAMPION_SKIN_12008","rarity":"DEFAULT","value":750,"tags":[""]},"12009":{"id":12009,"lootId":"CHAMPION_SKIN_12009","rarity":"DEFAULT","value":975,"tags":["legacy"]},"13001":{"id":13001,"lootId":"","rarity":"","value":-1,"tags":[""]},"13002":{"id":13002,"lootId":"CHAMPION_SKIN_13002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"13003":{"id":13003,"lootId":"CHAMPION_SKIN_13003","rarity":"DEFAULT","value":520,"tags":[""]},"13004":{"id":13004,"lootId":"","rarity":"","value":-1,"tags":[""]},"13005":{"id":13005,"lootId":"CHAMPION_SKIN_13005","rarity":"DEFAULT","value":975,"tags":["legacy"]},"13006":{"id":13006,"lootId":"CHAMPION_SKIN_13006","rarity":"DEFAULT","value":975,"tags":["legacy"]},"13007":{"id":13007,"lootId":"CHAMPION_SKIN_13007","rarity":"DEFAULT","value":975,"tags":[""]},"13008":{"id":13008,"lootId":"CHAMPION_SKIN_13008","rarity":"DEFAULT","value":975,"tags":["legacy"]},"13009":{"id":13009,"lootId":"CHAMPION_SKIN_13009","rarity":"DEFAULT","value":750,"tags":[""]},"13010":{"id":13010,"lootId":"CHAMPION_SKIN_13010","rarity":"DEFAULT","value":975,"tags":["legacy"]},"14001":{"id":14001,"lootId":"CHAMPION_SKIN_14001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"14002":{"id":14002,"lootId":"CHAMPION_SKIN_14002","rarity":"DEFAULT","value":750,"tags":[""]},"14003":{"id":14003,"lootId":"CHAMPION_SKIN_14003","rarity":"DEFAULT","value":520,"tags":[""]},"14004":{"id":14004,"lootId":"CHAMPION_SKIN_14004","rarity":"DEFAULT","value":975,"tags":[""]},"14005":{"id":14005,"lootId":"CHAMPION_SKIN_14005","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"15001":{"id":15001,"lootId":"CHAMPION_SKIN_15001","rarity":"DEFAULT","value":520,"tags":[""]},"15002":{"id":15002,"lootId":"CHAMPION_SKIN_15002","rarity":"DEFAULT","value":975,"tags":["legacy"]},"15003":{"id":15003,"lootId":"","rarity":"","value":-1,"tags":[""]},"15004":{"id":15004,"lootId":"CHAMPION_SKIN_15004","rarity":"DEFAULT","value":750,"tags":[""]},"15005":{"id":15005,"lootId":"","rarity":"","value":-1,"tags":[""]},"15006":{"id":15006,"lootId":"CHAMPION_SKIN_15006","rarity":"DEFAULT","value":975,"tags":["legacy"]},"15007":{"id":15007,"lootId":"CHAMPION_SKIN_15007","rarity":"DEFAULT","value":750,"tags":[""]},"15008":{"id":15008,"lootId":"","rarity":"","value":-1,"tags":[""]},"16001":{"id":16001,"lootId":"CHAMPION_SKIN_16001","rarity":"DEFAULT","value":520,"tags":[""]},"16002":{"id":16002,"lootId":"CHAMPION_SKIN_16002","rarity":"DEFAULT","value":975,"tags":[""]},"16003":{"id":16003,"lootId":"CHAMPION_SKIN_16003","rarity":"DEFAULT","value":975,"tags":[""]},"16004":{"id":16004,"lootId":"CHAMPION_SKIN_16004","rarity":"EPIC","value":1350,"tags":["legacy","rarity_epic"]},"16005":{"id":16005,"lootId":"CHAMPION_SKIN_16005","rarity":"DEFAULT","value":750,"tags":[""]},"16006":{"id":16006,"lootId":"CHAMPION_SKIN_16006","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"17001":{"id":17001,"lootId":"CHAMPION_SKIN_17001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"17002":{"id":17002,"lootId":"CHAMPION_SKIN_17002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"17003":{"id":17003,"lootId":"CHAMPION_SKIN_17003","rarity":"DEFAULT","value":520,"tags":["legacy"]},"17004":{"id":17004,"lootId":"CHAMPION_SKIN_17004","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"17005":{"id":17005,"lootId":"CHAMPION_SKIN_17005","rarity":"DEFAULT","value":975,"tags":[""]},"17006":{"id":17006,"lootId":"CHAMPION_SKIN_17006","rarity":"DEFAULT","value":975,"tags":[""]},"17007":{"id":17007,"lootId":"CHAMPION_SKIN_17007","rarity":"DEFAULT","value":975,"tags":[""]},"17008":{"id":17008,"lootId":"CHAMPION_SKIN_17008","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"17014":{"id":17014,"lootId":"CHAMPION_SKIN_17014","rarity":"EPIC","value":1350,"tags":["legacy"]},"18001":{"id":18001,"lootId":"","rarity":"","value":-1,"tags":[""]},"18002":{"id":18002,"lootId":"CHAMPION_SKIN_18002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"18003":{"id":18003,"lootId":"CHAMPION_SKIN_18003","rarity":"LEGENDARY","value":1820,"tags":["legacy","rarity_legendary"]},"18004":{"id":18004,"lootId":"CHAMPION_SKIN_18004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"18005":{"id":18005,"lootId":"CHAMPION_SKIN_18005","rarity":"DEFAULT","value":520,"tags":[""]},"18006":{"id":18006,"lootId":"CHAMPION_SKIN_18006","rarity":"DEFAULT","value":975,"tags":[""]},"18010":{"id":18010,"lootId":"CHAMPION_SKIN_18010","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"18011":{"id":18011,"lootId":"CHAMPION_SKIN_18011","rarity":"EPIC","value":1350,"tags":["legacy"]},"19001":{"id":19001,"lootId":"","rarity":"","value":-1,"tags":[""]},"19002":{"id":19002,"lootId":"","rarity":"","value":-1,"tags":[""]},"19003":{"id":19003,"lootId":"CHAMPION_SKIN_19003","rarity":"DEFAULT","value":520,"tags":["legacy"]},"19004":{"id":19004,"lootId":"CHAMPION_SKIN_19004","rarity":"DEFAULT","value":520,"tags":[""]},"19005":{"id":19005,"lootId":"CHAMPION_SKIN_19005","rarity":"DEFAULT","value":975,"tags":["legacy"]},"19006":{"id":19006,"lootId":"CHAMPION_SKIN_19006","rarity":"DEFAULT","value":975,"tags":[""]},"19007":{"id":19007,"lootId":"CHAMPION_SKIN_19007","rarity":"DEFAULT","value":975,"tags":[""]},"19008":{"id":19008,"lootId":"CHAMPION_SKIN_19008","rarity":"DEFAULT","value":750,"tags":[""]},"20001":{"id":20001,"lootId":"CHAMPION_SKIN_20001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"20002":{"id":20002,"lootId":"CHAMPION_SKIN_20002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"20003":{"id":20003,"lootId":"CHAMPION_SKIN_20003","rarity":"DEFAULT","value":750,"tags":[""]},"20004":{"id":20004,"lootId":"CHAMPION_SKIN_20004","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"20005":{"id":20005,"lootId":"CHAMPION_SKIN_20005","rarity":"DEFAULT","value":975,"tags":[""]},"20006":{"id":20006,"lootId":"CHAMPION_SKIN_20006","rarity":"DEFAULT","value":750,"tags":["legacy"]},"20007":{"id":20007,"lootId":"CHAMPION_SKIN_20007","rarity":"EPIC","value":1350,"tags":["legacy","rarity_epic"]},"21001":{"id":21001,"lootId":"CHAMPION_SKIN_21001","rarity":"DEFAULT","value":750,"tags":[""]},"21002":{"id":21002,"lootId":"CHAMPION_SKIN_21002","rarity":"DEFAULT","value":520,"tags":[""]},"21003":{"id":21003,"lootId":"CHAMPION_SKIN_21003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"21004":{"id":21004,"lootId":"CHAMPION_SKIN_21004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"21005":{"id":21005,"lootId":"CHAMPION_SKIN_21005","rarity":"DEFAULT","value":520,"tags":["legacy"]},"21006":{"id":21006,"lootId":"CHAMPION_SKIN_21006","rarity":"DEFAULT","value":975,"tags":[""]},"21007":{"id":21007,"lootId":"CHAMPION_SKIN_21007","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"21008":{"id":21008,"lootId":"CHAMPION_SKIN_21008","rarity":"DEFAULT","value":975,"tags":[""]},"21009":{"id":21009,"lootId":"CHAMPION_SKIN_21009","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"22001":{"id":22001,"lootId":"CHAMPION_SKIN_22001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"22002":{"id":22002,"lootId":"CHAMPION_SKIN_22002","rarity":"DEFAULT","value":520,"tags":[""]},"22003":{"id":22003,"lootId":"CHAMPION_SKIN_22003","rarity":"DEFAULT","value":520,"tags":[""]},"22004":{"id":22004,"lootId":"CHAMPION_SKIN_22004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"22005":{"id":22005,"lootId":"CHAMPION_SKIN_22005","rarity":"DEFAULT","value":975,"tags":[""]},"22006":{"id":22006,"lootId":"CHAMPION_SKIN_22006","rarity":"DEFAULT","value":975,"tags":[""]},"22007":{"id":22007,"lootId":"CHAMPION_SKIN_22007","rarity":"DEFAULT","value":750,"tags":[""]},"22008":{"id":22008,"lootId":"CHAMPION_SKIN_22008","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"23001":{"id":23001,"lootId":"CHAMPION_SKIN_23001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"23002":{"id":23002,"lootId":"CHAMPION_SKIN_23002","rarity":"DEFAULT","value":520,"tags":[""]},"23003":{"id":23003,"lootId":"CHAMPION_SKIN_23003","rarity":"DEFAULT","value":750,"tags":["legacy"]},"23004":{"id":23004,"lootId":"CHAMPION_SKIN_23004","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"23005":{"id":23005,"lootId":"CHAMPION_SKIN_23005","rarity":"DEFAULT","value":975,"tags":[""]},"23006":{"id":23006,"lootId":"CHAMPION_SKIN_23006","rarity":"DEFAULT","value":975,"tags":["legacy"]},"23007":{"id":23007,"lootId":"CHAMPION_SKIN_23007","rarity":"DEFAULT","value":750,"tags":[""]},"23008":{"id":23008,"lootId":"CHAMPION_SKIN_23008","rarity":"DEFAULT","value":750,"tags":[""]},"24001":{"id":24001,"lootId":"CHAMPION_SKIN_24001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"24002":{"id":24002,"lootId":"CHAMPION_SKIN_24002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"24003":{"id":24003,"lootId":"CHAMPION_SKIN_24003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"24004":{"id":24004,"lootId":"","rarity":"","value":-1,"tags":[""]},"24005":{"id":24005,"lootId":"CHAMPION_SKIN_24005","rarity":"DEFAULT","value":975,"tags":[""]},"24006":{"id":24006,"lootId":"CHAMPION_SKIN_24006","rarity":"DEFAULT","value":750,"tags":[""]},"24007":{"id":24007,"lootId":"CHAMPION_SKIN_24007","rarity":"DEFAULT","value":975,"tags":[""]},"24008":{"id":24008,"lootId":"CHAMPION_SKIN_24008","rarity":"DEFAULT","value":750,"tags":["legacy"]},"24012":{"id":24012,"lootId":"CHAMPION_SKIN_24012","rarity":"DEFAULT","value":750,"tags":[""]},"25001":{"id":25001,"lootId":"CHAMPION_SKIN_25001","rarity":"DEFAULT","value":975,"tags":["legacy"]},"25002":{"id":25002,"lootId":"CHAMPION_SKIN_25002","rarity":"DEFAULT","value":975,"tags":["legacy"]},"25003":{"id":25003,"lootId":"CHAMPION_SKIN_25003","rarity":"DEFAULT","value":750,"tags":[""]},"25004":{"id":25004,"lootId":"CHAMPION_SKIN_25004","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"25005":{"id":25005,"lootId":"CHAMPION_SKIN_25005","rarity":"DEFAULT","value":975,"tags":[""]},"25006":{"id":25006,"lootId":"","rarity":"","value":-1,"tags":[""]},"25010":{"id":25010,"lootId":"CHAMPION_SKIN_25010","rarity":"DEFAULT","value":975,"tags":["legacy"]},"25011":{"id":25011,"lootId":"CHAMPION_SKIN_25011","rarity":"DEFAULT","value":975,"tags":["legacy"]},"26001":{"id":26001,"lootId":"CHAMPION_SKIN_26001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"26002":{"id":26002,"lootId":"CHAMPION_SKIN_26002","rarity":"DEFAULT","value":520,"tags":[""]},"26003":{"id":26003,"lootId":"CHAMPION_SKIN_26003","rarity":"DEFAULT","value":975,"tags":[""]},"26004":{"id":26004,"lootId":"CHAMPION_SKIN_26004","rarity":"DEFAULT","value":520,"tags":["legacy"]},"26005":{"id":26005,"lootId":"CHAMPION_SKIN_26005","rarity":"DEFAULT","value":975,"tags":[""]},"27001":{"id":27001,"lootId":"","rarity":"","value":-1,"tags":[""]},"27002":{"id":27002,"lootId":"CHAMPION_SKIN_27002","rarity":"DEFAULT","value":520,"tags":[""]},"27003":{"id":27003,"lootId":"CHAMPION_SKIN_27003","rarity":"DEFAULT","value":975,"tags":[""]},"27004":{"id":27004,"lootId":"CHAMPION_SKIN_27004","rarity":"DEFAULT","value":750,"tags":["legacy"]},"27005":{"id":27005,"lootId":"CHAMPION_SKIN_27005","rarity":"DEFAULT","value":975,"tags":[""]},"27006":{"id":27006,"lootId":"CHAMPION_SKIN_27006","rarity":"DEFAULT","value":975,"tags":["legacy"]},"27007":{"id":27007,"lootId":"CHAMPION_SKIN_27007","rarity":"DEFAULT","value":750,"tags":["legacy"]},"27008":{"id":27008,"lootId":"CHAMPION_SKIN_27008","rarity":"DEFAULT","value":750,"tags":[""]},"28001":{"id":28001,"lootId":"CHAMPION_SKIN_28001","rarity":"DEFAULT","value":520,"tags":[""]},"28002":{"id":28002,"lootId":"CHAMPION_SKIN_28002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"28003":{"id":28003,"lootId":"CHAMPION_SKIN_28003","rarity":"DEFAULT","value":520,"tags":[""]},"28004":{"id":28004,"lootId":"CHAMPION_SKIN_28004","rarity":"DEFAULT","value":750,"tags":[""]},"29001":{"id":29001,"lootId":"CHAMPION_SKIN_29001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"29002":{"id":29002,"lootId":"CHAMPION_SKIN_29002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"29003":{"id":29003,"lootId":"","rarity":"","value":-1,"tags":[""]},"29004":{"id":29004,"lootId":"CHAMPION_SKIN_29004","rarity":"DEFAULT","value":975,"tags":[""]},"29005":{"id":29005,"lootId":"CHAMPION_SKIN_29005","rarity":"DEFAULT","value":975,"tags":["legacy"]},"29006":{"id":29006,"lootId":"CHAMPION_SKIN_29006","rarity":"DEFAULT","value":750,"tags":[""]},"29007":{"id":29007,"lootId":"CHAMPION_SKIN_29007","rarity":"DEFAULT","value":975,"tags":["legacy"]},"30001":{"id":30001,"lootId":"CHAMPION_SKIN_30001","rarity":"DEFAULT","value":460,"tags":["520","legacy"]},"30002":{"id":30002,"lootId":"CHAMPION_SKIN_30002","rarity":"DEFAULT","value":520,"tags":[""]},"30003":{"id":30003,"lootId":"CHAMPION_SKIN_30003","rarity":"DEFAULT","value":975,"tags":[""]},"30004":{"id":30004,"lootId":"CHAMPION_SKIN_30004","rarity":"DEFAULT","value":750,"tags":[""]},"30005":{"id":30005,"lootId":"CHAMPION_SKIN_30005","rarity":"DEFAULT","value":750,"tags":["legacy"]},"30009":{"id":30009,"lootId":"CHAMPION_SKIN_30009","rarity":"DEFAULT","value":975,"tags":[""]},"31001":{"id":31001,"lootId":"CHAMPION_SKIN_31001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"31002":{"id":31002,"lootId":"CHAMPION_SKIN_31002","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"31003":{"id":31003,"lootId":"CHAMPION_SKIN_31003","rarity":"DEFAULT","value":520,"tags":[""]},"31004":{"id":31004,"lootId":"CHAMPION_SKIN_31004","rarity":"DEFAULT","value":975,"tags":[""]},"31005":{"id":31005,"lootId":"CHAMPION_SKIN_31005","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"31006":{"id":31006,"lootId":"CHAMPION_SKIN_31006","rarity":"DEFAULT","value":750,"tags":[""]},"32001":{"id":32001,"lootId":"CHAMPION_SKIN_32001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"32002":{"id":32002,"lootId":"CHAMPION_SKIN_32002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"32003":{"id":32003,"lootId":"CHAMPION_SKIN_32003","rarity":"DEFAULT","value":520,"tags":[""]},"32004":{"id":32004,"lootId":"CHAMPION_SKIN_32004","rarity":"DEFAULT","value":520,"tags":["legacy"]},"32005":{"id":32005,"lootId":"CHAMPION_SKIN_32005","rarity":"DEFAULT","value":520,"tags":["legacy"]},"32006":{"id":32006,"lootId":"CHAMPION_SKIN_32006","rarity":"DEFAULT","value":750,"tags":[""]},"32007":{"id":32007,"lootId":"CHAMPION_SKIN_32007","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"32008":{"id":32008,"lootId":"CHAMPION_SKIN_32008","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"33001":{"id":33001,"lootId":"","rarity":"","value":-1,"tags":[""]},"33002":{"id":33002,"lootId":"CHAMPION_SKIN_33002","rarity":"DEFAULT","value":750,"tags":[""]},"33003":{"id":33003,"lootId":"CHAMPION_SKIN_33003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"33004":{"id":33004,"lootId":"CHAMPION_SKIN_33004","rarity":"DEFAULT","value":520,"tags":[""]},"33005":{"id":33005,"lootId":"CHAMPION_SKIN_33005","rarity":"DEFAULT","value":975,"tags":[""]},"33006":{"id":33006,"lootId":"CHAMPION_SKIN_33006","rarity":"DEFAULT","value":975,"tags":[""]},"33007":{"id":33007,"lootId":"CHAMPION_SKIN_33007","rarity":"DEFAULT","value":975,"tags":[""]},"34001":{"id":34001,"lootId":"CHAMPION_SKIN_34001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"34002":{"id":34002,"lootId":"CHAMPION_SKIN_34002","rarity":"DEFAULT","value":520,"tags":[""]},"34003":{"id":34003,"lootId":"CHAMPION_SKIN_34003","rarity":"DEFAULT","value":520,"tags":["legacy"]},"34004":{"id":34004,"lootId":"CHAMPION_SKIN_34004","rarity":"DEFAULT","value":750,"tags":[""]},"34005":{"id":34005,"lootId":"CHAMPION_SKIN_34005","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"34006":{"id":34006,"lootId":"CHAMPION_SKIN_34006","rarity":"DEFAULT","value":750,"tags":[""]},"35001":{"id":35001,"lootId":"CHAMPION_SKIN_35001","rarity":"DEFAULT","value":520,"tags":[""]},"35002":{"id":35002,"lootId":"CHAMPION_SKIN_35002","rarity":"DEFAULT","value":520,"tags":[""]},"35003":{"id":35003,"lootId":"CHAMPION_SKIN_35003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"35004":{"id":35004,"lootId":"CHAMPION_SKIN_35004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"35005":{"id":35005,"lootId":"CHAMPION_SKIN_35005","rarity":"DEFAULT","value":975,"tags":[""]},"35006":{"id":35006,"lootId":"CHAMPION_SKIN_35006","rarity":"DEFAULT","value":975,"tags":[""]},"35007":{"id":35007,"lootId":"CHAMPION_SKIN_35007","rarity":"DEFAULT","value":750,"tags":[""]},"36001":{"id":36001,"lootId":"CHAMPION_SKIN_36001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"36002":{"id":36002,"lootId":"CHAMPION_SKIN_36002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"36003":{"id":36003,"lootId":"CHAMPION_SKIN_36003","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"36004":{"id":36004,"lootId":"CHAMPION_SKIN_36004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"36005":{"id":36005,"lootId":"CHAMPION_SKIN_36005","rarity":"DEFAULT","value":520,"tags":["legacy"]},"36006":{"id":36006,"lootId":"CHAMPION_SKIN_36006","rarity":"DEFAULT","value":975,"tags":[""]},"36007":{"id":36007,"lootId":"CHAMPION_SKIN_36007","rarity":"DEFAULT","value":750,"tags":["legacy"]},"36008":{"id":36008,"lootId":"CHAMPION_SKIN_36008","rarity":"DEFAULT","value":975,"tags":[""]},"36009":{"id":36009,"lootId":"CHAMPION_SKIN_36009","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"37001":{"id":37001,"lootId":"CHAMPION_SKIN_37001","rarity":"DEFAULT","value":975,"tags":["legacy"]},"37002":{"id":37002,"lootId":"CHAMPION_SKIN_37002","rarity":"DEFAULT","value":975,"tags":[""]},"37003":{"id":37003,"lootId":"CHAMPION_SKIN_37003","rarity":"DEFAULT","value":520,"tags":["legacy"]},"37004":{"id":37004,"lootId":"CHAMPION_SKIN_37004","rarity":"DEFAULT","value":975,"tags":[""]},"37005":{"id":37005,"lootId":"CHAMPION_SKIN_37005","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"37006":{"id":37006,"lootId":"CHAMPION_SKIN_37006","rarity":"ULTIMATE","value":3250,"tags":["rarity_ultimate"]},"37007":{"id":37007,"lootId":"CHAMPION_SKIN_37007","rarity":"DEFAULT","value":975,"tags":["legacy"]},"38001":{"id":38001,"lootId":"CHAMPION_SKIN_38001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"38002":{"id":38002,"lootId":"CHAMPION_SKIN_38002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"38003":{"id":38003,"lootId":"CHAMPION_SKIN_38003","rarity":"DEFAULT","value":520,"tags":[""]},"38004":{"id":38004,"lootId":"CHAMPION_SKIN_38004","rarity":"DEFAULT","value":975,"tags":[""]},"38005":{"id":38005,"lootId":"CHAMPION_SKIN_38005","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"39001":{"id":39001,"lootId":"CHAMPION_SKIN_39001","rarity":"DEFAULT","value":520,"tags":[""]},"39002":{"id":39002,"lootId":"CHAMPION_SKIN_39002","rarity":"DEFAULT","value":520,"tags":[""]},"39003":{"id":39003,"lootId":"CHAMPION_SKIN_39003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"39004":{"id":39004,"lootId":"CHAMPION_SKIN_39004","rarity":"DEFAULT","value":975,"tags":[""]},"39005":{"id":39005,"lootId":"CHAMPION_SKIN_39005","rarity":"DEFAULT","value":750,"tags":[""]},"40001":{"id":40001,"lootId":"CHAMPION_SKIN_40001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"40002":{"id":40002,"lootId":"CHAMPION_SKIN_40002","rarity":"DEFAULT","value":975,"tags":[""]},"40003":{"id":40003,"lootId":"CHAMPION_SKIN_40003","rarity":"DEFAULT","value":975,"tags":[""]},"40004":{"id":40004,"lootId":"","rarity":"","value":-1,"tags":[""]},"40005":{"id":40005,"lootId":"CHAMPION_SKIN_40005","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"40006":{"id":40006,"lootId":"CHAMPION_SKIN_40006","rarity":"DEFAULT","value":750,"tags":["legacy"]},"40007":{"id":40007,"lootId":"CHAMPION_SKIN_40007","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"41001":{"id":41001,"lootId":"CHAMPION_SKIN_41001","rarity":"DEFAULT","value":520,"tags":[""]},"41002":{"id":41002,"lootId":"CHAMPION_SKIN_41002","rarity":"DEFAULT","value":520,"tags":[""]},"41003":{"id":41003,"lootId":"CHAMPION_SKIN_41003","rarity":"DEFAULT","value":750,"tags":["legacy"]},"41004":{"id":41004,"lootId":"CHAMPION_SKIN_41004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"41005":{"id":41005,"lootId":"CHAMPION_SKIN_41005","rarity":"DEFAULT","value":975,"tags":[""]},"41006":{"id":41006,"lootId":"CHAMPION_SKIN_41006","rarity":"DEFAULT","value":975,"tags":[""]},"41007":{"id":41007,"lootId":"CHAMPION_SKIN_41007","rarity":"DEFAULT","value":975,"tags":[""]},"41008":{"id":41008,"lootId":"CHAMPION_SKIN_41008","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"42001":{"id":42001,"lootId":"","rarity":"","value":-1,"tags":[""]},"42002":{"id":42002,"lootId":"CHAMPION_SKIN_42002","rarity":"LEGENDARY","value":1820,"tags":["legacy","rarity_legendary"]},"42003":{"id":42003,"lootId":"CHAMPION_SKIN_42003","rarity":"LEGENDARY","value":1820,"tags":["legacy","rarity_legendary"]},"42004":{"id":42004,"lootId":"CHAMPION_SKIN_42004","rarity":"DEFAULT","value":520,"tags":["legacy"]},"42005":{"id":42005,"lootId":"CHAMPION_SKIN_42005","rarity":"DEFAULT","value":975,"tags":[""]},"42006":{"id":42006,"lootId":"CHAMPION_SKIN_42006","rarity":"DEFAULT","value":975,"tags":[""]},"42007":{"id":42007,"lootId":"CHAMPION_SKIN_42007","rarity":"DEFAULT","value":750,"tags":["legacy"]},"42008":{"id":42008,"lootId":"CHAMPION_SKIN_42008","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"43001":{"id":43001,"lootId":"CHAMPION_SKIN_43001","rarity":"DEFAULT","value":750,"tags":["legacy"]},"43002":{"id":43002,"lootId":"CHAMPION_SKIN_43002","rarity":"DEFAULT","value":520,"tags":[""]},"43003":{"id":43003,"lootId":"CHAMPION_SKIN_43003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"43004":{"id":43004,"lootId":"CHAMPION_SKIN_43004","rarity":"DEFAULT","value":975,"tags":[""]},"43005":{"id":43005,"lootId":"CHAMPION_SKIN_43005","rarity":"DEFAULT","value":750,"tags":[""]},"43006":{"id":43006,"lootId":"CHAMPION_SKIN_43006","rarity":"EPIC","value":1350,"tags":["legacy","rarity_epic"]},"44001":{"id":44001,"lootId":"CHAMPION_SKIN_44001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"44002":{"id":44002,"lootId":"CHAMPION_SKIN_44002","rarity":"DEFAULT","value":750,"tags":[""]},"44003":{"id":44003,"lootId":"CHAMPION_SKIN_44003","rarity":"DEFAULT","value":975,"tags":[""]},"44004":{"id":44004,"lootId":"CHAMPION_SKIN_44004","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"45001":{"id":45001,"lootId":"CHAMPION_SKIN_45001","rarity":"DEFAULT","value":390,"tags":[""]},"45002":{"id":45002,"lootId":"CHAMPION_SKIN_45002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"45003":{"id":45003,"lootId":"CHAMPION_SKIN_45003","rarity":"DEFAULT","value":750,"tags":[""]},"45004":{"id":45004,"lootId":"CHAMPION_SKIN_45004","rarity":"DEFAULT","value":520,"tags":[""]},"45005":{"id":45005,"lootId":"CHAMPION_SKIN_45005","rarity":"DEFAULT","value":975,"tags":["legacy"]},"45006":{"id":45006,"lootId":"CHAMPION_SKIN_45006","rarity":"DEFAULT","value":975,"tags":[""]},"45007":{"id":45007,"lootId":"CHAMPION_SKIN_45007","rarity":"DEFAULT","value":975,"tags":["legacy"]},"45008":{"id":45008,"lootId":"CHAMPION_SKIN_45008","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"48001":{"id":48001,"lootId":"CHAMPION_SKIN_48001","rarity":"DEFAULT","value":520,"tags":[""]},"48002":{"id":48002,"lootId":"CHAMPION_SKIN_48002","rarity":"DEFAULT","value":750,"tags":[""]},"48003":{"id":48003,"lootId":"CHAMPION_SKIN_48003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"48004":{"id":48004,"lootId":"CHAMPION_SKIN_48004","rarity":"DEFAULT","value":750,"tags":[""]},"48005":{"id":48005,"lootId":"CHAMPION_SKIN_48005","rarity":"DEFAULT","value":750,"tags":[""]},"50001":{"id":50001,"lootId":"CHAMPION_SKIN_50001","rarity":"DEFAULT","value":750,"tags":[""]},"50002":{"id":50002,"lootId":"CHAMPION_SKIN_50002","rarity":"DEFAULT","value":520,"tags":[""]},"50003":{"id":50003,"lootId":"CHAMPION_SKIN_50003","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"51001":{"id":51001,"lootId":"CHAMPION_SKIN_51001","rarity":"DEFAULT","value":520,"tags":[""]},"51002":{"id":51002,"lootId":"CHAMPION_SKIN_51002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"51003":{"id":51003,"lootId":"CHAMPION_SKIN_51003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"51004":{"id":51004,"lootId":"CHAMPION_SKIN_51004","rarity":"DEFAULT","value":750,"tags":[""]},"51005":{"id":51005,"lootId":"CHAMPION_SKIN_51005","rarity":"DEFAULT","value":975,"tags":[""]},"51006":{"id":51006,"lootId":"CHAMPION_SKIN_51006","rarity":"DEFAULT","value":975,"tags":[""]},"51010":{"id":51010,"lootId":"CHAMPION_SKIN_51010","rarity":"EPIC","value":1350,"tags":["legacy","rarity_epic"]},"53001":{"id":53001,"lootId":"","rarity":"","value":-1,"tags":[""]},"53002":{"id":53002,"lootId":"CHAMPION_SKIN_53002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"53003":{"id":53003,"lootId":"CHAMPION_SKIN_53003","rarity":"DEFAULT","value":520,"tags":[""]},"53004":{"id":53004,"lootId":"CHAMPION_SKIN_53004","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"53005":{"id":53005,"lootId":"CHAMPION_SKIN_53005","rarity":"DEFAULT","value":520,"tags":["legacy"]},"53006":{"id":53006,"lootId":"CHAMPION_SKIN_53006","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"53007":{"id":53007,"lootId":"CHAMPION_SKIN_53007","rarity":"DEFAULT","value":975,"tags":["legacy"]},"53011":{"id":53011,"lootId":"CHAMPION_SKIN_53011","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"54001":{"id":54001,"lootId":"CHAMPION_SKIN_54001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"54002":{"id":54002,"lootId":"CHAMPION_SKIN_54002","rarity":"DEFAULT","value":750,"tags":["legacy"]},"54003":{"id":54003,"lootId":"CHAMPION_SKIN_54003","rarity":"DEFAULT","value":520,"tags":["legacy"]},"54004":{"id":54004,"lootId":"CHAMPION_SKIN_54004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"54005":{"id":54005,"lootId":"CHAMPION_SKIN_54005","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"54006":{"id":54006,"lootId":"CHAMPION_SKIN_54006","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"54007":{"id":54007,"lootId":"CHAMPION_SKIN_54007","rarity":"DEFAULT","value":975,"tags":[""]},"55001":{"id":55001,"lootId":"CHAMPION_SKIN_55001","rarity":"DEFAULT","value":520,"tags":[""]},"55002":{"id":55002,"lootId":"CHAMPION_SKIN_55002","rarity":"DEFAULT","value":975,"tags":["legacy"]},"55003":{"id":55003,"lootId":"CHAMPION_SKIN_55003","rarity":"DEFAULT","value":975,"tags":[""]},"55004":{"id":55004,"lootId":"CHAMPION_SKIN_55004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"55005":{"id":55005,"lootId":"CHAMPION_SKIN_55005","rarity":"DEFAULT","value":750,"tags":[""]},"55006":{"id":55006,"lootId":"CHAMPION_SKIN_55006","rarity":"DEFAULT","value":975,"tags":[""]},"55007":{"id":55007,"lootId":"CHAMPION_SKIN_55007","rarity":"DEFAULT","value":975,"tags":["legacy"]},"55008":{"id":55008,"lootId":"CHAMPION_SKIN_55008","rarity":"DEFAULT","value":975,"tags":[""]},"55009":{"id":55009,"lootId":"CHAMPION_SKIN_55009","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"56001":{"id":56001,"lootId":"CHAMPION_SKIN_56001","rarity":"DEFAULT","value":975,"tags":[""]},"56002":{"id":56002,"lootId":"CHAMPION_SKIN_56002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"56003":{"id":56003,"lootId":"CHAMPION_SKIN_56003","rarity":"DEFAULT","value":520,"tags":[""]},"56004":{"id":56004,"lootId":"CHAMPION_SKIN_56004","rarity":"DEFAULT","value":520,"tags":["legacy"]},"56005":{"id":56005,"lootId":"CHAMPION_SKIN_56005","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"56006":{"id":56006,"lootId":"CHAMPION_SKIN_56006","rarity":"DEFAULT","value":750,"tags":[""]},"57001":{"id":57001,"lootId":"CHAMPION_SKIN_57001","rarity":"DEFAULT","value":975,"tags":[""]},"57002":{"id":57002,"lootId":"CHAMPION_SKIN_57002","rarity":"DEFAULT","value":520,"tags":[""]},"57003":{"id":57003,"lootId":"CHAMPION_SKIN_57003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"57004":{"id":57004,"lootId":"CHAMPION_SKIN_57004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"57005":{"id":57005,"lootId":"CHAMPION_SKIN_57005","rarity":"DEFAULT","value":750,"tags":[""]},"57006":{"id":57006,"lootId":"CHAMPION_SKIN_57006","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"57007":{"id":57007,"lootId":"","rarity":"","value":-1,"tags":[""]},"58001":{"id":58001,"lootId":"CHAMPION_SKIN_58001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"58002":{"id":58002,"lootId":"CHAMPION_SKIN_58002","rarity":"DEFAULT","value":520,"tags":[""]},"58003":{"id":58003,"lootId":"CHAMPION_SKIN_58003","rarity":"DEFAULT","value":975,"tags":[""]},"58004":{"id":58004,"lootId":"CHAMPION_SKIN_58004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"58005":{"id":58005,"lootId":"CHAMPION_SKIN_58005","rarity":"DEFAULT","value":975,"tags":[""]},"58006":{"id":58006,"lootId":"CHAMPION_SKIN_58006","rarity":"DEFAULT","value":975,"tags":[""]},"58007":{"id":58007,"lootId":"CHAMPION_SKIN_58007","rarity":"DEFAULT","value":750,"tags":[""]},"58008":{"id":58008,"lootId":"CHAMPION_SKIN_58008","rarity":"DEFAULT","value":975,"tags":["legacy"]},"59001":{"id":59001,"lootId":"CHAMPION_SKIN_59001","rarity":"DEFAULT","value":520,"tags":[""]},"59002":{"id":59002,"lootId":"CHAMPION_SKIN_59002","rarity":"DEFAULT","value":750,"tags":[""]},"59003":{"id":59003,"lootId":"CHAMPION_SKIN_59003","rarity":"DEFAULT","value":975,"tags":[""]},"59004":{"id":59004,"lootId":"","rarity":"","value":-1,"tags":[""]},"59005":{"id":59005,"lootId":"CHAMPION_SKIN_59005","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"59006":{"id":59006,"lootId":"CHAMPION_SKIN_59006","rarity":"DEFAULT","value":750,"tags":["legacy"]},"60001":{"id":60001,"lootId":"CHAMPION_SKIN_60001","rarity":"DEFAULT","value":975,"tags":[""]},"60002":{"id":60002,"lootId":"","rarity":"","value":-1,"tags":[""]},"60003":{"id":60003,"lootId":"CHAMPION_SKIN_60003","rarity":"DEFAULT","value":975,"tags":[""]},"60004":{"id":60004,"lootId":"CHAMPION_SKIN_60004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"61001":{"id":61001,"lootId":"CHAMPION_SKIN_61001","rarity":"DEFAULT","value":520,"tags":[""]},"61002":{"id":61002,"lootId":"CHAMPION_SKIN_61002","rarity":"DEFAULT","value":520,"tags":[""]},"61003":{"id":61003,"lootId":"CHAMPION_SKIN_61003","rarity":"DEFAULT","value":975,"tags":[""]},"61004":{"id":61004,"lootId":"CHAMPION_SKIN_61004","rarity":"DEFAULT","value":750,"tags":["legacy"]},"61005":{"id":61005,"lootId":"CHAMPION_SKIN_61005","rarity":"DEFAULT","value":975,"tags":["legacy"]},"61006":{"id":61006,"lootId":"CHAMPION_SKIN_61006","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"62001":{"id":62001,"lootId":"CHAMPION_SKIN_62001","rarity":"DEFAULT","value":975,"tags":[""]},"62002":{"id":62002,"lootId":"CHAMPION_SKIN_62002","rarity":"DEFAULT","value":750,"tags":[""]},"62003":{"id":62003,"lootId":"CHAMPION_SKIN_62003","rarity":"DEFAULT","value":975,"tags":[""]},"62004":{"id":62004,"lootId":"CHAMPION_SKIN_62004","rarity":"EPIC","value":1350,"tags":["legacy","rarity_epic"]},"62005":{"id":62005,"lootId":"CHAMPION_SKIN_62005","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"63001":{"id":63001,"lootId":"CHAMPION_SKIN_63001","rarity":"DEFAULT","value":750,"tags":[""]},"63002":{"id":63002,"lootId":"CHAMPION_SKIN_63002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"63003":{"id":63003,"lootId":"CHAMPION_SKIN_63003","rarity":"DEFAULT","value":975,"tags":[""]},"63004":{"id":63004,"lootId":"CHAMPION_SKIN_63004","rarity":"LEGENDARY","value":1820,"tags":["legacy","rarity_legendary"]},"63005":{"id":63005,"lootId":"CHAMPION_SKIN_63005","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"64001":{"id":64001,"lootId":"CHAMPION_SKIN_64001","rarity":"DEFAULT","value":520,"tags":[""]},"64002":{"id":64002,"lootId":"CHAMPION_SKIN_64002","rarity":"DEFAULT","value":750,"tags":[""]},"64003":{"id":64003,"lootId":"CHAMPION_SKIN_64003","rarity":"DEFAULT","value":975,"tags":[""]},"64004":{"id":64004,"lootId":"CHAMPION_SKIN_64004","rarity":"DEFAULT","value":975,"tags":[""]},"64005":{"id":64005,"lootId":"CHAMPION_SKIN_64005","rarity":"DEFAULT","value":975,"tags":[""]},"64006":{"id":64006,"lootId":"CHAMPION_SKIN_64006","rarity":"DEFAULT","value":750,"tags":["legacy"]},"64010":{"id":64010,"lootId":"CHAMPION_SKIN_64010","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"67001":{"id":67001,"lootId":"CHAMPION_SKIN_67001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"67002":{"id":67002,"lootId":"CHAMPION_SKIN_67002","rarity":"DEFAULT","value":520,"tags":[""]},"67003":{"id":67003,"lootId":"CHAMPION_SKIN_67003","rarity":"DEFAULT","value":975,"tags":[""]},"67004":{"id":67004,"lootId":"CHAMPION_SKIN_67004","rarity":"DEFAULT","value":975,"tags":[""]},"67005":{"id":67005,"lootId":"CHAMPION_SKIN_67005","rarity":"DEFAULT","value":750,"tags":["legacy"]},"67006":{"id":67006,"lootId":"CHAMPION_SKIN_67006","rarity":"DEFAULT","value":975,"tags":[""]},"67010":{"id":67010,"lootId":"CHAMPION_SKIN_67010","rarity":"MYTHIC","value":2450,"tags":["exclusive","rarity_mythic"]},"68001":{"id":68001,"lootId":"CHAMPION_SKIN_68001","rarity":"DEFAULT","value":975,"tags":[""]},"68002":{"id":68002,"lootId":"CHAMPION_SKIN_68002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"68003":{"id":68003,"lootId":"CHAMPION_SKIN_68003","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"69001":{"id":69001,"lootId":"CHAMPION_SKIN_69001","rarity":"DEFAULT","value":520,"tags":[""]},"69002":{"id":69002,"lootId":"CHAMPION_SKIN_69002","rarity":"DEFAULT","value":520,"tags":[""]},"69003":{"id":69003,"lootId":"CHAMPION_SKIN_69003","rarity":"DEFAULT","value":975,"tags":[""]},"69004":{"id":69004,"lootId":"CHAMPION_SKIN_69004","rarity":"DEFAULT","value":975,"tags":[""]},"72001":{"id":72001,"lootId":"CHAMPION_SKIN_72001","rarity":"DEFAULT","value":975,"tags":[""]},"72002":{"id":72002,"lootId":"CHAMPION_SKIN_72002","rarity":"DEFAULT","value":520,"tags":[""]},"72003":{"id":72003,"lootId":"CHAMPION_SKIN_72003","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"72004":{"id":72004,"lootId":"CHAMPION_SKIN_72004","rarity":"DEFAULT","value":975,"tags":[""]},"74001":{"id":74001,"lootId":"CHAMPION_SKIN_74001","rarity":"LEGENDARY","value":1820,"tags":["legacy","rarity_legendary"]},"74002":{"id":74002,"lootId":"CHAMPION_SKIN_74002","rarity":"DEFAULT","value":520,"tags":[""]},"74003":{"id":74003,"lootId":"CHAMPION_SKIN_74003","rarity":"DEFAULT","value":975,"tags":[""]},"74004":{"id":74004,"lootId":"CHAMPION_SKIN_74004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"74005":{"id":74005,"lootId":"CHAMPION_SKIN_74005","rarity":"DEFAULT","value":975,"tags":[""]},"75001":{"id":75001,"lootId":"CHAMPION_SKIN_75001","rarity":"DEFAULT","value":520,"tags":[""]},"75002":{"id":75002,"lootId":"CHAMPION_SKIN_75002","rarity":"DEFAULT","value":520,"tags":[""]},"75003":{"id":75003,"lootId":"CHAMPION_SKIN_75003","rarity":"DEFAULT","value":975,"tags":[""]},"75004":{"id":75004,"lootId":"CHAMPION_SKIN_75004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"75005":{"id":75005,"lootId":"CHAMPION_SKIN_75005","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"75006":{"id":75006,"lootId":"CHAMPION_SKIN_75006","rarity":"DEFAULT","value":750,"tags":[""]},"75010":{"id":75010,"lootId":"CHAMPION_SKIN_75010","rarity":"DEFAULT","value":750,"tags":[""]},"76001":{"id":76001,"lootId":"CHAMPION_SKIN_76001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"76002":{"id":76002,"lootId":"CHAMPION_SKIN_76002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"76003":{"id":76003,"lootId":"CHAMPION_SKIN_76003","rarity":"DEFAULT","value":520,"tags":[""]},"76004":{"id":76004,"lootId":"CHAMPION_SKIN_76004","rarity":"DEFAULT","value":520,"tags":[""]},"76005":{"id":76005,"lootId":"CHAMPION_SKIN_76005","rarity":"DEFAULT","value":975,"tags":["legacy"]},"76006":{"id":76006,"lootId":"CHAMPION_SKIN_76006","rarity":"DEFAULT","value":975,"tags":[""]},"76007":{"id":76007,"lootId":"CHAMPION_SKIN_76007","rarity":"DEFAULT","value":975,"tags":[""]},"76008":{"id":76008,"lootId":"CHAMPION_SKIN_76008","rarity":"DEFAULT","value":975,"tags":["legacy"]},"77001":{"id":77001,"lootId":"CHAMPION_SKIN_77001","rarity":"DEFAULT","value":520,"tags":[""]},"77002":{"id":77002,"lootId":"CHAMPION_SKIN_77002","rarity":"DEFAULT","value":975,"tags":["legacy"]},"77003":{"id":77003,"lootId":"CHAMPION_SKIN_77003","rarity":"ULTIMATE","value":3250,"tags":["rarity_ultimate"]},"77004":{"id":77004,"lootId":"CHAMPION_SKIN_77004","rarity":"DEFAULT","value":975,"tags":[""]},"78001":{"id":78001,"lootId":"CHAMPION_SKIN_78001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"78002":{"id":78002,"lootId":"CHAMPION_SKIN_78002","rarity":"DEFAULT","value":975,"tags":["legacy"]},"78003":{"id":78003,"lootId":"CHAMPION_SKIN_78003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"78004":{"id":78004,"lootId":"CHAMPION_SKIN_78004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"78005":{"id":78005,"lootId":"CHAMPION_SKIN_78005","rarity":"DEFAULT","value":520,"tags":[""]},"78006":{"id":78006,"lootId":"CHAMPION_SKIN_78006","rarity":"DEFAULT","value":975,"tags":[""]},"78007":{"id":78007,"lootId":"CHAMPION_SKIN_78007","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"79001":{"id":79001,"lootId":"CHAMPION_SKIN_79001","rarity":"DEFAULT","value":975,"tags":["legacy"]},"79002":{"id":79002,"lootId":"CHAMPION_SKIN_79002","rarity":"DEFAULT","value":520,"tags":[""]},"79003":{"id":79003,"lootId":"CHAMPION_SKIN_79003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"79004":{"id":79004,"lootId":"CHAMPION_SKIN_79004","rarity":"DEFAULT","value":975,"tags":[""]},"79005":{"id":79005,"lootId":"CHAMPION_SKIN_79005","rarity":"DEFAULT","value":975,"tags":["legacy"]},"79006":{"id":79006,"lootId":"CHAMPION_SKIN_79006","rarity":"DEFAULT","value":975,"tags":[""]},"79007":{"id":79007,"lootId":"CHAMPION_SKIN_79007","rarity":"DEFAULT","value":750,"tags":[""]},"79008":{"id":79008,"lootId":"CHAMPION_SKIN_79008","rarity":"DEFAULT","value":750,"tags":["legacy"]},"79009":{"id":79009,"lootId":"CHAMPION_SKIN_79009","rarity":"DEFAULT","value":750,"tags":[""]},"80001":{"id":80001,"lootId":"CHAMPION_SKIN_80001","rarity":"DEFAULT","value":520,"tags":[""]},"80002":{"id":80002,"lootId":"CHAMPION_SKIN_80002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"80003":{"id":80003,"lootId":"CHAMPION_SKIN_80003","rarity":"DEFAULT","value":750,"tags":["legacy"]},"80004":{"id":80004,"lootId":"CHAMPION_SKIN_80004","rarity":"DEFAULT","value":975,"tags":[""]},"80005":{"id":80005,"lootId":"CHAMPION_SKIN_80005","rarity":"DEFAULT","value":975,"tags":[""]},"80006":{"id":80006,"lootId":"CHAMPION_SKIN_80006","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"80007":{"id":80007,"lootId":"CHAMPION_SKIN_80007","rarity":"DEFAULT","value":975,"tags":["legacy"]},"80008":{"id":80008,"lootId":"CHAMPION_SKIN_80008","rarity":"DEFAULT","value":975,"tags":[""]},"81001":{"id":81001,"lootId":"CHAMPION_SKIN_81001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"81002":{"id":81002,"lootId":"CHAMPION_SKIN_81002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"81003":{"id":81003,"lootId":"CHAMPION_SKIN_81003","rarity":"DEFAULT","value":520,"tags":[""]},"81004":{"id":81004,"lootId":"CHAMPION_SKIN_81004","rarity":"DEFAULT","value":750,"tags":["legacy"]},"81005":{"id":81005,"lootId":"CHAMPION_SKIN_81005","rarity":"ULTIMATE","value":3250,"tags":["rarity_ultimate"]},"81006":{"id":81006,"lootId":"CHAMPION_SKIN_81006","rarity":"DEFAULT","value":750,"tags":["legacy"]},"81007":{"id":81007,"lootId":"CHAMPION_SKIN_81007","rarity":"DEFAULT","value":750,"tags":[""]},"81008":{"id":81008,"lootId":"CHAMPION_SKIN_81008","rarity":"DEFAULT","value":750,"tags":[""]},"81009":{"id":81009,"lootId":"CHAMPION_SKIN_81009","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"82001":{"id":82001,"lootId":"CHAMPION_SKIN_82001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"82002":{"id":82002,"lootId":"CHAMPION_SKIN_82002","rarity":"DEFAULT","value":520,"tags":[""]},"82003":{"id":82003,"lootId":"CHAMPION_SKIN_82003","rarity":"DEFAULT","value":975,"tags":[""]},"82004":{"id":82004,"lootId":"CHAMPION_SKIN_82004","rarity":"DEFAULT","value":975,"tags":[""]},"82005":{"id":82005,"lootId":"CHAMPION_SKIN_82005","rarity":"DEFAULT","value":750,"tags":[""]},"83001":{"id":83001,"lootId":"CHAMPION_SKIN_83001","rarity":"DEFAULT","value":520,"tags":[""]},"83002":{"id":83002,"lootId":"CHAMPION_SKIN_83002","rarity":"DEFAULT","value":975,"tags":[""]},"84001":{"id":84001,"lootId":"CHAMPION_SKIN_84001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"84002":{"id":84002,"lootId":"CHAMPION_SKIN_84002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"84003":{"id":84003,"lootId":"CHAMPION_SKIN_84003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"84004":{"id":84004,"lootId":"CHAMPION_SKIN_84004","rarity":"DEFAULT","value":975,"tags":[""]},"84005":{"id":84005,"lootId":"CHAMPION_SKIN_84005","rarity":"DEFAULT","value":975,"tags":[""]},"84006":{"id":84006,"lootId":"CHAMPION_SKIN_84006","rarity":"DEFAULT","value":975,"tags":[""]},"84007":{"id":84007,"lootId":"CHAMPION_SKIN_84007","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"84008":{"id":84008,"lootId":"CHAMPION_SKIN_84008","rarity":"DEFAULT","value":750,"tags":[""]},"85001":{"id":85001,"lootId":"CHAMPION_SKIN_85001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"85002":{"id":85002,"lootId":"CHAMPION_SKIN_85002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"85003":{"id":85003,"lootId":"CHAMPION_SKIN_85003","rarity":"DEFAULT","value":520,"tags":[""]},"85004":{"id":85004,"lootId":"CHAMPION_SKIN_85004","rarity":"DEFAULT","value":975,"tags":[""]},"85005":{"id":85005,"lootId":"CHAMPION_SKIN_85005","rarity":"DEFAULT","value":975,"tags":[""]},"85006":{"id":85006,"lootId":"CHAMPION_SKIN_85006","rarity":"DEFAULT","value":975,"tags":[""]},"86001":{"id":86001,"lootId":"CHAMPION_SKIN_86001","rarity":"DEFAULT","value":520,"tags":[""]},"86002":{"id":86002,"lootId":"CHAMPION_SKIN_86002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"86003":{"id":86003,"lootId":"CHAMPION_SKIN_86003","rarity":"DEFAULT","value":520,"tags":[""]},"86004":{"id":86004,"lootId":"","rarity":"","value":-1,"tags":[""]},"86005":{"id":86005,"lootId":"CHAMPION_SKIN_86005","rarity":"DEFAULT","value":750,"tags":[""]},"86006":{"id":86006,"lootId":"CHAMPION_SKIN_86006","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"86010":{"id":86010,"lootId":"CHAMPION_SKIN_86010","rarity":"DEFAULT","value":750,"tags":[""]},"86011":{"id":86011,"lootId":"CHAMPION_SKIN_86011","rarity":"EPIC","value":1350,"tags":["legacy","rarity_epic"]},"89001":{"id":89001,"lootId":"CHAMPION_SKIN_89001","rarity":"DEFAULT","value":520,"tags":[""]},"89002":{"id":89002,"lootId":"CHAMPION_SKIN_89002","rarity":"DEFAULT","value":750,"tags":["legacy"]},"89003":{"id":89003,"lootId":"CHAMPION_SKIN_89003","rarity":"DEFAULT","value":975,"tags":[""]},"89004":{"id":89004,"lootId":"CHAMPION_SKIN_89004","rarity":"DEFAULT","value":975,"tags":[""]},"89008":{"id":89008,"lootId":"CHAMPION_SKIN_89008","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"89009":{"id":89009,"lootId":"CHAMPION_SKIN_89009","rarity":"DEFAULT","value":750,"tags":[""]},"90001":{"id":90001,"lootId":"CHAMPION_SKIN_90001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"90002":{"id":90002,"lootId":"CHAMPION_SKIN_90002","rarity":"DEFAULT","value":520,"tags":[""]},"90003":{"id":90003,"lootId":"CHAMPION_SKIN_90003","rarity":"DEFAULT","value":520,"tags":[""]},"90004":{"id":90004,"lootId":"CHAMPION_SKIN_90004","rarity":"DEFAULT","value":975,"tags":[""]},"90005":{"id":90005,"lootId":"CHAMPION_SKIN_90005","rarity":"DEFAULT","value":975,"tags":["legacy"]},"91001":{"id":91001,"lootId":"CHAMPION_SKIN_91001","rarity":"DEFAULT","value":520,"tags":[""]},"91002":{"id":91002,"lootId":"CHAMPION_SKIN_91002","rarity":"DEFAULT","value":750,"tags":[""]},"91003":{"id":91003,"lootId":"CHAMPION_SKIN_91003","rarity":"DEFAULT","value":975,"tags":[""]},"91004":{"id":91004,"lootId":"CHAMPION_SKIN_91004","rarity":"DEFAULT","value":750,"tags":["legacy"]},"92001":{"id":92001,"lootId":"CHAMPION_SKIN_92001","rarity":"DEFAULT","value":975,"tags":[""]},"92002":{"id":92002,"lootId":"CHAMPION_SKIN_92002","rarity":"DEFAULT","value":520,"tags":[""]},"92003":{"id":92003,"lootId":"CHAMPION_SKIN_92003","rarity":"DEFAULT","value":975,"tags":[""]},"92004":{"id":92004,"lootId":"","rarity":"","value":-1,"tags":[""]},"92005":{"id":92005,"lootId":"CHAMPION_SKIN_92005","rarity":"EPIC","value":1350,"tags":["legacy","rarity_epic"]},"92006":{"id":92006,"lootId":"CHAMPION_SKIN_92006","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"92007":{"id":92007,"lootId":"CHAMPION_SKIN_92007","rarity":"DEFAULT","value":975,"tags":["legacy"]},"96001":{"id":96001,"lootId":"CHAMPION_SKIN_96001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"96002":{"id":96002,"lootId":"CHAMPION_SKIN_96002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"96003":{"id":96003,"lootId":"CHAMPION_SKIN_96003","rarity":"DEFAULT","value":520,"tags":[""]},"96004":{"id":96004,"lootId":"CHAMPION_SKIN_96004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"96005":{"id":96005,"lootId":"CHAMPION_SKIN_96005","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"96006":{"id":96006,"lootId":"CHAMPION_SKIN_96006","rarity":"DEFAULT","value":975,"tags":[""]},"96007":{"id":96007,"lootId":"CHAMPION_SKIN_96007","rarity":"DEFAULT","value":975,"tags":[""]},"96008":{"id":96008,"lootId":"CHAMPION_SKIN_96008","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"98001":{"id":98001,"lootId":"CHAMPION_SKIN_98001","rarity":"DEFAULT","value":520,"tags":["legacy"]},"98002":{"id":98002,"lootId":"CHAMPION_SKIN_98002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"98003":{"id":98003,"lootId":"CHAMPION_SKIN_98003","rarity":"DEFAULT","value":975,"tags":[""]},"98004":{"id":98004,"lootId":"CHAMPION_SKIN_98004","rarity":"DEFAULT","value":750,"tags":[""]},"98005":{"id":98005,"lootId":"CHAMPION_SKIN_98005","rarity":"DEFAULT","value":975,"tags":[""]},"98006":{"id":98006,"lootId":"CHAMPION_SKIN_98006","rarity":"DEFAULT","value":750,"tags":["legacy"]},"99001":{"id":99001,"lootId":"CHAMPION_SKIN_99001","rarity":"DEFAULT","value":520,"tags":[""]},"99002":{"id":99002,"lootId":"CHAMPION_SKIN_99002","rarity":"DEFAULT","value":750,"tags":[""]},"99003":{"id":99003,"lootId":"CHAMPION_SKIN_99003","rarity":"DEFAULT","value":520,"tags":[""]},"99004":{"id":99004,"lootId":"CHAMPION_SKIN_99004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"99005":{"id":99005,"lootId":"CHAMPION_SKIN_99005","rarity":"DEFAULT","value":975,"tags":[""]},"99006":{"id":99006,"lootId":"CHAMPION_SKIN_99006","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"99007":{"id":99007,"lootId":"CHAMPION_SKIN_99007","rarity":"ULTIMATE","value":3250,"tags":["rarity_ultimate"]},"101001":{"id":101001,"lootId":"CHAMPION_SKIN_101001","rarity":"DEFAULT","value":750,"tags":[""]},"101002":{"id":101002,"lootId":"CHAMPION_SKIN_101002","rarity":"DEFAULT","value":520,"tags":[""]},"101003":{"id":101003,"lootId":"CHAMPION_SKIN_101003","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"101004":{"id":101004,"lootId":"CHAMPION_SKIN_101004","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"102001":{"id":102001,"lootId":"CHAMPION_SKIN_102001","rarity":"DEFAULT","value":750,"tags":[""]},"102002":{"id":102002,"lootId":"CHAMPION_SKIN_102002","rarity":"DEFAULT","value":520,"tags":[""]},"102003":{"id":102003,"lootId":"CHAMPION_SKIN_102003","rarity":"DEFAULT","value":975,"tags":[""]},"102004":{"id":102004,"lootId":"CHAMPION_SKIN_102004","rarity":"DEFAULT","value":975,"tags":[""]},"102005":{"id":102005,"lootId":"CHAMPION_SKIN_102005","rarity":"DEFAULT","value":975,"tags":["legacy"]},"102006":{"id":102006,"lootId":"CHAMPION_SKIN_102006","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"103001":{"id":103001,"lootId":"CHAMPION_SKIN_103001","rarity":"DEFAULT","value":975,"tags":[""]},"103002":{"id":103002,"lootId":"CHAMPION_SKIN_103002","rarity":"DEFAULT","value":750,"tags":[""]},"103003":{"id":103003,"lootId":"CHAMPION_SKIN_103003","rarity":"DEFAULT","value":975,"tags":[""]},"103004":{"id":103004,"lootId":"CHAMPION_SKIN_103004","rarity":"DEFAULT","value":975,"tags":[""]},"103005":{"id":103005,"lootId":"CHAMPION_SKIN_103005","rarity":"DEFAULT","value":975,"tags":["legacy"]},"103006":{"id":103006,"lootId":"CHAMPION_SKIN_103006","rarity":"DEFAULT","value":750,"tags":[""]},"103007":{"id":103007,"lootId":"CHAMPION_SKIN_103007","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"104001":{"id":104001,"lootId":"CHAMPION_SKIN_104001","rarity":"DEFAULT","value":520,"tags":[""]},"104002":{"id":104002,"lootId":"CHAMPION_SKIN_104002","rarity":"DEFAULT","value":975,"tags":["legacy"]},"104003":{"id":104003,"lootId":"CHAMPION_SKIN_104003","rarity":"DEFAULT","value":975,"tags":[""]},"104004":{"id":104004,"lootId":"CHAMPION_SKIN_104004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"104005":{"id":104005,"lootId":"CHAMPION_SKIN_104005","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"104006":{"id":104006,"lootId":"CHAMPION_SKIN_104006","rarity":"DEFAULT","value":750,"tags":[""]},"104007":{"id":104007,"lootId":"CHAMPION_SKIN_104007","rarity":"EPIC","value":1350,"tags":["legacy","rarity_epic"]},"105001":{"id":105001,"lootId":"CHAMPION_SKIN_105001","rarity":"DEFAULT","value":520,"tags":[""]},"105002":{"id":105002,"lootId":"CHAMPION_SKIN_105002","rarity":"DEFAULT","value":750,"tags":[""]},"105003":{"id":105003,"lootId":"CHAMPION_SKIN_105003","rarity":"DEFAULT","value":975,"tags":[""]},"105004":{"id":105004,"lootId":"CHAMPION_SKIN_105004","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"105008":{"id":105008,"lootId":"CHAMPION_SKIN_105008","rarity":"DEFAULT","value":975,"tags":[""]},"105009":{"id":105009,"lootId":"CHAMPION_SKIN_105009","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"106001":{"id":106001,"lootId":"CHAMPION_SKIN_106001","rarity":"DEFAULT","value":520,"tags":[""]},"106002":{"id":106002,"lootId":"CHAMPION_SKIN_106002","rarity":"DEFAULT","value":750,"tags":[""]},"106003":{"id":106003,"lootId":"CHAMPION_SKIN_106003","rarity":"DEFAULT","value":975,"tags":[""]},"106004":{"id":106004,"lootId":"CHAMPION_SKIN_106004","rarity":"DEFAULT","value":750,"tags":[""]},"106005":{"id":106005,"lootId":"CHAMPION_SKIN_106005","rarity":"DEFAULT","value":750,"tags":[""]},"107001":{"id":107001,"lootId":"CHAMPION_SKIN_107001","rarity":"DEFAULT","value":975,"tags":[""]},"107002":{"id":107002,"lootId":"CHAMPION_SKIN_107002","rarity":"DEFAULT","value":975,"tags":[""]},"107003":{"id":107003,"lootId":"CHAMPION_SKIN_107003","rarity":"DEFAULT","value":750,"tags":["legacy"]},"110001":{"id":110001,"lootId":"CHAMPION_SKIN_110001","rarity":"DEFAULT","value":975,"tags":[""]},"110002":{"id":110002,"lootId":"CHAMPION_SKIN_110002","rarity":"DEFAULT","value":975,"tags":[""]},"110003":{"id":110003,"lootId":"CHAMPION_SKIN_110003","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"110004":{"id":110004,"lootId":"CHAMPION_SKIN_110004","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"110005":{"id":110005,"lootId":"CHAMPION_SKIN_110005","rarity":"DEFAULT","value":750,"tags":[""]},"110006":{"id":110006,"lootId":"CHAMPION_SKIN_110006","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"111001":{"id":111001,"lootId":"CHAMPION_SKIN_111001","rarity":"DEFAULT","value":975,"tags":[""]},"111002":{"id":111002,"lootId":"CHAMPION_SKIN_111002","rarity":"DEFAULT","value":975,"tags":[""]},"111003":{"id":111003,"lootId":"CHAMPION_SKIN_111003","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"111004":{"id":111004,"lootId":"CHAMPION_SKIN_111004","rarity":"DEFAULT","value":750,"tags":[""]},"111005":{"id":111005,"lootId":"CHAMPION_SKIN_111005","rarity":"DEFAULT","value":750,"tags":[""]},"112001":{"id":112001,"lootId":"CHAMPION_SKIN_112001","rarity":"DEFAULT","value":975,"tags":[""]},"112002":{"id":112002,"lootId":"CHAMPION_SKIN_112002","rarity":"DEFAULT","value":520,"tags":["legacy"]},"112003":{"id":112003,"lootId":"CHAMPION_SKIN_112003","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"113001":{"id":113001,"lootId":"CHAMPION_SKIN_113001","rarity":"DEFAULT","value":975,"tags":["legacy"]},"113002":{"id":113002,"lootId":"CHAMPION_SKIN_113002","rarity":"DEFAULT","value":975,"tags":[""]},"113003":{"id":113003,"lootId":"CHAMPION_SKIN_113003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"113004":{"id":113004,"lootId":"CHAMPION_SKIN_113004","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"113005":{"id":113005,"lootId":"CHAMPION_SKIN_113005","rarity":"DEFAULT","value":975,"tags":["legacy"]},"113006":{"id":113006,"lootId":"CHAMPION_SKIN_113006","rarity":"DEFAULT","value":750,"tags":[""]},"113007":{"id":113007,"lootId":"CHAMPION_SKIN_113007","rarity":"DEFAULT","value":750,"tags":[""]},"114001":{"id":114001,"lootId":"CHAMPION_SKIN_114001","rarity":"DEFAULT","value":520,"tags":[""]},"114002":{"id":114002,"lootId":"CHAMPION_SKIN_114002","rarity":"DEFAULT","value":750,"tags":[""]},"114003":{"id":114003,"lootId":"CHAMPION_SKIN_114003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"114004":{"id":114004,"lootId":"CHAMPION_SKIN_114004","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"114005":{"id":114005,"lootId":"CHAMPION_SKIN_114005","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"115001":{"id":115001,"lootId":"CHAMPION_SKIN_115001","rarity":"DEFAULT","value":975,"tags":[""]},"115002":{"id":115002,"lootId":"CHAMPION_SKIN_115002","rarity":"DEFAULT","value":975,"tags":["legacy"]},"115003":{"id":115003,"lootId":"CHAMPION_SKIN_115003","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"115004":{"id":115004,"lootId":"CHAMPION_SKIN_115004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"115005":{"id":115005,"lootId":"CHAMPION_SKIN_115005","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"117001":{"id":117001,"lootId":"CHAMPION_SKIN_117001","rarity":"DEFAULT","value":975,"tags":[""]},"117002":{"id":117002,"lootId":"CHAMPION_SKIN_117002","rarity":"DEFAULT","value":975,"tags":[""]},"117003":{"id":117003,"lootId":"CHAMPION_SKIN_117003","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"117004":{"id":117004,"lootId":"CHAMPION_SKIN_117004","rarity":"EPIC","value":1350,"tags":["legacy","rarity_epic"]},"117005":{"id":117005,"lootId":"CHAMPION_SKIN_117005","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"117006":{"id":117006,"lootId":"CHAMPION_SKIN_117006","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"119001":{"id":119001,"lootId":"CHAMPION_SKIN_119001","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"119002":{"id":119002,"lootId":"CHAMPION_SKIN_119002","rarity":"DEFAULT","value":975,"tags":[""]},"119003":{"id":119003,"lootId":"CHAMPION_SKIN_119003","rarity":"LEGENDARY","value":975,"tags":["rarity_legendary"]},"119004":{"id":119004,"lootId":"CHAMPION_SKIN_119004","rarity":"DEFAULT","value":975,"tags":[""]},"119005":{"id":119005,"lootId":"CHAMPION_SKIN_119005","rarity":"DEFAULT","value":750,"tags":[""]},"119006":{"id":119006,"lootId":"CHAMPION_SKIN_119006","rarity":"DEFAULT","value":500,"tags":["520"]},"120001":{"id":120001,"lootId":"CHAMPION_SKIN_120001","rarity":"DEFAULT","value":975,"tags":[""]},"120002":{"id":120002,"lootId":"CHAMPION_SKIN_120002","rarity":"DEFAULT","value":975,"tags":[""]},"120003":{"id":120003,"lootId":"CHAMPION_SKIN_120003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"120004":{"id":120004,"lootId":"CHAMPION_SKIN_120004","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"120005":{"id":120005,"lootId":"CHAMPION_SKIN_120005","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"120006":{"id":120006,"lootId":"CHAMPION_SKIN_120006","rarity":"DEFAULT","value":750,"tags":[""]},"121001":{"id":121001,"lootId":"CHAMPION_SKIN_121001","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"121002":{"id":121002,"lootId":"CHAMPION_SKIN_121002","rarity":"DEFAULT","value":975,"tags":[""]},"121003":{"id":121003,"lootId":"CHAMPION_SKIN_121003","rarity":"DEFAULT","value":975,"tags":[""]},"122001":{"id":122001,"lootId":"CHAMPION_SKIN_122001","rarity":"DEFAULT","value":975,"tags":[""]},"122002":{"id":122002,"lootId":"CHAMPION_SKIN_122002","rarity":"DEFAULT","value":975,"tags":[""]},"122003":{"id":122003,"lootId":"CHAMPION_SKIN_122003","rarity":"DEFAULT","value":975,"tags":[""]},"122004":{"id":122004,"lootId":"CHAMPION_SKIN_122004","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"122008":{"id":122008,"lootId":"CHAMPION_SKIN_122008","rarity":"DEFAULT","value":750,"tags":[""]},"126001":{"id":126001,"lootId":"CHAMPION_SKIN_126001","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"126002":{"id":126002,"lootId":"CHAMPION_SKIN_126002","rarity":"DEFAULT","value":975,"tags":[""]},"126003":{"id":126003,"lootId":"CHAMPION_SKIN_126003","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"126004":{"id":126004,"lootId":"CHAMPION_SKIN_126004","rarity":"DEFAULT","value":750,"tags":[""]},"127001":{"id":127001,"lootId":"CHAMPION_SKIN_127001","rarity":"DEFAULT","value":975,"tags":[""]},"127002":{"id":127002,"lootId":"CHAMPION_SKIN_127002","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"127003":{"id":127003,"lootId":"CHAMPION_SKIN_127003","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"131001":{"id":131001,"lootId":"CHAMPION_SKIN_131001","rarity":"DEFAULT","value":975,"tags":[""]},"131002":{"id":131002,"lootId":"CHAMPION_SKIN_131002","rarity":"DEFAULT","value":975,"tags":[""]},"131003":{"id":131003,"lootId":"CHAMPION_SKIN_131003","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"133001":{"id":133001,"lootId":"CHAMPION_SKIN_133001","rarity":"DEFAULT","value":975,"tags":[""]},"133002":{"id":133002,"lootId":"CHAMPION_SKIN_133002","rarity":"DEFAULT","value":975,"tags":[""]},"133003":{"id":133003,"lootId":"CHAMPION_SKIN_133003","rarity":"DEFAULT","value":750,"tags":[""]},"133004":{"id":133004,"lootId":"","rarity":"","value":-1,"tags":[""]},"134001":{"id":134001,"lootId":"CHAMPION_SKIN_134001","rarity":"DEFAULT","value":975,"tags":[""]},"134002":{"id":134002,"lootId":"CHAMPION_SKIN_134002","rarity":"DEFAULT","value":975,"tags":[""]},"134003":{"id":134003,"lootId":"CHAMPION_SKIN_134003","rarity":"DEFAULT","value":750,"tags":[""]},"134004":{"id":134004,"lootId":"CHAMPION_SKIN_134004","rarity":"EPIC","value":1350,"tags":["legacy","rarity_epic"]},"136001":{"id":136001,"lootId":"CHAMPION_SKIN_136001","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"143001":{"id":143001,"lootId":"CHAMPION_SKIN_143001","rarity":"DEFAULT","value":975,"tags":[""]},"143002":{"id":143002,"lootId":"CHAMPION_SKIN_143002","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"143003":{"id":143003,"lootId":"CHAMPION_SKIN_143003","rarity":"DEFAULT","value":750,"tags":["legacy"]},"150001":{"id":150001,"lootId":"CHAMPION_SKIN_150001","rarity":"DEFAULT","value":975,"tags":[""]},"150002":{"id":150002,"lootId":"CHAMPION_SKIN_150002","rarity":"DEFAULT","value":975,"tags":[""]},"150003":{"id":150003,"lootId":"CHAMPION_SKIN_150003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"150004":{"id":150004,"lootId":"CHAMPION_SKIN_150004","rarity":"DEFAULT","value":750,"tags":[""]},"154001":{"id":154001,"lootId":"CHAMPION_SKIN_154001","rarity":"DEFAULT","value":975,"tags":[""]},"154002":{"id":154002,"lootId":"CHAMPION_SKIN_154002","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"157001":{"id":157001,"lootId":"CHAMPION_SKIN_157001","rarity":"DEFAULT","value":975,"tags":[""]},"157002":{"id":157002,"lootId":"CHAMPION_SKIN_157002","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"157003":{"id":157003,"lootId":"CHAMPION_SKIN_157003","rarity":"DEFAULT","value":975,"tags":[""]},"161001":{"id":161001,"lootId":"CHAMPION_SKIN_161001","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"161002":{"id":161002,"lootId":"CHAMPION_SKIN_161002","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"161003":{"id":161003,"lootId":"CHAMPION_SKIN_161003","rarity":"DEFAULT","value":750,"tags":[""]},"163001":{"id":163001,"lootId":"CHAMPION_SKIN_163001","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"164001":{"id":164001,"lootId":"CHAMPION_SKIN_164001","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"201001":{"id":201001,"lootId":"CHAMPION_SKIN_201001","rarity":"DEFAULT","value":975,"tags":[""]},"201002":{"id":201002,"lootId":"CHAMPION_SKIN_201002","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"201003":{"id":201003,"lootId":"CHAMPION_SKIN_201003","rarity":"DEFAULT","value":750,"tags":[""]},"201010":{"id":201010,"lootId":"CHAMPION_SKIN_201010","rarity":"EPIC","value":1350,"tags":["legacy","rarity_epic"]},"202001":{"id":202001,"lootId":"CHAMPION_SKIN_202001","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"203001":{"id":203001,"lootId":"CHAMPION_SKIN_203001","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"203002":{"id":203002,"lootId":"CHAMPION_SKIN_203002","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"222001":{"id":222001,"lootId":"CHAMPION_SKIN_222001","rarity":"DEFAULT","value":975,"tags":[""]},"222002":{"id":222002,"lootId":"CHAMPION_SKIN_222002","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"222003":{"id":222003,"lootId":"CHAMPION_SKIN_222003","rarity":"EPIC","value":1350,"tags":["legacy","rarity_epic"]},"222004":{"id":222004,"lootId":"CHAMPION_SKIN_222004","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"223001":{"id":223001,"lootId":"CHAMPION_SKIN_223001","rarity":"DEFAULT","value":975,"tags":[""]},"223002":{"id":223002,"lootId":"CHAMPION_SKIN_223002","rarity":"DEFAULT","value":750,"tags":[""]},"236001":{"id":236001,"lootId":"CHAMPION_SKIN_236001","rarity":"DEFAULT","value":975,"tags":[""]},"236002":{"id":236002,"lootId":"CHAMPION_SKIN_236002","rarity":"DEFAULT","value":750,"tags":[""]},"236006":{"id":236006,"lootId":"CHAMPION_SKIN_236006","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"236007":{"id":236007,"lootId":"","rarity":"","value":-1,"tags":[""]},"238001":{"id":238001,"lootId":"CHAMPION_SKIN_238001","rarity":"DEFAULT","value":975,"tags":[""]},"238002":{"id":238002,"lootId":"CHAMPION_SKIN_238002","rarity":"DEFAULT","value":750,"tags":["legacy"]},"238003":{"id":238003,"lootId":"CHAMPION_SKIN_238003","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"238010":{"id":238010,"lootId":"CHAMPION_SKIN_238010","rarity":"DEFAULT","value":975,"tags":["legacy"]},"240001":{"id":240001,"lootId":"CHAMPION_SKIN_240001","rarity":"DEFAULT","value":975,"tags":[""]},"245001":{"id":245001,"lootId":"CHAMPION_SKIN_245001","rarity":"DEFAULT","value":975,"tags":[""]},"245002":{"id":245002,"lootId":"CHAMPION_SKIN_245002","rarity":"DEFAULT","value":750,"tags":[""]},"245003":{"id":245003,"lootId":"CHAMPION_SKIN_245003","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"254001":{"id":254001,"lootId":"CHAMPION_SKIN_254001","rarity":"DEFAULT","value":975,"tags":[""]},"254002":{"id":254002,"lootId":"CHAMPION_SKIN_254002","rarity":"DEFAULT","value":975,"tags":[""]},"254003":{"id":254003,"lootId":"CHAMPION_SKIN_254003","rarity":"DEFAULT","value":750,"tags":[""]},"254004":{"id":254004,"lootId":"CHAMPION_SKIN_254004","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"254005":{"id":254005,"lootId":"CHAMPION_SKIN_254005","rarity":"EPIC","value":1350,"tags":["legacy","rarity_epic"]},"266001":{"id":266001,"lootId":"CHAMPION_SKIN_266001","rarity":"DEFAULT","value":975,"tags":[""]},"266002":{"id":266002,"lootId":"CHAMPION_SKIN_266002","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"266003":{"id":266003,"lootId":"CHAMPION_SKIN_266003","rarity":"DEFAULT","value":750,"tags":[""]},"267001":{"id":267001,"lootId":"CHAMPION_SKIN_267001","rarity":"DEFAULT","value":975,"tags":[""]},"267002":{"id":267002,"lootId":"CHAMPION_SKIN_267002","rarity":"DEFAULT","value":975,"tags":[""]},"267003":{"id":267003,"lootId":"CHAMPION_SKIN_267003","rarity":"DEFAULT","value":750,"tags":[""]},"267007":{"id":267007,"lootId":"CHAMPION_SKIN_267007","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"268001":{"id":268001,"lootId":"CHAMPION_SKIN_268001","rarity":"DEFAULT","value":975,"tags":[""]},"268002":{"id":268002,"lootId":"CHAMPION_SKIN_268002","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"268003":{"id":268003,"lootId":"CHAMPION_SKIN_268003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"268004":{"id":268004,"lootId":"CHAMPION_SKIN_268004","rarity":"EPIC","value":1350,"tags":["legacy","rarity_epic"]},"412001":{"id":412001,"lootId":"CHAMPION_SKIN_412001","rarity":"DEFAULT","value":975,"tags":[""]},"412002":{"id":412002,"lootId":"CHAMPION_SKIN_412002","rarity":"DEFAULT","value":975,"tags":["legacy"]},"412003":{"id":412003,"lootId":"CHAMPION_SKIN_412003","rarity":"DEFAULT","value":975,"tags":[""]},"412004":{"id":412004,"lootId":"CHAMPION_SKIN_412004","rarity":"DEFAULT","value":975,"tags":["legacy"]},"412005":{"id":412005,"lootId":"CHAMPION_SKIN_412005","rarity":"LEGENDARY","value":1820,"tags":["rarity_legendary"]},"420001":{"id":420001,"lootId":"CHAMPION_SKIN_420001","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"421001":{"id":421001,"lootId":"CHAMPION_SKIN_421001","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"421002":{"id":421002,"lootId":"CHAMPION_SKIN_421002","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"427001":{"id":427001,"lootId":"CHAMPION_SKIN_427001","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"429001":{"id":429001,"lootId":"CHAMPION_SKIN_429001","rarity":"DEFAULT","value":975,"tags":[""]},"429002":{"id":429002,"lootId":"CHAMPION_SKIN_429002","rarity":"DEFAULT","value":975,"tags":["legacy"]},"429003":{"id":429003,"lootId":"CHAMPION_SKIN_429003","rarity":"DEFAULT","value":975,"tags":["legacy"]},"432001":{"id":432001,"lootId":"CHAMPION_SKIN_432001","rarity":"DEFAULT","value":975,"tags":[""]},"432005":{"id":432005,"lootId":"CHAMPION_SKIN_432005","rarity":"EPIC","value":1350,"tags":["rarity_epic"]},"432006":{"id":432006,"lootId":"CHAMPION_SKIN_432006","rarity":"DEFAULT","value":750,"tags":[""]}}
+{
+  "1001": {
+    "id": 1001,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "1002": {
+    "id": 1002,
+    "lootId": "CHAMPION_SKIN_1002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "1003": {
+    "id": 1003,
+    "lootId": "CHAMPION_SKIN_1003",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["legacy", "rarity_legendary"]
+  },
+  "1004": {
+    "id": 1004,
+    "lootId": "CHAMPION_SKIN_1004",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "1005": {
+    "id": 1005,
+    "lootId": "CHAMPION_SKIN_1005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "1006": {
+    "id": 1006,
+    "lootId": "CHAMPION_SKIN_1006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "1007": {
+    "id": 1007,
+    "lootId": "CHAMPION_SKIN_1007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "1008": {
+    "id": 1008,
+    "lootId": "CHAMPION_SKIN_1008",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "1009": {
+    "id": 1009,
+    "lootId": "CHAMPION_SKIN_1009",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "1010": {
+    "id": 1010,
+    "lootId": "CHAMPION_SKIN_1010",
+    "rarity": "MYTHIC",
+    "value": 2450,
+    "tags": ["exclusive", "rarity_mythic"]
+  },
+  "2001": {
+    "id": 2001,
+    "lootId": "CHAMPION_SKIN_2001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "2002": {
+    "id": 2002,
+    "lootId": "CHAMPION_SKIN_2002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "2003": {
+    "id": 2003,
+    "lootId": "CHAMPION_SKIN_2003",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "2004": {
+    "id": 2004,
+    "lootId": "CHAMPION_SKIN_2004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "2005": {
+    "id": 2005,
+    "lootId": "CHAMPION_SKIN_2005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "2006": {
+    "id": 2006,
+    "lootId": "CHAMPION_SKIN_2006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "3001": {
+    "id": 3001,
+    "lootId": "CHAMPION_SKIN_3001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "3002": {
+    "id": 3002,
+    "lootId": "CHAMPION_SKIN_3002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "3003": {
+    "id": 3003,
+    "lootId": "CHAMPION_SKIN_3003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "3004": {
+    "id": 3004,
+    "lootId": "CHAMPION_SKIN_3004",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "3005": {
+    "id": 3005,
+    "lootId": "CHAMPION_SKIN_3005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "4001": {
+    "id": 4001,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "4002": {
+    "id": 4002,
+    "lootId": "CHAMPION_SKIN_4002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "4003": {
+    "id": 4003,
+    "lootId": "CHAMPION_SKIN_4003",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["legacy", "rarity_legendary"]
+  },
+  "4004": {
+    "id": 4004,
+    "lootId": "CHAMPION_SKIN_4004",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "4005": {
+    "id": 4005,
+    "lootId": "CHAMPION_SKIN_4005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "4006": {
+    "id": 4006,
+    "lootId": "CHAMPION_SKIN_4006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "4007": {
+    "id": 4007,
+    "lootId": "CHAMPION_SKIN_4007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "4008": {
+    "id": 4008,
+    "lootId": "CHAMPION_SKIN_4008",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "4009": {
+    "id": 4009,
+    "lootId": "CHAMPION_SKIN_4009",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "5001": {
+    "id": 5001,
+    "lootId": "CHAMPION_SKIN_5001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "5002": {
+    "id": 5002,
+    "lootId": "CHAMPION_SKIN_5002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "5003": {
+    "id": 5003,
+    "lootId": "CHAMPION_SKIN_5003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "5004": {
+    "id": 5004,
+    "lootId": "CHAMPION_SKIN_5004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "5005": {
+    "id": 5005,
+    "lootId": "CHAMPION_SKIN_5005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "5006": {
+    "id": 5006,
+    "lootId": "CHAMPION_SKIN_5006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "6001": {
+    "id": 6001,
+    "lootId": "CHAMPION_SKIN_6001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "6002": {
+    "id": 6002,
+    "lootId": "CHAMPION_SKIN_6002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "6003": {
+    "id": 6003,
+    "lootId": "CHAMPION_SKIN_6003",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "7001": {
+    "id": 7001,
+    "lootId": "CHAMPION_SKIN_7001",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "7002": {
+    "id": 7002,
+    "lootId": "CHAMPION_SKIN_7002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "7003": {
+    "id": 7003,
+    "lootId": "CHAMPION_SKIN_7003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "7004": {
+    "id": 7004,
+    "lootId": "CHAMPION_SKIN_7004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "7005": {
+    "id": 7005,
+    "lootId": "CHAMPION_SKIN_7005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "8001": {
+    "id": 8001,
+    "lootId": "CHAMPION_SKIN_8001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "8002": {
+    "id": 8002,
+    "lootId": "CHAMPION_SKIN_8002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "8003": {
+    "id": 8003,
+    "lootId": "CHAMPION_SKIN_8003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "8004": {
+    "id": 8004,
+    "lootId": "CHAMPION_SKIN_8004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "8005": {
+    "id": 8005,
+    "lootId": "CHAMPION_SKIN_8005",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "8006": {
+    "id": 8006,
+    "lootId": "CHAMPION_SKIN_8006",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "8007": {
+    "id": 8007,
+    "lootId": "CHAMPION_SKIN_8007",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "9001": {
+    "id": 9001,
+    "lootId": "CHAMPION_SKIN_9001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "9002": {
+    "id": 9002,
+    "lootId": "CHAMPION_SKIN_9002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "9003": {
+    "id": 9003,
+    "lootId": "CHAMPION_SKIN_9003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "9004": {
+    "id": 9004,
+    "lootId": "CHAMPION_SKIN_9004",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "9005": {
+    "id": 9005,
+    "lootId": "CHAMPION_SKIN_9005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "9006": {
+    "id": 9006,
+    "lootId": "CHAMPION_SKIN_9006",
+    "rarity": "LEGENDARY",
+    "value": 975,
+    "tags": ["rarity_legendary"]
+  },
+  "9007": {
+    "id": 9007,
+    "lootId": "CHAMPION_SKIN_9007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "9008": {
+    "id": 9008,
+    "lootId": "CHAMPION_SKIN_9008",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "10001": {
+    "id": 10001,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "10002": {
+    "id": 10002,
+    "lootId": "CHAMPION_SKIN_10002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "10003": {
+    "id": 10003,
+    "lootId": "CHAMPION_SKIN_10003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "10004": {
+    "id": 10004,
+    "lootId": "CHAMPION_SKIN_10004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "10005": {
+    "id": 10005,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "10006": {
+    "id": 10006,
+    "lootId": "CHAMPION_SKIN_10006",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "10007": {
+    "id": 10007,
+    "lootId": "CHAMPION_SKIN_10007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "10008": {
+    "id": 10008,
+    "lootId": "CHAMPION_SKIN_10008",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "11001": {
+    "id": 11001,
+    "lootId": "CHAMPION_SKIN_11001",
+    "rarity": "DEFAULT",
+    "value": 390,
+    "tags": [""]
+  },
+  "11002": {
+    "id": 11002,
+    "lootId": "CHAMPION_SKIN_11002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "11003": {
+    "id": 11003,
+    "lootId": "CHAMPION_SKIN_11003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "11004": {
+    "id": 11004,
+    "lootId": "CHAMPION_SKIN_11004",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "11005": {
+    "id": 11005,
+    "lootId": "CHAMPION_SKIN_11005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "11009": {
+    "id": 11009,
+    "lootId": "CHAMPION_SKIN_11009",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "12001": {
+    "id": 12001,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "12002": {
+    "id": 12002,
+    "lootId": "CHAMPION_SKIN_12002",
+    "rarity": "DEFAULT",
+    "value": 390,
+    "tags": [""]
+  },
+  "12003": {
+    "id": 12003,
+    "lootId": "CHAMPION_SKIN_12003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "12004": {
+    "id": 12004,
+    "lootId": "CHAMPION_SKIN_12004",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "12005": {
+    "id": 12005,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "12006": {
+    "id": 12006,
+    "lootId": "CHAMPION_SKIN_12006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "12007": {
+    "id": 12007,
+    "lootId": "CHAMPION_SKIN_12007",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "12008": {
+    "id": 12008,
+    "lootId": "CHAMPION_SKIN_12008",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "12009": {
+    "id": 12009,
+    "lootId": "CHAMPION_SKIN_12009",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "13001": {
+    "id": 13001,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "13002": {
+    "id": 13002,
+    "lootId": "CHAMPION_SKIN_13002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "13003": {
+    "id": 13003,
+    "lootId": "CHAMPION_SKIN_13003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "13004": {
+    "id": 13004,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "13005": {
+    "id": 13005,
+    "lootId": "CHAMPION_SKIN_13005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "13006": {
+    "id": 13006,
+    "lootId": "CHAMPION_SKIN_13006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "13007": {
+    "id": 13007,
+    "lootId": "CHAMPION_SKIN_13007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "13008": {
+    "id": 13008,
+    "lootId": "CHAMPION_SKIN_13008",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "13009": {
+    "id": 13009,
+    "lootId": "CHAMPION_SKIN_13009",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "13010": {
+    "id": 13010,
+    "lootId": "CHAMPION_SKIN_13010",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "14001": {
+    "id": 14001,
+    "lootId": "CHAMPION_SKIN_14001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "14002": {
+    "id": 14002,
+    "lootId": "CHAMPION_SKIN_14002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "14003": {
+    "id": 14003,
+    "lootId": "CHAMPION_SKIN_14003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "14004": {
+    "id": 14004,
+    "lootId": "CHAMPION_SKIN_14004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "14005": {
+    "id": 14005,
+    "lootId": "CHAMPION_SKIN_14005",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "15001": {
+    "id": 15001,
+    "lootId": "CHAMPION_SKIN_15001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "15002": {
+    "id": 15002,
+    "lootId": "CHAMPION_SKIN_15002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "15003": {
+    "id": 15003,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "15004": {
+    "id": 15004,
+    "lootId": "CHAMPION_SKIN_15004",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "15005": {
+    "id": 15005,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "15006": {
+    "id": 15006,
+    "lootId": "CHAMPION_SKIN_15006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "15007": {
+    "id": 15007,
+    "lootId": "CHAMPION_SKIN_15007",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "15008": {
+    "id": 15008,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "16001": {
+    "id": 16001,
+    "lootId": "CHAMPION_SKIN_16001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "16002": {
+    "id": 16002,
+    "lootId": "CHAMPION_SKIN_16002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "16003": {
+    "id": 16003,
+    "lootId": "CHAMPION_SKIN_16003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "16004": {
+    "id": 16004,
+    "lootId": "CHAMPION_SKIN_16004",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["legacy", "rarity_epic"]
+  },
+  "16005": {
+    "id": 16005,
+    "lootId": "CHAMPION_SKIN_16005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "16006": {
+    "id": 16006,
+    "lootId": "CHAMPION_SKIN_16006",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "17001": {
+    "id": 17001,
+    "lootId": "CHAMPION_SKIN_17001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "17002": {
+    "id": 17002,
+    "lootId": "CHAMPION_SKIN_17002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "17003": {
+    "id": 17003,
+    "lootId": "CHAMPION_SKIN_17003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "17004": {
+    "id": 17004,
+    "lootId": "CHAMPION_SKIN_17004",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "17005": {
+    "id": 17005,
+    "lootId": "CHAMPION_SKIN_17005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "17006": {
+    "id": 17006,
+    "lootId": "CHAMPION_SKIN_17006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "17007": {
+    "id": 17007,
+    "lootId": "CHAMPION_SKIN_17007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "17008": {
+    "id": 17008,
+    "lootId": "CHAMPION_SKIN_17008",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "17014": {
+    "id": 17014,
+    "lootId": "CHAMPION_SKIN_17014",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["legacy"]
+  },
+  "18001": {
+    "id": 18001,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "18002": {
+    "id": 18002,
+    "lootId": "CHAMPION_SKIN_18002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "18003": {
+    "id": 18003,
+    "lootId": "CHAMPION_SKIN_18003",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["legacy", "rarity_legendary"]
+  },
+  "18004": {
+    "id": 18004,
+    "lootId": "CHAMPION_SKIN_18004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "18005": {
+    "id": 18005,
+    "lootId": "CHAMPION_SKIN_18005",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "18006": {
+    "id": 18006,
+    "lootId": "CHAMPION_SKIN_18006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "18010": {
+    "id": 18010,
+    "lootId": "CHAMPION_SKIN_18010",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "18011": {
+    "id": 18011,
+    "lootId": "CHAMPION_SKIN_18011",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["legacy"]
+  },
+  "19001": {
+    "id": 19001,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "19002": {
+    "id": 19002,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "19003": {
+    "id": 19003,
+    "lootId": "CHAMPION_SKIN_19003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "19004": {
+    "id": 19004,
+    "lootId": "CHAMPION_SKIN_19004",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "19005": {
+    "id": 19005,
+    "lootId": "CHAMPION_SKIN_19005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "19006": {
+    "id": 19006,
+    "lootId": "CHAMPION_SKIN_19006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "19007": {
+    "id": 19007,
+    "lootId": "CHAMPION_SKIN_19007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "19008": {
+    "id": 19008,
+    "lootId": "CHAMPION_SKIN_19008",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "20001": {
+    "id": 20001,
+    "lootId": "CHAMPION_SKIN_20001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "20002": {
+    "id": 20002,
+    "lootId": "CHAMPION_SKIN_20002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "20003": {
+    "id": 20003,
+    "lootId": "CHAMPION_SKIN_20003",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "20004": {
+    "id": 20004,
+    "lootId": "CHAMPION_SKIN_20004",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "20005": {
+    "id": 20005,
+    "lootId": "CHAMPION_SKIN_20005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "20006": {
+    "id": 20006,
+    "lootId": "CHAMPION_SKIN_20006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "20007": {
+    "id": 20007,
+    "lootId": "CHAMPION_SKIN_20007",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["legacy", "rarity_epic"]
+  },
+  "21001": {
+    "id": 21001,
+    "lootId": "CHAMPION_SKIN_21001",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "21002": {
+    "id": 21002,
+    "lootId": "CHAMPION_SKIN_21002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "21003": {
+    "id": 21003,
+    "lootId": "CHAMPION_SKIN_21003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "21004": {
+    "id": 21004,
+    "lootId": "CHAMPION_SKIN_21004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "21005": {
+    "id": 21005,
+    "lootId": "CHAMPION_SKIN_21005",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "21006": {
+    "id": 21006,
+    "lootId": "CHAMPION_SKIN_21006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "21007": {
+    "id": 21007,
+    "lootId": "CHAMPION_SKIN_21007",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "21008": {
+    "id": 21008,
+    "lootId": "CHAMPION_SKIN_21008",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "21009": {
+    "id": 21009,
+    "lootId": "CHAMPION_SKIN_21009",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "22001": {
+    "id": 22001,
+    "lootId": "CHAMPION_SKIN_22001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "22002": {
+    "id": 22002,
+    "lootId": "CHAMPION_SKIN_22002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "22003": {
+    "id": 22003,
+    "lootId": "CHAMPION_SKIN_22003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "22004": {
+    "id": 22004,
+    "lootId": "CHAMPION_SKIN_22004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "22005": {
+    "id": 22005,
+    "lootId": "CHAMPION_SKIN_22005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "22006": {
+    "id": 22006,
+    "lootId": "CHAMPION_SKIN_22006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "22007": {
+    "id": 22007,
+    "lootId": "CHAMPION_SKIN_22007",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "22008": {
+    "id": 22008,
+    "lootId": "CHAMPION_SKIN_22008",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "23001": {
+    "id": 23001,
+    "lootId": "CHAMPION_SKIN_23001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "23002": {
+    "id": 23002,
+    "lootId": "CHAMPION_SKIN_23002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "23003": {
+    "id": 23003,
+    "lootId": "CHAMPION_SKIN_23003",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "23004": {
+    "id": 23004,
+    "lootId": "CHAMPION_SKIN_23004",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "23005": {
+    "id": 23005,
+    "lootId": "CHAMPION_SKIN_23005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "23006": {
+    "id": 23006,
+    "lootId": "CHAMPION_SKIN_23006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "23007": {
+    "id": 23007,
+    "lootId": "CHAMPION_SKIN_23007",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "23008": {
+    "id": 23008,
+    "lootId": "CHAMPION_SKIN_23008",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "24001": {
+    "id": 24001,
+    "lootId": "CHAMPION_SKIN_24001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "24002": {
+    "id": 24002,
+    "lootId": "CHAMPION_SKIN_24002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "24003": {
+    "id": 24003,
+    "lootId": "CHAMPION_SKIN_24003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "24004": {
+    "id": 24004,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "24005": {
+    "id": 24005,
+    "lootId": "CHAMPION_SKIN_24005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "24006": {
+    "id": 24006,
+    "lootId": "CHAMPION_SKIN_24006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "24007": {
+    "id": 24007,
+    "lootId": "CHAMPION_SKIN_24007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "24008": {
+    "id": 24008,
+    "lootId": "CHAMPION_SKIN_24008",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "24012": {
+    "id": 24012,
+    "lootId": "CHAMPION_SKIN_24012",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "25001": {
+    "id": 25001,
+    "lootId": "CHAMPION_SKIN_25001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "25002": {
+    "id": 25002,
+    "lootId": "CHAMPION_SKIN_25002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "25003": {
+    "id": 25003,
+    "lootId": "CHAMPION_SKIN_25003",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "25004": {
+    "id": 25004,
+    "lootId": "CHAMPION_SKIN_25004",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "25005": {
+    "id": 25005,
+    "lootId": "CHAMPION_SKIN_25005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "25006": {
+    "id": 25006,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "25010": {
+    "id": 25010,
+    "lootId": "CHAMPION_SKIN_25010",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "25011": {
+    "id": 25011,
+    "lootId": "CHAMPION_SKIN_25011",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "26001": {
+    "id": 26001,
+    "lootId": "CHAMPION_SKIN_26001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "26002": {
+    "id": 26002,
+    "lootId": "CHAMPION_SKIN_26002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "26003": {
+    "id": 26003,
+    "lootId": "CHAMPION_SKIN_26003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "26004": {
+    "id": 26004,
+    "lootId": "CHAMPION_SKIN_26004",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "26005": {
+    "id": 26005,
+    "lootId": "CHAMPION_SKIN_26005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "27001": {
+    "id": 27001,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "27002": {
+    "id": 27002,
+    "lootId": "CHAMPION_SKIN_27002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "27003": {
+    "id": 27003,
+    "lootId": "CHAMPION_SKIN_27003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "27004": {
+    "id": 27004,
+    "lootId": "CHAMPION_SKIN_27004",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "27005": {
+    "id": 27005,
+    "lootId": "CHAMPION_SKIN_27005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "27006": {
+    "id": 27006,
+    "lootId": "CHAMPION_SKIN_27006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "27007": {
+    "id": 27007,
+    "lootId": "CHAMPION_SKIN_27007",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "27008": {
+    "id": 27008,
+    "lootId": "CHAMPION_SKIN_27008",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "28001": {
+    "id": 28001,
+    "lootId": "CHAMPION_SKIN_28001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "28002": {
+    "id": 28002,
+    "lootId": "CHAMPION_SKIN_28002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "28003": {
+    "id": 28003,
+    "lootId": "CHAMPION_SKIN_28003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "28004": {
+    "id": 28004,
+    "lootId": "CHAMPION_SKIN_28004",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "29001": {
+    "id": 29001,
+    "lootId": "CHAMPION_SKIN_29001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "29002": {
+    "id": 29002,
+    "lootId": "CHAMPION_SKIN_29002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "29003": {
+    "id": 29003,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "29004": {
+    "id": 29004,
+    "lootId": "CHAMPION_SKIN_29004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "29005": {
+    "id": 29005,
+    "lootId": "CHAMPION_SKIN_29005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "29006": {
+    "id": 29006,
+    "lootId": "CHAMPION_SKIN_29006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "29007": {
+    "id": 29007,
+    "lootId": "CHAMPION_SKIN_29007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "30001": {
+    "id": 30001,
+    "lootId": "CHAMPION_SKIN_30001",
+    "rarity": "DEFAULT",
+    "value": 460,
+    "tags": ["520", "legacy"]
+  },
+  "30002": {
+    "id": 30002,
+    "lootId": "CHAMPION_SKIN_30002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "30003": {
+    "id": 30003,
+    "lootId": "CHAMPION_SKIN_30003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "30004": {
+    "id": 30004,
+    "lootId": "CHAMPION_SKIN_30004",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "30005": {
+    "id": 30005,
+    "lootId": "CHAMPION_SKIN_30005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "30009": {
+    "id": 30009,
+    "lootId": "CHAMPION_SKIN_30009",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "31001": {
+    "id": 31001,
+    "lootId": "CHAMPION_SKIN_31001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "31002": {
+    "id": 31002,
+    "lootId": "CHAMPION_SKIN_31002",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "31003": {
+    "id": 31003,
+    "lootId": "CHAMPION_SKIN_31003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "31004": {
+    "id": 31004,
+    "lootId": "CHAMPION_SKIN_31004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "31005": {
+    "id": 31005,
+    "lootId": "CHAMPION_SKIN_31005",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "31006": {
+    "id": 31006,
+    "lootId": "CHAMPION_SKIN_31006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "32001": {
+    "id": 32001,
+    "lootId": "CHAMPION_SKIN_32001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "32002": {
+    "id": 32002,
+    "lootId": "CHAMPION_SKIN_32002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "32003": {
+    "id": 32003,
+    "lootId": "CHAMPION_SKIN_32003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "32004": {
+    "id": 32004,
+    "lootId": "CHAMPION_SKIN_32004",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "32005": {
+    "id": 32005,
+    "lootId": "CHAMPION_SKIN_32005",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "32006": {
+    "id": 32006,
+    "lootId": "CHAMPION_SKIN_32006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "32007": {
+    "id": 32007,
+    "lootId": "CHAMPION_SKIN_32007",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "32008": {
+    "id": 32008,
+    "lootId": "CHAMPION_SKIN_32008",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "33001": {
+    "id": 33001,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "33002": {
+    "id": 33002,
+    "lootId": "CHAMPION_SKIN_33002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "33003": {
+    "id": 33003,
+    "lootId": "CHAMPION_SKIN_33003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "33004": {
+    "id": 33004,
+    "lootId": "CHAMPION_SKIN_33004",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "33005": {
+    "id": 33005,
+    "lootId": "CHAMPION_SKIN_33005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "33006": {
+    "id": 33006,
+    "lootId": "CHAMPION_SKIN_33006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "33007": {
+    "id": 33007,
+    "lootId": "CHAMPION_SKIN_33007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "34001": {
+    "id": 34001,
+    "lootId": "CHAMPION_SKIN_34001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "34002": {
+    "id": 34002,
+    "lootId": "CHAMPION_SKIN_34002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "34003": {
+    "id": 34003,
+    "lootId": "CHAMPION_SKIN_34003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "34004": {
+    "id": 34004,
+    "lootId": "CHAMPION_SKIN_34004",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "34005": {
+    "id": 34005,
+    "lootId": "CHAMPION_SKIN_34005",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "34006": {
+    "id": 34006,
+    "lootId": "CHAMPION_SKIN_34006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "35001": {
+    "id": 35001,
+    "lootId": "CHAMPION_SKIN_35001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "35002": {
+    "id": 35002,
+    "lootId": "CHAMPION_SKIN_35002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "35003": {
+    "id": 35003,
+    "lootId": "CHAMPION_SKIN_35003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "35004": {
+    "id": 35004,
+    "lootId": "CHAMPION_SKIN_35004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "35005": {
+    "id": 35005,
+    "lootId": "CHAMPION_SKIN_35005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "35006": {
+    "id": 35006,
+    "lootId": "CHAMPION_SKIN_35006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "35007": {
+    "id": 35007,
+    "lootId": "CHAMPION_SKIN_35007",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "36001": {
+    "id": 36001,
+    "lootId": "CHAMPION_SKIN_36001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "36002": {
+    "id": 36002,
+    "lootId": "CHAMPION_SKIN_36002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "36003": {
+    "id": 36003,
+    "lootId": "CHAMPION_SKIN_36003",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "36004": {
+    "id": 36004,
+    "lootId": "CHAMPION_SKIN_36004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "36005": {
+    "id": 36005,
+    "lootId": "CHAMPION_SKIN_36005",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "36006": {
+    "id": 36006,
+    "lootId": "CHAMPION_SKIN_36006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "36007": {
+    "id": 36007,
+    "lootId": "CHAMPION_SKIN_36007",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "36008": {
+    "id": 36008,
+    "lootId": "CHAMPION_SKIN_36008",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "36009": {
+    "id": 36009,
+    "lootId": "CHAMPION_SKIN_36009",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "37001": {
+    "id": 37001,
+    "lootId": "CHAMPION_SKIN_37001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "37002": {
+    "id": 37002,
+    "lootId": "CHAMPION_SKIN_37002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "37003": {
+    "id": 37003,
+    "lootId": "CHAMPION_SKIN_37003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "37004": {
+    "id": 37004,
+    "lootId": "CHAMPION_SKIN_37004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "37005": {
+    "id": 37005,
+    "lootId": "CHAMPION_SKIN_37005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "37006": {
+    "id": 37006,
+    "lootId": "CHAMPION_SKIN_37006",
+    "rarity": "ULTIMATE",
+    "value": 3250,
+    "tags": ["rarity_ultimate"]
+  },
+  "37007": {
+    "id": 37007,
+    "lootId": "CHAMPION_SKIN_37007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "38001": {
+    "id": 38001,
+    "lootId": "CHAMPION_SKIN_38001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "38002": {
+    "id": 38002,
+    "lootId": "CHAMPION_SKIN_38002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "38003": {
+    "id": 38003,
+    "lootId": "CHAMPION_SKIN_38003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "38004": {
+    "id": 38004,
+    "lootId": "CHAMPION_SKIN_38004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "38005": {
+    "id": 38005,
+    "lootId": "CHAMPION_SKIN_38005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "39001": {
+    "id": 39001,
+    "lootId": "CHAMPION_SKIN_39001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "39002": {
+    "id": 39002,
+    "lootId": "CHAMPION_SKIN_39002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "39003": {
+    "id": 39003,
+    "lootId": "CHAMPION_SKIN_39003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "39004": {
+    "id": 39004,
+    "lootId": "CHAMPION_SKIN_39004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "39005": {
+    "id": 39005,
+    "lootId": "CHAMPION_SKIN_39005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "40001": {
+    "id": 40001,
+    "lootId": "CHAMPION_SKIN_40001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "40002": {
+    "id": 40002,
+    "lootId": "CHAMPION_SKIN_40002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "40003": {
+    "id": 40003,
+    "lootId": "CHAMPION_SKIN_40003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "40004": {
+    "id": 40004,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "40005": {
+    "id": 40005,
+    "lootId": "CHAMPION_SKIN_40005",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "40006": {
+    "id": 40006,
+    "lootId": "CHAMPION_SKIN_40006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "40007": {
+    "id": 40007,
+    "lootId": "CHAMPION_SKIN_40007",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "41001": {
+    "id": 41001,
+    "lootId": "CHAMPION_SKIN_41001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "41002": {
+    "id": 41002,
+    "lootId": "CHAMPION_SKIN_41002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "41003": {
+    "id": 41003,
+    "lootId": "CHAMPION_SKIN_41003",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "41004": {
+    "id": 41004,
+    "lootId": "CHAMPION_SKIN_41004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "41005": {
+    "id": 41005,
+    "lootId": "CHAMPION_SKIN_41005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "41006": {
+    "id": 41006,
+    "lootId": "CHAMPION_SKIN_41006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "41007": {
+    "id": 41007,
+    "lootId": "CHAMPION_SKIN_41007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "41008": {
+    "id": 41008,
+    "lootId": "CHAMPION_SKIN_41008",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "42001": {
+    "id": 42001,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "42002": {
+    "id": 42002,
+    "lootId": "CHAMPION_SKIN_42002",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["legacy", "rarity_legendary"]
+  },
+  "42003": {
+    "id": 42003,
+    "lootId": "CHAMPION_SKIN_42003",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["legacy", "rarity_legendary"]
+  },
+  "42004": {
+    "id": 42004,
+    "lootId": "CHAMPION_SKIN_42004",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "42005": {
+    "id": 42005,
+    "lootId": "CHAMPION_SKIN_42005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "42006": {
+    "id": 42006,
+    "lootId": "CHAMPION_SKIN_42006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "42007": {
+    "id": 42007,
+    "lootId": "CHAMPION_SKIN_42007",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "42008": {
+    "id": 42008,
+    "lootId": "CHAMPION_SKIN_42008",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "43001": {
+    "id": 43001,
+    "lootId": "CHAMPION_SKIN_43001",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "43002": {
+    "id": 43002,
+    "lootId": "CHAMPION_SKIN_43002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "43003": {
+    "id": 43003,
+    "lootId": "CHAMPION_SKIN_43003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "43004": {
+    "id": 43004,
+    "lootId": "CHAMPION_SKIN_43004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "43005": {
+    "id": 43005,
+    "lootId": "CHAMPION_SKIN_43005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "43006": {
+    "id": 43006,
+    "lootId": "CHAMPION_SKIN_43006",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["legacy", "rarity_epic"]
+  },
+  "44001": {
+    "id": 44001,
+    "lootId": "CHAMPION_SKIN_44001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "44002": {
+    "id": 44002,
+    "lootId": "CHAMPION_SKIN_44002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "44003": {
+    "id": 44003,
+    "lootId": "CHAMPION_SKIN_44003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "44004": {
+    "id": 44004,
+    "lootId": "CHAMPION_SKIN_44004",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "45001": {
+    "id": 45001,
+    "lootId": "CHAMPION_SKIN_45001",
+    "rarity": "DEFAULT",
+    "value": 390,
+    "tags": [""]
+  },
+  "45002": {
+    "id": 45002,
+    "lootId": "CHAMPION_SKIN_45002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "45003": {
+    "id": 45003,
+    "lootId": "CHAMPION_SKIN_45003",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "45004": {
+    "id": 45004,
+    "lootId": "CHAMPION_SKIN_45004",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "45005": {
+    "id": 45005,
+    "lootId": "CHAMPION_SKIN_45005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "45006": {
+    "id": 45006,
+    "lootId": "CHAMPION_SKIN_45006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "45007": {
+    "id": 45007,
+    "lootId": "CHAMPION_SKIN_45007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "45008": {
+    "id": 45008,
+    "lootId": "CHAMPION_SKIN_45008",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "48001": {
+    "id": 48001,
+    "lootId": "CHAMPION_SKIN_48001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "48002": {
+    "id": 48002,
+    "lootId": "CHAMPION_SKIN_48002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "48003": {
+    "id": 48003,
+    "lootId": "CHAMPION_SKIN_48003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "48004": {
+    "id": 48004,
+    "lootId": "CHAMPION_SKIN_48004",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "48005": {
+    "id": 48005,
+    "lootId": "CHAMPION_SKIN_48005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "50001": {
+    "id": 50001,
+    "lootId": "CHAMPION_SKIN_50001",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "50002": {
+    "id": 50002,
+    "lootId": "CHAMPION_SKIN_50002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "50003": {
+    "id": 50003,
+    "lootId": "CHAMPION_SKIN_50003",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "51001": {
+    "id": 51001,
+    "lootId": "CHAMPION_SKIN_51001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "51002": {
+    "id": 51002,
+    "lootId": "CHAMPION_SKIN_51002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "51003": {
+    "id": 51003,
+    "lootId": "CHAMPION_SKIN_51003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "51004": {
+    "id": 51004,
+    "lootId": "CHAMPION_SKIN_51004",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "51005": {
+    "id": 51005,
+    "lootId": "CHAMPION_SKIN_51005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "51006": {
+    "id": 51006,
+    "lootId": "CHAMPION_SKIN_51006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "51010": {
+    "id": 51010,
+    "lootId": "CHAMPION_SKIN_51010",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["legacy", "rarity_epic"]
+  },
+  "53001": {
+    "id": 53001,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "53002": {
+    "id": 53002,
+    "lootId": "CHAMPION_SKIN_53002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "53003": {
+    "id": 53003,
+    "lootId": "CHAMPION_SKIN_53003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "53004": {
+    "id": 53004,
+    "lootId": "CHAMPION_SKIN_53004",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "53005": {
+    "id": 53005,
+    "lootId": "CHAMPION_SKIN_53005",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "53006": {
+    "id": 53006,
+    "lootId": "CHAMPION_SKIN_53006",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "53007": {
+    "id": 53007,
+    "lootId": "CHAMPION_SKIN_53007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "53011": {
+    "id": 53011,
+    "lootId": "CHAMPION_SKIN_53011",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "54001": {
+    "id": 54001,
+    "lootId": "CHAMPION_SKIN_54001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "54002": {
+    "id": 54002,
+    "lootId": "CHAMPION_SKIN_54002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "54003": {
+    "id": 54003,
+    "lootId": "CHAMPION_SKIN_54003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "54004": {
+    "id": 54004,
+    "lootId": "CHAMPION_SKIN_54004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "54005": {
+    "id": 54005,
+    "lootId": "CHAMPION_SKIN_54005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "54006": {
+    "id": 54006,
+    "lootId": "CHAMPION_SKIN_54006",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "54007": {
+    "id": 54007,
+    "lootId": "CHAMPION_SKIN_54007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "55001": {
+    "id": 55001,
+    "lootId": "CHAMPION_SKIN_55001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "55002": {
+    "id": 55002,
+    "lootId": "CHAMPION_SKIN_55002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "55003": {
+    "id": 55003,
+    "lootId": "CHAMPION_SKIN_55003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "55004": {
+    "id": 55004,
+    "lootId": "CHAMPION_SKIN_55004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "55005": {
+    "id": 55005,
+    "lootId": "CHAMPION_SKIN_55005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "55006": {
+    "id": 55006,
+    "lootId": "CHAMPION_SKIN_55006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "55007": {
+    "id": 55007,
+    "lootId": "CHAMPION_SKIN_55007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "55008": {
+    "id": 55008,
+    "lootId": "CHAMPION_SKIN_55008",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "55009": {
+    "id": 55009,
+    "lootId": "CHAMPION_SKIN_55009",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "56001": {
+    "id": 56001,
+    "lootId": "CHAMPION_SKIN_56001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "56002": {
+    "id": 56002,
+    "lootId": "CHAMPION_SKIN_56002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "56003": {
+    "id": 56003,
+    "lootId": "CHAMPION_SKIN_56003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "56004": {
+    "id": 56004,
+    "lootId": "CHAMPION_SKIN_56004",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "56005": {
+    "id": 56005,
+    "lootId": "CHAMPION_SKIN_56005",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "56006": {
+    "id": 56006,
+    "lootId": "CHAMPION_SKIN_56006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "57001": {
+    "id": 57001,
+    "lootId": "CHAMPION_SKIN_57001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "57002": {
+    "id": 57002,
+    "lootId": "CHAMPION_SKIN_57002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "57003": {
+    "id": 57003,
+    "lootId": "CHAMPION_SKIN_57003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "57004": {
+    "id": 57004,
+    "lootId": "CHAMPION_SKIN_57004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "57005": {
+    "id": 57005,
+    "lootId": "CHAMPION_SKIN_57005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "57006": {
+    "id": 57006,
+    "lootId": "CHAMPION_SKIN_57006",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "57007": {
+    "id": 57007,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "58001": {
+    "id": 58001,
+    "lootId": "CHAMPION_SKIN_58001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "58002": {
+    "id": 58002,
+    "lootId": "CHAMPION_SKIN_58002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "58003": {
+    "id": 58003,
+    "lootId": "CHAMPION_SKIN_58003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "58004": {
+    "id": 58004,
+    "lootId": "CHAMPION_SKIN_58004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "58005": {
+    "id": 58005,
+    "lootId": "CHAMPION_SKIN_58005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "58006": {
+    "id": 58006,
+    "lootId": "CHAMPION_SKIN_58006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "58007": {
+    "id": 58007,
+    "lootId": "CHAMPION_SKIN_58007",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "58008": {
+    "id": 58008,
+    "lootId": "CHAMPION_SKIN_58008",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "59001": {
+    "id": 59001,
+    "lootId": "CHAMPION_SKIN_59001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "59002": {
+    "id": 59002,
+    "lootId": "CHAMPION_SKIN_59002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "59003": {
+    "id": 59003,
+    "lootId": "CHAMPION_SKIN_59003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "59004": {
+    "id": 59004,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "59005": {
+    "id": 59005,
+    "lootId": "CHAMPION_SKIN_59005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "59006": {
+    "id": 59006,
+    "lootId": "CHAMPION_SKIN_59006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "60001": {
+    "id": 60001,
+    "lootId": "CHAMPION_SKIN_60001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "60002": {
+    "id": 60002,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "60003": {
+    "id": 60003,
+    "lootId": "CHAMPION_SKIN_60003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "60004": {
+    "id": 60004,
+    "lootId": "CHAMPION_SKIN_60004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "61001": {
+    "id": 61001,
+    "lootId": "CHAMPION_SKIN_61001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "61002": {
+    "id": 61002,
+    "lootId": "CHAMPION_SKIN_61002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "61003": {
+    "id": 61003,
+    "lootId": "CHAMPION_SKIN_61003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "61004": {
+    "id": 61004,
+    "lootId": "CHAMPION_SKIN_61004",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "61005": {
+    "id": 61005,
+    "lootId": "CHAMPION_SKIN_61005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "61006": {
+    "id": 61006,
+    "lootId": "CHAMPION_SKIN_61006",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "62001": {
+    "id": 62001,
+    "lootId": "CHAMPION_SKIN_62001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "62002": {
+    "id": 62002,
+    "lootId": "CHAMPION_SKIN_62002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "62003": {
+    "id": 62003,
+    "lootId": "CHAMPION_SKIN_62003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "62004": {
+    "id": 62004,
+    "lootId": "CHAMPION_SKIN_62004",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["legacy", "rarity_epic"]
+  },
+  "62005": {
+    "id": 62005,
+    "lootId": "CHAMPION_SKIN_62005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "63001": {
+    "id": 63001,
+    "lootId": "CHAMPION_SKIN_63001",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "63002": {
+    "id": 63002,
+    "lootId": "CHAMPION_SKIN_63002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "63003": {
+    "id": 63003,
+    "lootId": "CHAMPION_SKIN_63003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "63004": {
+    "id": 63004,
+    "lootId": "CHAMPION_SKIN_63004",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["legacy", "rarity_legendary"]
+  },
+  "63005": {
+    "id": 63005,
+    "lootId": "CHAMPION_SKIN_63005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "64001": {
+    "id": 64001,
+    "lootId": "CHAMPION_SKIN_64001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "64002": {
+    "id": 64002,
+    "lootId": "CHAMPION_SKIN_64002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "64003": {
+    "id": 64003,
+    "lootId": "CHAMPION_SKIN_64003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "64004": {
+    "id": 64004,
+    "lootId": "CHAMPION_SKIN_64004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "64005": {
+    "id": 64005,
+    "lootId": "CHAMPION_SKIN_64005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "64006": {
+    "id": 64006,
+    "lootId": "CHAMPION_SKIN_64006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "64010": {
+    "id": 64010,
+    "lootId": "CHAMPION_SKIN_64010",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "67001": {
+    "id": 67001,
+    "lootId": "CHAMPION_SKIN_67001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "67002": {
+    "id": 67002,
+    "lootId": "CHAMPION_SKIN_67002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "67003": {
+    "id": 67003,
+    "lootId": "CHAMPION_SKIN_67003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "67004": {
+    "id": 67004,
+    "lootId": "CHAMPION_SKIN_67004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "67005": {
+    "id": 67005,
+    "lootId": "CHAMPION_SKIN_67005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "67006": {
+    "id": 67006,
+    "lootId": "CHAMPION_SKIN_67006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "67010": {
+    "id": 67010,
+    "lootId": "CHAMPION_SKIN_67010",
+    "rarity": "MYTHIC",
+    "value": 2450,
+    "tags": ["exclusive", "rarity_mythic"]
+  },
+  "68001": {
+    "id": 68001,
+    "lootId": "CHAMPION_SKIN_68001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "68002": {
+    "id": 68002,
+    "lootId": "CHAMPION_SKIN_68002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "68003": {
+    "id": 68003,
+    "lootId": "CHAMPION_SKIN_68003",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "69001": {
+    "id": 69001,
+    "lootId": "CHAMPION_SKIN_69001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "69002": {
+    "id": 69002,
+    "lootId": "CHAMPION_SKIN_69002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "69003": {
+    "id": 69003,
+    "lootId": "CHAMPION_SKIN_69003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "69004": {
+    "id": 69004,
+    "lootId": "CHAMPION_SKIN_69004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "72001": {
+    "id": 72001,
+    "lootId": "CHAMPION_SKIN_72001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "72002": {
+    "id": 72002,
+    "lootId": "CHAMPION_SKIN_72002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "72003": {
+    "id": 72003,
+    "lootId": "CHAMPION_SKIN_72003",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "72004": {
+    "id": 72004,
+    "lootId": "CHAMPION_SKIN_72004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "74001": {
+    "id": 74001,
+    "lootId": "CHAMPION_SKIN_74001",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["legacy", "rarity_legendary"]
+  },
+  "74002": {
+    "id": 74002,
+    "lootId": "CHAMPION_SKIN_74002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "74003": {
+    "id": 74003,
+    "lootId": "CHAMPION_SKIN_74003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "74004": {
+    "id": 74004,
+    "lootId": "CHAMPION_SKIN_74004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "74005": {
+    "id": 74005,
+    "lootId": "CHAMPION_SKIN_74005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "75001": {
+    "id": 75001,
+    "lootId": "CHAMPION_SKIN_75001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "75002": {
+    "id": 75002,
+    "lootId": "CHAMPION_SKIN_75002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "75003": {
+    "id": 75003,
+    "lootId": "CHAMPION_SKIN_75003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "75004": {
+    "id": 75004,
+    "lootId": "CHAMPION_SKIN_75004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "75005": {
+    "id": 75005,
+    "lootId": "CHAMPION_SKIN_75005",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "75006": {
+    "id": 75006,
+    "lootId": "CHAMPION_SKIN_75006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "75010": {
+    "id": 75010,
+    "lootId": "CHAMPION_SKIN_75010",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "76001": {
+    "id": 76001,
+    "lootId": "CHAMPION_SKIN_76001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "76002": {
+    "id": 76002,
+    "lootId": "CHAMPION_SKIN_76002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "76003": {
+    "id": 76003,
+    "lootId": "CHAMPION_SKIN_76003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "76004": {
+    "id": 76004,
+    "lootId": "CHAMPION_SKIN_76004",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "76005": {
+    "id": 76005,
+    "lootId": "CHAMPION_SKIN_76005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "76006": {
+    "id": 76006,
+    "lootId": "CHAMPION_SKIN_76006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "76007": {
+    "id": 76007,
+    "lootId": "CHAMPION_SKIN_76007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "76008": {
+    "id": 76008,
+    "lootId": "CHAMPION_SKIN_76008",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "77001": {
+    "id": 77001,
+    "lootId": "CHAMPION_SKIN_77001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "77002": {
+    "id": 77002,
+    "lootId": "CHAMPION_SKIN_77002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "77003": {
+    "id": 77003,
+    "lootId": "CHAMPION_SKIN_77003",
+    "rarity": "ULTIMATE",
+    "value": 3250,
+    "tags": ["rarity_ultimate"]
+  },
+  "77004": {
+    "id": 77004,
+    "lootId": "CHAMPION_SKIN_77004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "78001": {
+    "id": 78001,
+    "lootId": "CHAMPION_SKIN_78001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "78002": {
+    "id": 78002,
+    "lootId": "CHAMPION_SKIN_78002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "78003": {
+    "id": 78003,
+    "lootId": "CHAMPION_SKIN_78003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "78004": {
+    "id": 78004,
+    "lootId": "CHAMPION_SKIN_78004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "78005": {
+    "id": 78005,
+    "lootId": "CHAMPION_SKIN_78005",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "78006": {
+    "id": 78006,
+    "lootId": "CHAMPION_SKIN_78006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "78007": {
+    "id": 78007,
+    "lootId": "CHAMPION_SKIN_78007",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "79001": {
+    "id": 79001,
+    "lootId": "CHAMPION_SKIN_79001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "79002": {
+    "id": 79002,
+    "lootId": "CHAMPION_SKIN_79002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "79003": {
+    "id": 79003,
+    "lootId": "CHAMPION_SKIN_79003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "79004": {
+    "id": 79004,
+    "lootId": "CHAMPION_SKIN_79004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "79005": {
+    "id": 79005,
+    "lootId": "CHAMPION_SKIN_79005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "79006": {
+    "id": 79006,
+    "lootId": "CHAMPION_SKIN_79006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "79007": {
+    "id": 79007,
+    "lootId": "CHAMPION_SKIN_79007",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "79008": {
+    "id": 79008,
+    "lootId": "CHAMPION_SKIN_79008",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "79009": {
+    "id": 79009,
+    "lootId": "CHAMPION_SKIN_79009",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "80001": {
+    "id": 80001,
+    "lootId": "CHAMPION_SKIN_80001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "80002": {
+    "id": 80002,
+    "lootId": "CHAMPION_SKIN_80002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "80003": {
+    "id": 80003,
+    "lootId": "CHAMPION_SKIN_80003",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "80004": {
+    "id": 80004,
+    "lootId": "CHAMPION_SKIN_80004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "80005": {
+    "id": 80005,
+    "lootId": "CHAMPION_SKIN_80005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "80006": {
+    "id": 80006,
+    "lootId": "CHAMPION_SKIN_80006",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "80007": {
+    "id": 80007,
+    "lootId": "CHAMPION_SKIN_80007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "80008": {
+    "id": 80008,
+    "lootId": "CHAMPION_SKIN_80008",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "81001": {
+    "id": 81001,
+    "lootId": "CHAMPION_SKIN_81001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "81002": {
+    "id": 81002,
+    "lootId": "CHAMPION_SKIN_81002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "81003": {
+    "id": 81003,
+    "lootId": "CHAMPION_SKIN_81003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "81004": {
+    "id": 81004,
+    "lootId": "CHAMPION_SKIN_81004",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "81005": {
+    "id": 81005,
+    "lootId": "CHAMPION_SKIN_81005",
+    "rarity": "ULTIMATE",
+    "value": 3250,
+    "tags": ["rarity_ultimate"]
+  },
+  "81006": {
+    "id": 81006,
+    "lootId": "CHAMPION_SKIN_81006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "81007": {
+    "id": 81007,
+    "lootId": "CHAMPION_SKIN_81007",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "81008": {
+    "id": 81008,
+    "lootId": "CHAMPION_SKIN_81008",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "81009": {
+    "id": 81009,
+    "lootId": "CHAMPION_SKIN_81009",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "82001": {
+    "id": 82001,
+    "lootId": "CHAMPION_SKIN_82001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "82002": {
+    "id": 82002,
+    "lootId": "CHAMPION_SKIN_82002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "82003": {
+    "id": 82003,
+    "lootId": "CHAMPION_SKIN_82003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "82004": {
+    "id": 82004,
+    "lootId": "CHAMPION_SKIN_82004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "82005": {
+    "id": 82005,
+    "lootId": "CHAMPION_SKIN_82005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "83001": {
+    "id": 83001,
+    "lootId": "CHAMPION_SKIN_83001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "83002": {
+    "id": 83002,
+    "lootId": "CHAMPION_SKIN_83002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "84001": {
+    "id": 84001,
+    "lootId": "CHAMPION_SKIN_84001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "84002": {
+    "id": 84002,
+    "lootId": "CHAMPION_SKIN_84002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "84003": {
+    "id": 84003,
+    "lootId": "CHAMPION_SKIN_84003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "84004": {
+    "id": 84004,
+    "lootId": "CHAMPION_SKIN_84004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "84005": {
+    "id": 84005,
+    "lootId": "CHAMPION_SKIN_84005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "84006": {
+    "id": 84006,
+    "lootId": "CHAMPION_SKIN_84006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "84007": {
+    "id": 84007,
+    "lootId": "CHAMPION_SKIN_84007",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "84008": {
+    "id": 84008,
+    "lootId": "CHAMPION_SKIN_84008",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "85001": {
+    "id": 85001,
+    "lootId": "CHAMPION_SKIN_85001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "85002": {
+    "id": 85002,
+    "lootId": "CHAMPION_SKIN_85002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "85003": {
+    "id": 85003,
+    "lootId": "CHAMPION_SKIN_85003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "85004": {
+    "id": 85004,
+    "lootId": "CHAMPION_SKIN_85004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "85005": {
+    "id": 85005,
+    "lootId": "CHAMPION_SKIN_85005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "85006": {
+    "id": 85006,
+    "lootId": "CHAMPION_SKIN_85006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "86001": {
+    "id": 86001,
+    "lootId": "CHAMPION_SKIN_86001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "86002": {
+    "id": 86002,
+    "lootId": "CHAMPION_SKIN_86002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "86003": {
+    "id": 86003,
+    "lootId": "CHAMPION_SKIN_86003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "86004": {
+    "id": 86004,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "86005": {
+    "id": 86005,
+    "lootId": "CHAMPION_SKIN_86005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "86006": {
+    "id": 86006,
+    "lootId": "CHAMPION_SKIN_86006",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "86010": {
+    "id": 86010,
+    "lootId": "CHAMPION_SKIN_86010",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "86011": {
+    "id": 86011,
+    "lootId": "CHAMPION_SKIN_86011",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["legacy", "rarity_epic"]
+  },
+  "89001": {
+    "id": 89001,
+    "lootId": "CHAMPION_SKIN_89001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "89002": {
+    "id": 89002,
+    "lootId": "CHAMPION_SKIN_89002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "89003": {
+    "id": 89003,
+    "lootId": "CHAMPION_SKIN_89003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "89004": {
+    "id": 89004,
+    "lootId": "CHAMPION_SKIN_89004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "89008": {
+    "id": 89008,
+    "lootId": "CHAMPION_SKIN_89008",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "89009": {
+    "id": 89009,
+    "lootId": "CHAMPION_SKIN_89009",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "90001": {
+    "id": 90001,
+    "lootId": "CHAMPION_SKIN_90001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "90002": {
+    "id": 90002,
+    "lootId": "CHAMPION_SKIN_90002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "90003": {
+    "id": 90003,
+    "lootId": "CHAMPION_SKIN_90003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "90004": {
+    "id": 90004,
+    "lootId": "CHAMPION_SKIN_90004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "90005": {
+    "id": 90005,
+    "lootId": "CHAMPION_SKIN_90005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "91001": {
+    "id": 91001,
+    "lootId": "CHAMPION_SKIN_91001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "91002": {
+    "id": 91002,
+    "lootId": "CHAMPION_SKIN_91002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "91003": {
+    "id": 91003,
+    "lootId": "CHAMPION_SKIN_91003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "91004": {
+    "id": 91004,
+    "lootId": "CHAMPION_SKIN_91004",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "92001": {
+    "id": 92001,
+    "lootId": "CHAMPION_SKIN_92001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "92002": {
+    "id": 92002,
+    "lootId": "CHAMPION_SKIN_92002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "92003": {
+    "id": 92003,
+    "lootId": "CHAMPION_SKIN_92003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "92004": {
+    "id": 92004,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "92005": {
+    "id": 92005,
+    "lootId": "CHAMPION_SKIN_92005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["legacy", "rarity_epic"]
+  },
+  "92006": {
+    "id": 92006,
+    "lootId": "CHAMPION_SKIN_92006",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "92007": {
+    "id": 92007,
+    "lootId": "CHAMPION_SKIN_92007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "96001": {
+    "id": 96001,
+    "lootId": "CHAMPION_SKIN_96001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "96002": {
+    "id": 96002,
+    "lootId": "CHAMPION_SKIN_96002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "96003": {
+    "id": 96003,
+    "lootId": "CHAMPION_SKIN_96003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "96004": {
+    "id": 96004,
+    "lootId": "CHAMPION_SKIN_96004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "96005": {
+    "id": 96005,
+    "lootId": "CHAMPION_SKIN_96005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "96006": {
+    "id": 96006,
+    "lootId": "CHAMPION_SKIN_96006",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "96007": {
+    "id": 96007,
+    "lootId": "CHAMPION_SKIN_96007",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "96008": {
+    "id": 96008,
+    "lootId": "CHAMPION_SKIN_96008",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "98001": {
+    "id": 98001,
+    "lootId": "CHAMPION_SKIN_98001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "98002": {
+    "id": 98002,
+    "lootId": "CHAMPION_SKIN_98002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "98003": {
+    "id": 98003,
+    "lootId": "CHAMPION_SKIN_98003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "98004": {
+    "id": 98004,
+    "lootId": "CHAMPION_SKIN_98004",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "98005": {
+    "id": 98005,
+    "lootId": "CHAMPION_SKIN_98005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "98006": {
+    "id": 98006,
+    "lootId": "CHAMPION_SKIN_98006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "99001": {
+    "id": 99001,
+    "lootId": "CHAMPION_SKIN_99001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "99002": {
+    "id": 99002,
+    "lootId": "CHAMPION_SKIN_99002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "99003": {
+    "id": 99003,
+    "lootId": "CHAMPION_SKIN_99003",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "99004": {
+    "id": 99004,
+    "lootId": "CHAMPION_SKIN_99004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "99005": {
+    "id": 99005,
+    "lootId": "CHAMPION_SKIN_99005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "99006": {
+    "id": 99006,
+    "lootId": "CHAMPION_SKIN_99006",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "99007": {
+    "id": 99007,
+    "lootId": "CHAMPION_SKIN_99007",
+    "rarity": "ULTIMATE",
+    "value": 3250,
+    "tags": ["rarity_ultimate"]
+  },
+  "101001": {
+    "id": 101001,
+    "lootId": "CHAMPION_SKIN_101001",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "101002": {
+    "id": 101002,
+    "lootId": "CHAMPION_SKIN_101002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "101003": {
+    "id": 101003,
+    "lootId": "CHAMPION_SKIN_101003",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "101004": {
+    "id": 101004,
+    "lootId": "CHAMPION_SKIN_101004",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "102001": {
+    "id": 102001,
+    "lootId": "CHAMPION_SKIN_102001",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "102002": {
+    "id": 102002,
+    "lootId": "CHAMPION_SKIN_102002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "102003": {
+    "id": 102003,
+    "lootId": "CHAMPION_SKIN_102003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "102004": {
+    "id": 102004,
+    "lootId": "CHAMPION_SKIN_102004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "102005": {
+    "id": 102005,
+    "lootId": "CHAMPION_SKIN_102005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "102006": {
+    "id": 102006,
+    "lootId": "CHAMPION_SKIN_102006",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "103001": {
+    "id": 103001,
+    "lootId": "CHAMPION_SKIN_103001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "103002": {
+    "id": 103002,
+    "lootId": "CHAMPION_SKIN_103002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "103003": {
+    "id": 103003,
+    "lootId": "CHAMPION_SKIN_103003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "103004": {
+    "id": 103004,
+    "lootId": "CHAMPION_SKIN_103004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "103005": {
+    "id": 103005,
+    "lootId": "CHAMPION_SKIN_103005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "103006": {
+    "id": 103006,
+    "lootId": "CHAMPION_SKIN_103006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "103007": {
+    "id": 103007,
+    "lootId": "CHAMPION_SKIN_103007",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "104001": {
+    "id": 104001,
+    "lootId": "CHAMPION_SKIN_104001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "104002": {
+    "id": 104002,
+    "lootId": "CHAMPION_SKIN_104002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "104003": {
+    "id": 104003,
+    "lootId": "CHAMPION_SKIN_104003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "104004": {
+    "id": 104004,
+    "lootId": "CHAMPION_SKIN_104004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "104005": {
+    "id": 104005,
+    "lootId": "CHAMPION_SKIN_104005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "104006": {
+    "id": 104006,
+    "lootId": "CHAMPION_SKIN_104006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "104007": {
+    "id": 104007,
+    "lootId": "CHAMPION_SKIN_104007",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["legacy", "rarity_epic"]
+  },
+  "105001": {
+    "id": 105001,
+    "lootId": "CHAMPION_SKIN_105001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "105002": {
+    "id": 105002,
+    "lootId": "CHAMPION_SKIN_105002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "105003": {
+    "id": 105003,
+    "lootId": "CHAMPION_SKIN_105003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "105004": {
+    "id": 105004,
+    "lootId": "CHAMPION_SKIN_105004",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "105008": {
+    "id": 105008,
+    "lootId": "CHAMPION_SKIN_105008",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "105009": {
+    "id": 105009,
+    "lootId": "CHAMPION_SKIN_105009",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "106001": {
+    "id": 106001,
+    "lootId": "CHAMPION_SKIN_106001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "106002": {
+    "id": 106002,
+    "lootId": "CHAMPION_SKIN_106002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "106003": {
+    "id": 106003,
+    "lootId": "CHAMPION_SKIN_106003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "106004": {
+    "id": 106004,
+    "lootId": "CHAMPION_SKIN_106004",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "106005": {
+    "id": 106005,
+    "lootId": "CHAMPION_SKIN_106005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "107001": {
+    "id": 107001,
+    "lootId": "CHAMPION_SKIN_107001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "107002": {
+    "id": 107002,
+    "lootId": "CHAMPION_SKIN_107002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "107003": {
+    "id": 107003,
+    "lootId": "CHAMPION_SKIN_107003",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "110001": {
+    "id": 110001,
+    "lootId": "CHAMPION_SKIN_110001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "110002": {
+    "id": 110002,
+    "lootId": "CHAMPION_SKIN_110002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "110003": {
+    "id": 110003,
+    "lootId": "CHAMPION_SKIN_110003",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "110004": {
+    "id": 110004,
+    "lootId": "CHAMPION_SKIN_110004",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "110005": {
+    "id": 110005,
+    "lootId": "CHAMPION_SKIN_110005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "110006": {
+    "id": 110006,
+    "lootId": "CHAMPION_SKIN_110006",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "111001": {
+    "id": 111001,
+    "lootId": "CHAMPION_SKIN_111001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "111002": {
+    "id": 111002,
+    "lootId": "CHAMPION_SKIN_111002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "111003": {
+    "id": 111003,
+    "lootId": "CHAMPION_SKIN_111003",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "111004": {
+    "id": 111004,
+    "lootId": "CHAMPION_SKIN_111004",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "111005": {
+    "id": 111005,
+    "lootId": "CHAMPION_SKIN_111005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "112001": {
+    "id": 112001,
+    "lootId": "CHAMPION_SKIN_112001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "112002": {
+    "id": 112002,
+    "lootId": "CHAMPION_SKIN_112002",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": ["legacy"]
+  },
+  "112003": {
+    "id": 112003,
+    "lootId": "CHAMPION_SKIN_112003",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "113001": {
+    "id": 113001,
+    "lootId": "CHAMPION_SKIN_113001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "113002": {
+    "id": 113002,
+    "lootId": "CHAMPION_SKIN_113002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "113003": {
+    "id": 113003,
+    "lootId": "CHAMPION_SKIN_113003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "113004": {
+    "id": 113004,
+    "lootId": "CHAMPION_SKIN_113004",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "113005": {
+    "id": 113005,
+    "lootId": "CHAMPION_SKIN_113005",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "113006": {
+    "id": 113006,
+    "lootId": "CHAMPION_SKIN_113006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "113007": {
+    "id": 113007,
+    "lootId": "CHAMPION_SKIN_113007",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "114001": {
+    "id": 114001,
+    "lootId": "CHAMPION_SKIN_114001",
+    "rarity": "DEFAULT",
+    "value": 520,
+    "tags": [""]
+  },
+  "114002": {
+    "id": 114002,
+    "lootId": "CHAMPION_SKIN_114002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "114003": {
+    "id": 114003,
+    "lootId": "CHAMPION_SKIN_114003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "114004": {
+    "id": 114004,
+    "lootId": "CHAMPION_SKIN_114004",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "114005": {
+    "id": 114005,
+    "lootId": "CHAMPION_SKIN_114005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "115001": {
+    "id": 115001,
+    "lootId": "CHAMPION_SKIN_115001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "115002": {
+    "id": 115002,
+    "lootId": "CHAMPION_SKIN_115002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "115003": {
+    "id": 115003,
+    "lootId": "CHAMPION_SKIN_115003",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "115004": {
+    "id": 115004,
+    "lootId": "CHAMPION_SKIN_115004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "115005": {
+    "id": 115005,
+    "lootId": "CHAMPION_SKIN_115005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "117001": {
+    "id": 117001,
+    "lootId": "CHAMPION_SKIN_117001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "117002": {
+    "id": 117002,
+    "lootId": "CHAMPION_SKIN_117002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "117003": {
+    "id": 117003,
+    "lootId": "CHAMPION_SKIN_117003",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "117004": {
+    "id": 117004,
+    "lootId": "CHAMPION_SKIN_117004",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["legacy", "rarity_epic"]
+  },
+  "117005": {
+    "id": 117005,
+    "lootId": "CHAMPION_SKIN_117005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "117006": {
+    "id": 117006,
+    "lootId": "CHAMPION_SKIN_117006",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "119001": {
+    "id": 119001,
+    "lootId": "CHAMPION_SKIN_119001",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "119002": {
+    "id": 119002,
+    "lootId": "CHAMPION_SKIN_119002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "119003": {
+    "id": 119003,
+    "lootId": "CHAMPION_SKIN_119003",
+    "rarity": "LEGENDARY",
+    "value": 975,
+    "tags": ["rarity_legendary"]
+  },
+  "119004": {
+    "id": 119004,
+    "lootId": "CHAMPION_SKIN_119004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "119005": {
+    "id": 119005,
+    "lootId": "CHAMPION_SKIN_119005",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "119006": {
+    "id": 119006,
+    "lootId": "CHAMPION_SKIN_119006",
+    "rarity": "DEFAULT",
+    "value": 500,
+    "tags": ["520"]
+  },
+  "120001": {
+    "id": 120001,
+    "lootId": "CHAMPION_SKIN_120001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "120002": {
+    "id": 120002,
+    "lootId": "CHAMPION_SKIN_120002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "120003": {
+    "id": 120003,
+    "lootId": "CHAMPION_SKIN_120003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "120004": {
+    "id": 120004,
+    "lootId": "CHAMPION_SKIN_120004",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "120005": {
+    "id": 120005,
+    "lootId": "CHAMPION_SKIN_120005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "120006": {
+    "id": 120006,
+    "lootId": "CHAMPION_SKIN_120006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "121001": {
+    "id": 121001,
+    "lootId": "CHAMPION_SKIN_121001",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "121002": {
+    "id": 121002,
+    "lootId": "CHAMPION_SKIN_121002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "121003": {
+    "id": 121003,
+    "lootId": "CHAMPION_SKIN_121003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "122001": {
+    "id": 122001,
+    "lootId": "CHAMPION_SKIN_122001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "122002": {
+    "id": 122002,
+    "lootId": "CHAMPION_SKIN_122002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "122003": {
+    "id": 122003,
+    "lootId": "CHAMPION_SKIN_122003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "122004": {
+    "id": 122004,
+    "lootId": "CHAMPION_SKIN_122004",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "122008": {
+    "id": 122008,
+    "lootId": "CHAMPION_SKIN_122008",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "126001": {
+    "id": 126001,
+    "lootId": "CHAMPION_SKIN_126001",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "126002": {
+    "id": 126002,
+    "lootId": "CHAMPION_SKIN_126002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "126003": {
+    "id": 126003,
+    "lootId": "CHAMPION_SKIN_126003",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "126004": {
+    "id": 126004,
+    "lootId": "CHAMPION_SKIN_126004",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "127001": {
+    "id": 127001,
+    "lootId": "CHAMPION_SKIN_127001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "127002": {
+    "id": 127002,
+    "lootId": "CHAMPION_SKIN_127002",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "127003": {
+    "id": 127003,
+    "lootId": "CHAMPION_SKIN_127003",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "131001": {
+    "id": 131001,
+    "lootId": "CHAMPION_SKIN_131001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "131002": {
+    "id": 131002,
+    "lootId": "CHAMPION_SKIN_131002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "131003": {
+    "id": 131003,
+    "lootId": "CHAMPION_SKIN_131003",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "133001": {
+    "id": 133001,
+    "lootId": "CHAMPION_SKIN_133001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "133002": {
+    "id": 133002,
+    "lootId": "CHAMPION_SKIN_133002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "133003": {
+    "id": 133003,
+    "lootId": "CHAMPION_SKIN_133003",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "133004": {
+    "id": 133004,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "134001": {
+    "id": 134001,
+    "lootId": "CHAMPION_SKIN_134001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "134002": {
+    "id": 134002,
+    "lootId": "CHAMPION_SKIN_134002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "134003": {
+    "id": 134003,
+    "lootId": "CHAMPION_SKIN_134003",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "134004": {
+    "id": 134004,
+    "lootId": "CHAMPION_SKIN_134004",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["legacy", "rarity_epic"]
+  },
+  "136001": {
+    "id": 136001,
+    "lootId": "CHAMPION_SKIN_136001",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "143001": {
+    "id": 143001,
+    "lootId": "CHAMPION_SKIN_143001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "143002": {
+    "id": 143002,
+    "lootId": "CHAMPION_SKIN_143002",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "143003": {
+    "id": 143003,
+    "lootId": "CHAMPION_SKIN_143003",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "150001": {
+    "id": 150001,
+    "lootId": "CHAMPION_SKIN_150001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "150002": {
+    "id": 150002,
+    "lootId": "CHAMPION_SKIN_150002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "150003": {
+    "id": 150003,
+    "lootId": "CHAMPION_SKIN_150003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "150004": {
+    "id": 150004,
+    "lootId": "CHAMPION_SKIN_150004",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "154001": {
+    "id": 154001,
+    "lootId": "CHAMPION_SKIN_154001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "154002": {
+    "id": 154002,
+    "lootId": "CHAMPION_SKIN_154002",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "157001": {
+    "id": 157001,
+    "lootId": "CHAMPION_SKIN_157001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "157002": {
+    "id": 157002,
+    "lootId": "CHAMPION_SKIN_157002",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "157003": {
+    "id": 157003,
+    "lootId": "CHAMPION_SKIN_157003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "161001": {
+    "id": 161001,
+    "lootId": "CHAMPION_SKIN_161001",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "161002": {
+    "id": 161002,
+    "lootId": "CHAMPION_SKIN_161002",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "161003": {
+    "id": 161003,
+    "lootId": "CHAMPION_SKIN_161003",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "163001": {
+    "id": 163001,
+    "lootId": "CHAMPION_SKIN_163001",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "164001": {
+    "id": 164001,
+    "lootId": "CHAMPION_SKIN_164001",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "201001": {
+    "id": 201001,
+    "lootId": "CHAMPION_SKIN_201001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "201002": {
+    "id": 201002,
+    "lootId": "CHAMPION_SKIN_201002",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "201003": {
+    "id": 201003,
+    "lootId": "CHAMPION_SKIN_201003",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "201010": {
+    "id": 201010,
+    "lootId": "CHAMPION_SKIN_201010",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["legacy", "rarity_epic"]
+  },
+  "202001": {
+    "id": 202001,
+    "lootId": "CHAMPION_SKIN_202001",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "203001": {
+    "id": 203001,
+    "lootId": "CHAMPION_SKIN_203001",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "203002": {
+    "id": 203002,
+    "lootId": "CHAMPION_SKIN_203002",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "222001": {
+    "id": 222001,
+    "lootId": "CHAMPION_SKIN_222001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "222002": {
+    "id": 222002,
+    "lootId": "CHAMPION_SKIN_222002",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "222003": {
+    "id": 222003,
+    "lootId": "CHAMPION_SKIN_222003",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["legacy", "rarity_epic"]
+  },
+  "222004": {
+    "id": 222004,
+    "lootId": "CHAMPION_SKIN_222004",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "223001": {
+    "id": 223001,
+    "lootId": "CHAMPION_SKIN_223001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "223002": {
+    "id": 223002,
+    "lootId": "CHAMPION_SKIN_223002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "236001": {
+    "id": 236001,
+    "lootId": "CHAMPION_SKIN_236001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "236002": {
+    "id": 236002,
+    "lootId": "CHAMPION_SKIN_236002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "236006": {
+    "id": 236006,
+    "lootId": "CHAMPION_SKIN_236006",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "236007": {
+    "id": 236007,
+    "lootId": "",
+    "rarity": "",
+    "value": -1,
+    "tags": [""]
+  },
+  "238001": {
+    "id": 238001,
+    "lootId": "CHAMPION_SKIN_238001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "238002": {
+    "id": 238002,
+    "lootId": "CHAMPION_SKIN_238002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": ["legacy"]
+  },
+  "238003": {
+    "id": 238003,
+    "lootId": "CHAMPION_SKIN_238003",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "238010": {
+    "id": 238010,
+    "lootId": "CHAMPION_SKIN_238010",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "240001": {
+    "id": 240001,
+    "lootId": "CHAMPION_SKIN_240001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "245001": {
+    "id": 245001,
+    "lootId": "CHAMPION_SKIN_245001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "245002": {
+    "id": 245002,
+    "lootId": "CHAMPION_SKIN_245002",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "245003": {
+    "id": 245003,
+    "lootId": "CHAMPION_SKIN_245003",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "254001": {
+    "id": 254001,
+    "lootId": "CHAMPION_SKIN_254001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "254002": {
+    "id": 254002,
+    "lootId": "CHAMPION_SKIN_254002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "254003": {
+    "id": 254003,
+    "lootId": "CHAMPION_SKIN_254003",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "254004": {
+    "id": 254004,
+    "lootId": "CHAMPION_SKIN_254004",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "254005": {
+    "id": 254005,
+    "lootId": "CHAMPION_SKIN_254005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["legacy", "rarity_epic"]
+  },
+  "266001": {
+    "id": 266001,
+    "lootId": "CHAMPION_SKIN_266001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "266002": {
+    "id": 266002,
+    "lootId": "CHAMPION_SKIN_266002",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "266003": {
+    "id": 266003,
+    "lootId": "CHAMPION_SKIN_266003",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "267001": {
+    "id": 267001,
+    "lootId": "CHAMPION_SKIN_267001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "267002": {
+    "id": 267002,
+    "lootId": "CHAMPION_SKIN_267002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "267003": {
+    "id": 267003,
+    "lootId": "CHAMPION_SKIN_267003",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  },
+  "267007": {
+    "id": 267007,
+    "lootId": "CHAMPION_SKIN_267007",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "268001": {
+    "id": 268001,
+    "lootId": "CHAMPION_SKIN_268001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "268002": {
+    "id": 268002,
+    "lootId": "CHAMPION_SKIN_268002",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "268003": {
+    "id": 268003,
+    "lootId": "CHAMPION_SKIN_268003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "268004": {
+    "id": 268004,
+    "lootId": "CHAMPION_SKIN_268004",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["legacy", "rarity_epic"]
+  },
+  "412001": {
+    "id": 412001,
+    "lootId": "CHAMPION_SKIN_412001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "412002": {
+    "id": 412002,
+    "lootId": "CHAMPION_SKIN_412002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "412003": {
+    "id": 412003,
+    "lootId": "CHAMPION_SKIN_412003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "412004": {
+    "id": 412004,
+    "lootId": "CHAMPION_SKIN_412004",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "412005": {
+    "id": 412005,
+    "lootId": "CHAMPION_SKIN_412005",
+    "rarity": "LEGENDARY",
+    "value": 1820,
+    "tags": ["rarity_legendary"]
+  },
+  "420001": {
+    "id": 420001,
+    "lootId": "CHAMPION_SKIN_420001",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "421001": {
+    "id": 421001,
+    "lootId": "CHAMPION_SKIN_421001",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "421002": {
+    "id": 421002,
+    "lootId": "CHAMPION_SKIN_421002",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "427001": {
+    "id": 427001,
+    "lootId": "CHAMPION_SKIN_427001",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "429001": {
+    "id": 429001,
+    "lootId": "CHAMPION_SKIN_429001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "429002": {
+    "id": 429002,
+    "lootId": "CHAMPION_SKIN_429002",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "429003": {
+    "id": 429003,
+    "lootId": "CHAMPION_SKIN_429003",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": ["legacy"]
+  },
+  "432001": {
+    "id": 432001,
+    "lootId": "CHAMPION_SKIN_432001",
+    "rarity": "DEFAULT",
+    "value": 975,
+    "tags": [""]
+  },
+  "432005": {
+    "id": 432005,
+    "lootId": "CHAMPION_SKIN_432005",
+    "rarity": "EPIC",
+    "value": 1350,
+    "tags": ["rarity_epic"]
+  },
+  "432006": {
+    "id": 432006,
+    "lootId": "CHAMPION_SKIN_432006",
+    "rarity": "DEFAULT",
+    "value": 750,
+    "tags": [""]
+  }
+}
