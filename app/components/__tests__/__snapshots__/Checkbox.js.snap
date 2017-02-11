@@ -1,7 +1,9 @@
 exports[`<Checkbox /> should render correctly 1`] = `
 <div
+  aria-checked={true}
   className="checkbox checked testClass"
-  onClick={[Function]}>
+  onClick={[Function]}
+  role="checkbox">
   <div
     className="box">
     <div
@@ -18,8 +20,10 @@ exports[`<Checkbox /> should render correctly 1`] = `
 
 exports[`<Checkbox /> should render correctly 2`] = `
 <div
+  aria-checked={false}
   className="checkbox testClass"
-  onClick={[Function]}>
+  onClick={[Function]}
+  role="checkbox">
   <div
     className="box">
     <div

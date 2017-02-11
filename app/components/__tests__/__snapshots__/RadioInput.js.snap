@@ -1,6 +1,7 @@
 exports[`<RadioInput /> should render correctly 1`] = `
 <div
-  className="radioInput">
+  className="radioInput"
+  role="radiogroup">
   <RadioOption
     checked={false}
     disabled={false}

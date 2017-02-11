@@ -13,21 +13,27 @@ import style from './index.scss';
 
 export default class SkinsSidebar extends PureComponent {
   static propTypes = {
-    rpTotal: PropTypes.number.isRequired,
-    count: PropTypes.number.isRequired,
-    filters: PropTypes.object.isRequired,
-    sortMethod: PropTypes.string.isRequired,
-    changeNameFilter: PropTypes.func.isRequired,
-    changeShowFilter: PropTypes.func.isRequired,
-    changeSortMethod: PropTypes.func.isRequired
+    rpTotal: PropTypes.number,
+    count: PropTypes.number,
+    filters: PropTypes.object,
+    sortMethod: PropTypes.string,
+    changeNameFilter: PropTypes.func,
+    changeShowFilter: PropTypes.func,
+    changeSortMethod: PropTypes.func
   };
 
   constructor (props) {
     super(props);
 
+    let initialSearch = '';
+
+    if (props.filters && props.filters.name) {
+      initialSearch = props.filters.name;
+    }
+
     this.state = {
       summary: false,
-      search: ''
+      search: initialSearch
     };
   }
 
@@ -45,10 +51,8 @@ export default class SkinsSidebar extends PureComponent {
   }
 
   changeNameFilter = nextValue => {
-    const { changeNameFilter, filters } = this.props;
-    if (filters.name !== nextValue) {
-      changeNameFilter(nextValue);
-    }
+    const { changeNameFilter } = this.props;
+    changeNameFilter(nextValue);
   }
 
   debounced = debounce(this.changeNameFilter, 300)
@@ -56,9 +60,9 @@ export default class SkinsSidebar extends PureComponent {
   render () {
     const {
       rpTotal = 0,
-      count,
+      count = 0,
       sortMethod,
-      filters,
+      filters = {},
       changeShowFilter,
       changeSortMethod
     } = this.props;
