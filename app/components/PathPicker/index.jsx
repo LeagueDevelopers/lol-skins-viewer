@@ -46,7 +46,7 @@ export default class PathPicker extends PureComponent {
         <div className={style.info} >
           Locate your League of Legends directory (where LeagueClient.exe is).
         </div>
-        <Input className={style.picker} value={value} placeholder="Find your League of Legends client folder..." onChange={this.onChange} hideClear>
+        <Input className={style.picker} inputClassName={style.input} value={value} placeholder="Find your League of Legends client folder..." onChange={this.onChange} hideClear>
           <i
             className={cx('fa fa-undo', style.reset, { [style.hidden]: !hasChanged })}
             onClick={this.onReset}
