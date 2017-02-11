@@ -90,7 +90,6 @@
     "eslint-plugin-flowtype-errors": "^1.5.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.0.1",
-    "eslint-plugin-mocha": "^4.7.0",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-react": "^6.7.1",
     "express": "^4.14.0",
@@ -110,10 +109,8 @@
     "react-dom": "^15.4.2",
     "redux-logger": "^2.7.4",
     "sass-loader": "^4.0.2",
-    "sinon": "^1.17.6",
     "spectron": "^3.4.0",
     "style-loader": "^0.13.1",
-    "tcomb": "^3.2.15",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.3",
     "webpack-dev-middleware": "^1.8.4",
@@ -122,16 +119,14 @@
     "webpack-validator": "^2.2.9"
   },
   "devEngines": {
-    "node": ">=6.x",
+    "node": ">=6.9.5",
     "npm": ">=3.x"
   },
   "keywords": [
     "electron",
-    "flux",
     "react",
-    "react-hot",
-    "react-router",
-    "webpack"
+    "league",
+    "league of legends"
   ],
   "license": "MIT",
   "main": "main.js",
@@ -139,8 +134,8 @@
   "repository": "LeagueOSS/lol-skins-viewer",
   "scripts": {
     "build": "npm run clean && npm run build-main && npm run build-renderer",
-    "build-main": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.electron.js --progress --profile --colors",
-    "build-renderer": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.production.js --progress --profile --colors",
+    "build-main": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.electron.js --profile --colors",
+    "build-renderer": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.production.js --profile --colors",
     "clean": "rimraf app/dist",
     "dev": "cross-env DEBUG=lsv:* npm run hot-server -- --start-hot",
     "hot-server": "cross-env NODE_ENV=development node --max_old_space_size=2096 -r babel-register server.js",
