@@ -45,6 +45,16 @@ export const skinsSelector = createSelector(
   })
 );
 
+export const rpTotal = createSelector(
+  skinsSelector,
+  skins => skins.filter(s => s.owned).reduce((total, s) => {
+    if (s.rpValue === 9999) {
+      return total;
+    }
+    return total + s.rpValue;
+  }, 0)
+);
+
 export const countOwnedSkins = createSelector(
   skinsSelector,
   skins => skins.filter(s => s.owned).length

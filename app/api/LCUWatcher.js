@@ -15,6 +15,7 @@ let watcher = null;
 function pollLogin () {
   const { port, password } = store.getState().app.lcu;
   if (!port || !password) {
+    debug('Could not get LCU port and password');
     return false;
   }
   debug('Polling LCU for Login');
@@ -37,7 +38,6 @@ async function onLockfile (filePath) {
   if (!file) {
     return false;
   }
-  debug('Found Lockfile %s', file);
 
   const lcuInstance = parseLockfile(file);
   debug('Parsed Lockfile %O', lcuInstance);

@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { remote } from 'electron';
 
-import { sortedSkins, countOwnedSkins } from 'selectors/skins';
+import { sortedSkins, rpTotal, countOwnedSkins } from 'selectors/skins';
 
 import SkinsList from '../components/SkinsList';
 import SkinsSidebar from '../components/SkinsSidebar';
@@ -19,6 +19,7 @@ import * as skinsActionCreators from '../actions/skins';
     sortMethod: state.skins.sortMethod,
     filters: state.skins.filters,
     skins: sortedSkins(state),
+    collectionValue: rpTotal(state),
     ownedSkinsCount: countOwnedSkins(state),
     lowSpec: state.settings.lowSpec.value
   }),
@@ -35,12 +36,13 @@ export default class SkinsContainer extends Component {
     skins: PropTypes.array.isRequired,
     sortMethod: PropTypes.string.isRequired,
     filters: PropTypes.object.isRequired,
+    collectionValue: PropTypes.number,
     ownedSkinsCount: PropTypes.number.isRequired,
     lowSpec: PropTypes.bool,
     skinsActions: PropTypes.object.isRequired,
     onMount: PropTypes.func,
     onUnmount: PropTypes.func
-  }
+  };
   componentDidMount () {
     const { hasLoaded, onMount } = this.props;
     // TODO: Move this to a decorator
@@ -70,18 +72,27 @@ export default class SkinsContainer extends Component {
   }
 
   reload = () => this.reloadSkins();
-  reloadSkins = (props) => {
+  reloadSkins = props => {
     const { skinsActions, lcu, proxy, summoner } = props || this.props;
     if (proxy && lcu && summoner) {
       skinsActions.getSkins(proxy, summoner);
     }
-  }
+  };
 
   render () {
-    const { skins, sortMethod, filters, ownedSkinsCount, lowSpec, skinsActions } = this.props;
+    const {
+      skins,
+      sortMethod,
+      filters,
+      collectionValue,
+      ownedSkinsCount,
+      lowSpec,
+      skinsActions
+    } = this.props;
     return (
       <section className="skins">
         <SkinsSidebar
+          rpTotal={collectionValue}
           count={ownedSkinsCount}
           sortMethod={sortMethod}
           filters={filters}
