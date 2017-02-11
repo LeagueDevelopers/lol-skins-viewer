@@ -100,6 +100,7 @@
     "html-webpack-plugin": "^2.24.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^18.1.0",
+    "jest-enzyme": "^2.1.1",
     "jsdom": "^9.8.3",
     "json-loader": "^0.5.4",
     "minimist": "^1.2.0",
@@ -145,16 +146,9 @@
     "hot-server": "cross-env NODE_ENV=development node --max_old_space_size=2096 -r babel-register server.js",
     "lint": "eslint --ignore-path .gitignore --format=node_modules/eslint-formatter-pretty app test *.js",
     "release": "npm run build && build",
-    "package-all": "npm run build && build -mw",
-    "package-osx": "npm run build && build -m",
     "package-win": "npm run build && build --win --x64",
     "postinstall": "concurrently \"install-app-deps\" \"node node_modules/fbjs-scripts/node/check-dev-engines.js package.json\"",
     "start-hot": "cross-env HOT=1 NODE_ENV=development electron ./app/dist/main",
-    "test": "jest --config .jest.json",
-    "test-e2e": "cross-env NODE_ENV=test BABEL_DISABLE_CACHE=1 mocha --retries 2 --compilers js:babel-register --require ./test/setup.js ./test/e2e.js",
-    "test-watch": "npm test -- --watch"
-  },
-  "dependencies": {
-    "jest-enzyme": "^2.1.1"
+    "test": "jest --config .jest.json"
   }
 }
