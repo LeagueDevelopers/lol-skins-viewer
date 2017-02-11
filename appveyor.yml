@@ -1,14 +1,13 @@
 os: unstable
 
 branches:
-	except: gh-pages
+	except:
+		- gh-pages
 
 environment:
 	GH-TOKEN:
 		secure: fRRq3ihhnBA5DHzqNDqGCcB1KCBDpw2SbEfZk5foNG3b7nLXPmKZabi0zQhFpF0b
-  matrix:
-    - nodejs_version: 7
-    - nodejs_version: 6
+  nodejs_version: 7
 
 cache:
   - node_modules -> package.json
@@ -36,4 +35,6 @@ test_script:
   - node --version
   - npm run lint
   - npm run test
-  - npm run package-win
+
+build_script:
+	- npm run package-win
