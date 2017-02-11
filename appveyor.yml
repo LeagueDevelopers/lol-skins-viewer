@@ -2,11 +2,11 @@ os: unstable
 
 branches:
   except:
-	  - gh-pages
+    - gh-pages
 
 environment:
   GH-TOKEN:
-	  secure: fRRq3ihhnBA5DHzqNDqGCcB1KCBDpw2SbEfZk5foNG3b7nLXPmKZabi0zQhFpF0b
+    secure: fRRq3ihhnBA5DHzqNDqGCcB1KCBDpw2SbEfZk5foNG3b7nLXPmKZabi0zQhFpF0b
   nodejs_version: 7
 
 cache:
