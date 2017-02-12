@@ -7,10 +7,19 @@ import ring from 'static/ring.png';
 
 import style from './index.scss';
 
+function fitValue (value) {
+  let px = 40;
+  const digits = `${value}`.length;
+  if (digits > 5) {
+    px = 40 - ((digits - 5) * 5);
+  }
+  return `${px}px`;
+}
+
 const SummaryRing = ({ className, onClick, value, label, children }) =>
   <div className={cx(style.summaryRing, className)} onClick={onClick}>
     <img role="presentation" className={style.bg} src={ring} />
-    <AnimatedNumber className={style.value} value={value} />
+    <AnimatedNumber className={style.value} style={{ fontSize: fitValue(value) }} value={value} />
     <span className={style.text}>{children || label}</span>
   </div>;
 

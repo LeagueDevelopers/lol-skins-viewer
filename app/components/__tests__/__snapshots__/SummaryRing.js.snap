@@ -8,6 +8,11 @@ exports[`<SummaryRing /> should render correctly 1`] = `
     src="test-file-stub" />
   <AnimatedNumber
     className="value"
+    style={
+      Object {
+        "fontSize": "40px",
+      }
+    }
     value={9999} />
   <span
     className="text">
@@ -26,6 +31,11 @@ exports[`<SummaryRing /> should render correctly 2`] = `
     src="test-file-stub" />
   <AnimatedNumber
     className="value"
+    style={
+      Object {
+        "fontSize": "40px",
+      }
+    }
     value={9999} />
   <span
     className="text">

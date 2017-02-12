@@ -5,7 +5,7 @@ import tweenState from 'react-tween-state';
 /**
  * <AnimatedNumber />
  *
- * Tweens it's value every time it changes
+ * Tweens its value every time it changes
  */
 const AnimatedNumber = React.createClass({
   propTypes: {

@@ -46,4 +46,22 @@ describe('<SummaryRing />', () => {
 
     expect(wrapper.find('.text').text()).toBe(child);
   });
+
+  it('should change font-size in order to fit its value', () => {
+    const wrapper = shallow(<SummaryRing value={9999} />);
+    const fontSize1 = wrapper.find('.value').props().style.fontSize;
+
+    expect(fontSize1).toBe('40px');
+
+    wrapper.setProps({ value: 999999 });
+    const fontSize2 = wrapper.find('.value').props().style.fontSize;
+
+    expect(fontSize2).not.toBe(fontSize1);
+
+    wrapper.setProps({ value: 9999999 });
+    const fontSize3 = wrapper.find('.value').props().style.fontSize;
+
+    expect(fontSize3).not.toBe(fontSize1);
+    expect(fontSize3).not.toBe(fontSize2);
+  });
 });
