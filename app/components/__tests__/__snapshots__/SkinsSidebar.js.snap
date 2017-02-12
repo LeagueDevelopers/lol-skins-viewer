@@ -1,0 +1,61 @@
+exports[`<SkinsSidebar /> should render correctly 1`] = `
+<div
+  className="sidebar">
+  <SummaryRing
+    className="ring"
+    onClick={[Function]}
+    value={50}>
+    Total Skins
+  </SummaryRing>
+  <div
+    className="filters">
+    <Input
+      onChange={[Function]}
+      placeholder="Search"
+      type="search"
+      value="" />
+    <Dropdown
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "label": "All Skins",
+            "value": "ALL",
+          },
+          Object {
+            "label": "Owned Skins",
+            "value": "OWNED",
+          },
+          Object {
+            "label": "Unowned Skins",
+            "value": "UNOWNED",
+          },
+        ]
+      }
+      value={true} />
+    <RadioInput
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "label": "ALPHABETICAL",
+            "value": "ALPHABETICAL",
+          },
+          Object {
+            "label": "MASTERY",
+            "value": "MASTERY",
+          },
+          Object {
+            "label": "RP VALUE",
+            "value": "RP VALUE",
+          },
+          Object {
+            "label": "SKINS OWNED",
+            "value": "SKINS OWNED",
+          },
+        ]
+      }
+      value="ALPHABETICAL" />
+  </div>
+</div>
+`;

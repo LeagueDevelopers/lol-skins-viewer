@@ -18,6 +18,11 @@ export function changeSetting (setting, nextValue) {
           type: 'SCALE_CHANGE',
           payload: nextValue
         });
+      case 'lowSpec':
+        return dispatch({
+          type: 'LOW_SPEC_CHANGE',
+          payload: nextValue
+        });
       default:
         return dispatch({
           type: 'ERROR',
@@ -49,13 +54,13 @@ export function resetSettings () {
 }
 
 export function saveSettings () {
-  return (dispatch, getState) => {
+  return async (dispatch, getState) => {
     const state = getState();
     if (hasChangesSelector(state) && isValidSelector(state)) {
-      validSettingsSelector(state).forEach(s => {
+      await Promise.all(validSettingsSelector(state).map(s => {
         logger.debug(`Set ${s.name} to ${s.value}`);
-        settings.setSync(s.name, s.value);
-      });
+        return settings.set(s.name, s.value);
+      }));
       dispatch({
         type: 'SETTINGS_SAVE'
       });

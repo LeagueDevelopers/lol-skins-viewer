@@ -54,6 +54,7 @@ export default class Button extends PureComponent {
     const disabledClass = disabled && style.disabled;
     return (
       <div
+        role="button"
         className={cx(
           style.button, hoverClass, mouseDownClass, clickClass, disabledClass, className
         )}

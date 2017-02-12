@@ -1,6 +1,7 @@
 {
   "verbose": true,
   "testRegex": "(/__tests__/.*|(\\.|/)spec)\\.jsx?$",
+  "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
   "setupFiles": ["<rootDir>/test/setup.js"],
   "modulePaths": [
     "<rootDir>/app",
@@ -15,15 +16,16 @@
     "<rootDir>/app/types",
     "<rootDir>/app/utils"
   ],
-  "moduleFileExtensions": ["js", "jsx", "test.js"],
+  "moduleFileExtensions": ["js", "jsx", "test.js", "json"],
   "moduleDirectories": ["node_modules"],
   "moduleNameMapper": {
     "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-    "\\.(css|less)$": "identity-obj-proxy"
+    "\\.(css|less|scss)$": "identity-obj-proxy"
   },
   "collectCoverage": true,
   "collectCoverageFrom": [
     "app/**/*.{js}",
+    "app/**/*.{jsx}",
     "!**/node_modules/**",
     "!**/vendor/**",
     "!**/dist/**",
@@ -34,6 +36,6 @@
     "!**/*.development.js",
     "!app/index.main.js"
   ],
-  "coverageReporters": ["text"],
+  "coverageReporters": ["text", "html"],
   "coveragePathIgnorePatterns": ["<rootDir>/build/", "<rootDir>/node_modules/", "<rootDir>/app/node_modules/", "<rootDir>/app/dist", "<rootDir>/app/types"]
 }

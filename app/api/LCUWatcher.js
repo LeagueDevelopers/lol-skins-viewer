@@ -15,6 +15,7 @@ let watcher = null;
 function pollLogin () {
   const { port, password } = store.getState().app.lcu;
   if (!port || !password) {
+    debug('Could not get LCU port and password');
     return false;
   }
   debug('Polling LCU for Login');
@@ -37,7 +38,6 @@ async function onLockfile (filePath) {
   if (!file) {
     return false;
   }
-  debug('Found Lockfile %s', file);
 
   const lcuInstance = parseLockfile(file);
   debug('Parsed Lockfile %O', lcuInstance);
@@ -61,39 +61,55 @@ async function exists (filePath) {
   }
 }
 
-export default {
-  async start () {
-    if (watcher) {
-      watcher.stop();
-      watcher = null;
-    }
-    const clientPath = await PersistentSettings.getClientPath();
-    const lockfilePath = path.resolve(clientPath, 'lockfile');
-    if (await exists(lockfilePath)) {
-      onLockfile(lockfilePath);
-    }
-    return await new Promise(resolve => {
-      watch.createMonitor(clientPath, {
-        interval: 5,
-        filter: fullpath => path.normalize(fullpath) === lockfilePath
-      }, monitor => {
-        monitor.on('created', f => onLockfile(f));
-        monitor.on('changed', f => onLockfile(f));
-        monitor.on('removed', () => dispatchToRenderer(down()));
-        watcher = monitor;
-        resolve(monitor);
-      });
-    });
-  },
-
-  stop () {
-    if (watcher) {
-      watcher.stop();
-      watcher = null;
-    }
-  },
-
-  getWatcher () {
-    return watcher;
+/**
+ * Stops the LCUWatcher
+ */
+function stop () {
+  if (watcher) {
+    watcher.stop();
+    watcher = null;
   }
+}
+
+/**
+ * Starts the LCUWatcher, subsequent calls restart it
+ *
+ * @returns {Promise<Monitor>} watcher instance
+ */
+async function start () {
+  stop();
+  const clientPath = await PersistentSettings.getClientPath();
+  const lowSpec = await PersistentSettings.getLowSpec();
+  const lockfilePath = path.resolve(clientPath, 'lockfile');
+  if (await exists(lockfilePath)) {
+    onLockfile(lockfilePath);
+  }
+  return new Promise(resolve => {
+    watch.createMonitor(clientPath, {
+      interval: lowSpec ? 20 : 5,
+      filter: fullpath => path.normalize(fullpath) === lockfilePath
+    }, monitor => {
+      monitor.on('created', f => onLockfile(f));
+      monitor.on('changed', f => onLockfile(f));
+      monitor.on('removed', () => dispatchToRenderer(down()));
+      watcher = monitor;
+      resolve(monitor);
+    });
+  });
+}
+
+
+/**
+ * Get the currently active internal watcher instance
+ *
+ * @returns {Monitor} watcher instance
+ */
+function getWatcher () {
+  return watcher;
+}
+
+export default {
+  start,
+  stop,
+  getWatcher
 };

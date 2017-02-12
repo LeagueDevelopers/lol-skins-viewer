@@ -10,6 +10,13 @@ module.exports = {
     "jest": true
   },
   "rules": {
+    "no-restricted-syntax": [
+      'error',
+      'ForInStatement',
+//      'ForOfStatement', For async/await loops
+      'LabeledStatement',
+      'WithStatement',
+    ],
     "no-unused-expressions": ["error", { "allowShortCircuit": true }],
     "arrow-parens": ["off"],
     "consistent-return": "off",

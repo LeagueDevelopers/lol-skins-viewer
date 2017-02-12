@@ -13,6 +13,7 @@ function NavigationItem (props) {
     <div className={cx(style.navigationItemWrapper, className)}>
       <div className={cx(style.navigationItem, { [style.active]: isActive })}>
         <span
+          role="navigation"
           className={style.content}
           onClick={() => !isActive && hashHistory.push(to)}
         >

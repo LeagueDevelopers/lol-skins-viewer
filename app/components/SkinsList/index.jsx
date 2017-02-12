@@ -1,20 +1,36 @@
-import React, { PropTypes } from 'react';
-import { pure } from 'recompose';
+import React, { PureComponent, PropTypes } from 'react';
+import { forceCheck } from 'react-lazyload';
+import FlipMove from 'react-flip-move';
 
 import style from './index.scss';
 
 import SkinTile from '../SkinTile';
 
-function SkinsList ({ skins }) {
-  return (
-    <section className={style.skinsList}>
-      {skins && skins.map(skin => <SkinTile key={`skin_${skin.id}`} {...skin} />)}
-    </section>
-  );
+export default class SkinsList extends PureComponent {
+  static propTypes = {
+    disableAnimations: PropTypes.bool,
+    skins: PropTypes.array.isRequired
+  }
+
+  componentDidUpdate (prevProps) {
+    if (this.areAnimationsDisabled() && prevProps.skins !== this.props.skins) {
+      forceCheck();
+    }
+  }
+
+  areAnimationsDisabled = () => this.props.skins.length > 200 || this.props.disableAnimations
+
+  render () {
+    const { skins } = this.props;
+    return (
+      <section className={style.skinsList}>
+        <FlipMove
+          onFinishAll={forceCheck}
+          disableAllAnimations={this.areAnimationsDisabled()}
+        >
+          {skins && skins.map(skin => <SkinTile key={skin.id} {...skin} />)}
+        </FlipMove>
+      </section>
+    );
+  }
 }
-
-SkinsList.propTypes = {
-  skins: PropTypes.array.isRequired
-};
-
-export default pure(SkinsList);

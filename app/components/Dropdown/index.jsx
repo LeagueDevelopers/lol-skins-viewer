@@ -11,9 +11,9 @@ import style from './index.scss';
 export default class Dropdown extends PureComponent {
   static propTypes = {
     className: PropTypes.any,
-    options: PropTypes.array.isRequired,
-    value: PropTypes.any.isRequired,
-    onChange: PropTypes.func.isRequired
+    value: PropTypes.any,
+    onChange: PropTypes.func,
+    options: PropTypes.array.isRequired
   }
 
   constructor (props) {
@@ -61,6 +61,8 @@ export default class Dropdown extends PureComponent {
     return (
       <div
         key={option.value}
+        role="option"
+        aria-selected={isSelected}
         className={classnames}
         onClick={() => this.onOptionClick(option.value)}
       >
@@ -71,11 +73,14 @@ export default class Dropdown extends PureComponent {
 
   render () {
     const { options, className, value } = this.props;
-    const { isOpen } = this.state;
+    const { isOpen: isOpenState } = this.state;
+    const isOpen = !!isOpenState;
     const selected = options.find(o => o.value === value);
     return (
       <div
         ref={e => { this.domElement = e; }}
+        role="combobox"
+        aria-expanded={isOpen}
         className={cx(style.dropdown, className)}
         onClick={this.toggle}
       >
@@ -84,7 +89,9 @@ export default class Dropdown extends PureComponent {
           <span className={style.arrow} />
         </div>
         <div
-          className={cx(style.options, { [style.hidden]: isOpen !== true })}
+          role="listbox"
+          aria-hidden={!isOpen}
+          className={cx(style.options, { [style.hidden]: !isOpen })}
         >
           {options.map(o => this.renderOption(o, value))}
         </div>

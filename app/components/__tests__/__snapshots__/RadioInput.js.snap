@@ -1,0 +1,31 @@
+exports[`<RadioInput /> should render correctly 1`] = `
+<div
+  className="radioInput"
+  role="radiogroup">
+  <RadioOption
+    checked={false}
+    disabled={false}
+    label="test0"
+    onClick={[Function]}
+    value={0} />
+  <RadioOption
+    checked={true}
+    disabled={false}
+    label="test1"
+    onClick={[Function]}
+    value={1} />
+  <RadioOption
+    checked={false}
+    disabled={false}
+    label="test2"
+    onClick={[Function]}
+    value={2} />
+  <RadioOption
+    checked={false}
+    disabled={false}
+    label="test3"
+    onClick={[Function]}
+    value={5} />
+  Hello
+</div>
+`;

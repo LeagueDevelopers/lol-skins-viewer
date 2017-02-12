@@ -1,0 +1,13 @@
+exports[`<TabNavigationItem /> should render correctly 1`] = `
+<div
+  className="navigationItem active testClass">
+  <div
+    className="contentWrapper">
+    <span
+      className="content"
+      onClick={[Function]}>
+      Test Route
+    </span>
+  </div>
+</div>
+`;

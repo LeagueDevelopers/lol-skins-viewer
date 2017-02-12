@@ -1,0 +1,38 @@
+os: unstable
+
+branches:
+  except:
+    - gh-pages
+
+environment:
+  GH_TOKEN:
+    secure: fRRq3ihhnBA5DHzqNDqGCcB1KCBDpw2SbEfZk5foNG3b7nLXPmKZabi0zQhFpF0b
+  nodejs_version: 7
+
+cache:
+  - node_modules -> package.json
+  - app/node_modules -> app/package.json
+
+matrix:
+  fast_finish: true
+
+build: off
+
+version: '{build}'
+
+shallow_clone: true
+
+clone_depth: 1
+
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - set CI=true
+  - cmd: npm install -g npm@latest >nul 2>&1
+  - set PATH=%APPDATA%\npm;%PATH%
+  - cmd: npm install -s >nul 2>&1
+
+test_script:
+  - node --version
+  - npm run lint
+  - npm run test
+  - npm run package-win

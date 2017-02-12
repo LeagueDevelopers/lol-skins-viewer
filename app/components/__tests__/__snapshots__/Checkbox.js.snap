@@ -1,0 +1,39 @@
+exports[`<Checkbox /> should render correctly 1`] = `
+<div
+  aria-checked={true}
+  className="checkbox checked testClass"
+  onClick={[Function]}
+  role="checkbox">
+  <div
+    className="box">
+    <div
+      className="border" />
+    <i
+      className="check iconCheck" />
+  </div>
+  <span
+    className="label">
+    Test 1
+  </span>
+</div>
+`;
+
+exports[`<Checkbox /> should render correctly 2`] = `
+<div
+  aria-checked={false}
+  className="checkbox testClass"
+  onClick={[Function]}
+  role="checkbox">
+  <div
+    className="box">
+    <div
+      className="border" />
+    <i
+      className="check iconCheck" />
+  </div>
+  <span
+    className="label">
+    Test 2
+  </span>
+</div>
+`;

@@ -36,3 +36,6 @@ app/dist
 
 # Visual studio code
 .vscode/
+
+# coverage
+coverage/
