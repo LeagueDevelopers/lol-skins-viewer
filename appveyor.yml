@@ -20,10 +20,6 @@ build: off
 
 version: '{build}'
 
-shallow_clone: true
-
-clone_depth: 1
-
 skip_branch_with_pr: true
 
 skip_tags: true
