@@ -43,7 +43,7 @@ export async function getData (proxyPort: number, summoner: Summoner) {
     const ownedChampionIds = collectionData.filter(c => c.ownership.owned).map(c => c.id);
     const skinIds = flatMap(champions, c => c.skins).map(s => s.id);
     const skinMetadata = {};
-    for (const id of skinIds) {
+    await Promise.all(skinIds.map(async id => {
       const response = await fetch(`http://127.0.0.1:${proxyPort}/lol-loot/v1/player-loot/CHAMPION_SKIN_${id}`);
       if (response.ok) {
         const meta = await response.json();
@@ -56,7 +56,7 @@ export async function getData (proxyPort: number, summoner: Summoner) {
           tags: Array.isArray(meta.tags) ? meta.tags : meta.tags.split(',')
         };
       }
-    }
+    }));
     return {
       champions,
       skinMetadata,

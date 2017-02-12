@@ -28,7 +28,7 @@ const installExtensions = async () => {
     const forceDownload = !!process.env.UPGRADE_EXTENSIONS;
     for (const name of extensions) { // eslint-disable-line
       try {
-        await installer.default(installer[name], forceDownload);
+        await installer.default(installer[name], forceDownload); // eslint-disable-line
       } catch (e) {} // eslint-disable-line
     }
   }

@@ -29,6 +29,7 @@ export default class SkinTile extends PureComponent {
         <LazyLoad
           once
           overflow
+          resize
           offset={550}
           placeholder={<div className={style.placeholder} />}
         >

@@ -5,7 +5,6 @@ module.exports = {
   "extends": "airbnb",
   "env": {
     "browser": true,
-    "mocha": true,
     "node": true,
     "jest": true
   },
@@ -40,7 +39,6 @@ module.exports = {
     "jsx-a11y/no-static-element-interactions": 0
   },
   "plugins": [
-    "flowtype-errors",
     "import",
     "promise",
     "react"

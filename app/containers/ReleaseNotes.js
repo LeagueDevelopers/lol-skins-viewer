@@ -17,8 +17,8 @@ import * as releaseNotesActionCreators from '../actions/releaseNotes';
 )
 export default class ReleaseNotesContainer extends Component {
   static propTypes = {
-    releases: PropTypes.array,
-    lastChecked: PropTypes.any,
+    releases: PropTypes.array.isRequired,
+    lastChecked: PropTypes.any.isRequired,
     releaseNotesActions: PropTypes.object.isRequired
   }
 

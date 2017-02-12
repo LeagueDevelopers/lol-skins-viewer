@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { remote } from 'electron';
 
+import { call } from 'utils';
+
 import { sortedSkins, rpTotal, countOwnedSkins } from 'selectors/skins';
 
 import SkinsList from '../components/SkinsList';
@@ -43,10 +45,16 @@ export default class SkinsContainer extends Component {
     onMount: PropTypes.func,
     onUnmount: PropTypes.func
   };
+  static defaultProps = {
+    collectionValue: 0,
+    lowSpec: false,
+    onMount: () => false,
+    onUnmount: () => false
+  }
   componentDidMount () {
     const { hasLoaded, onMount } = this.props;
     // TODO: Move this to a decorator
-    onMount && onMount.call && onMount(this);
+    call(onMount, this);
     if (!hasLoaded) {
       /*
        * if we havent loaded yet, initiate LCUWatcher on the main process
@@ -68,7 +76,7 @@ export default class SkinsContainer extends Component {
 
   componentWillUnmount () {
     const { onUnmount } = this.props;
-    onUnmount && onUnmount.call && onUnmount(this);
+    call(onUnmount, this);
   }
 
   reload = () => this.reloadSkins();

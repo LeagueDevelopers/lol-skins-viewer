@@ -4,7 +4,7 @@ import Checkbox from 'components/Checkbox';
 
 import style from './index.scss';
 
-export default function UIScale ({ changeSetting, value }) {
+export default function MiscSettings ({ changeSetting, value }) {
   return (
     <div className={style.miscSettings}>
       <div className={style.info} >
@@ -15,7 +15,7 @@ export default function UIScale ({ changeSetting, value }) {
   );
 }
 
-UIScale.propTypes = {
-  value: PropTypes.number.isRequired,
+MiscSettings.propTypes = {
+  value: PropTypes.bool.isRequired,
   changeSetting: PropTypes.func.isRequired
 };

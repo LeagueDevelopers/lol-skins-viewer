@@ -8,7 +8,7 @@ import Header from 'containers/Header';
 export default class App extends PureComponent {
   static propTypes = {
     location: PropTypes.object.isRequired, // from react-redux
-    children: PropTypes.node
+    children: PropTypes.node.isRequired
   }
 
   componentDidMount () {

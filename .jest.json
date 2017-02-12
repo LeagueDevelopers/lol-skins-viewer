@@ -2,7 +2,6 @@
   "verbose": true,
   "testRegex": "(/__tests__/.*|(\\.|/)spec)\\.jsx?$",
   "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
-  "setupFiles": ["<rootDir>/test/setup.js"],
   "modulePaths": [
     "<rootDir>/app",
     "<rootDir>/app/actions",
