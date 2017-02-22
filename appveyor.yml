@@ -35,4 +35,4 @@ test_script:
   - node --version
   - npm run lint
   - npm run test
-  - npm run package-win
+#  - npm run package-win # uncomment when I figure why some resources are corrupted in CI

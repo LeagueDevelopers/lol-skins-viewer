@@ -129,7 +129,7 @@
   "license": "MIT",
   "main": "main.js",
   "productName": "LoLSkinsViewer",
-  "repository": "LeagueOSS/lol-skins-viewer",
+  "repository": "LeagueDevelopers/lol-skins-viewer",
   "scripts": {
     "build": "npm run clean && npm run build-main && npm run build-renderer",
     "build-main": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.electron.js --profile --colors",
