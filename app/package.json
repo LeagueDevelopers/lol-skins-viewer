@@ -1,7 +1,7 @@
 {
   "name": "lol-skins-viewer",
   "productName": "LoLSkinsViewer",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "An application that can show you all the skins you own",
   "main": "./dist/main.js",
   "author": {
