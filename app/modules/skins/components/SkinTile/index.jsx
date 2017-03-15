@@ -10,11 +10,16 @@ import style from './index.scss';
 
 export default class SkinTile extends PureComponent {
   static propTypes = {
-    id: PropTypes.any,
-    name: PropTypes.string,
+    id: PropTypes.any.isRequired,
+    name: PropTypes.string.isRequired,
     rpValue: PropTypes.number,
     tilePath: PropTypes.string.isRequired
   }
+
+  static defaultProps = {
+    rpValue: 0
+  }
+
   render () {
     const { id, name, tilePath } = this.props;
     let { rpValue } = this.props;

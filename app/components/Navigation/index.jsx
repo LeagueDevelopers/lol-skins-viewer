@@ -8,7 +8,7 @@ import style from './index.scss';
 function Navigation ({ className, currentPath }) {
   return (
     <nav className={cx(style.navigation, className)}>
-      <NavigationItem to="/" currentPath={currentPath} index>Skins</NavigationItem>
+      <NavigationItem to="/modules/skins" currentPath={currentPath} index>Skins</NavigationItem>
       <NavigationItem to="/settings" currentPath={currentPath} index={false}>Settings</NavigationItem>
     </nav>
   );

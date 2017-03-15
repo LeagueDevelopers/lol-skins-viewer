@@ -7,10 +7,10 @@ import { call } from 'utils';
 
 import { sortedSkins, rpTotal, countOwnedSkins } from 'selectors/skins';
 
-import SkinsList from '../components/SkinsList';
-import SkinsSidebar from '../components/SkinsSidebar';
+import SkinsList from './components/SkinsList';
+import SkinsSidebar from './components/SkinsSidebar';
 
-import * as skinsActionCreators from '../actions/skins';
+import * as skinsActionCreators from './actions';
 
 @connect(
   state => ({

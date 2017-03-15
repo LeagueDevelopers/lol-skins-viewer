@@ -7,7 +7,7 @@ import { filterOptions, sortingOptions } from 'selectors/skins';
 import Dropdown from 'components/Dropdown';
 import Input from 'components/Input';
 import RadioInput from 'components/RadioInput';
-import SummaryRing from 'components/SummaryRing';
+import SummaryRing from '../SummaryRing';
 
 import style from './index.scss';
 
@@ -17,10 +17,17 @@ export default class SkinsSidebar extends PureComponent {
     count: PropTypes.number,
     filters: PropTypes.object,
     sortMethod: PropTypes.string,
-    changeNameFilter: PropTypes.func,
-    changeShowFilter: PropTypes.func,
-    changeSortMethod: PropTypes.func
+    changeNameFilter: PropTypes.func.isRequired,
+    changeShowFilter: PropTypes.func.isRequired,
+    changeSortMethod: PropTypes.func.isRequired
   };
+
+  static defaultProps = {
+    rpTotal: 0,
+    count: 0,
+    filters: {},
+    sortMethod: 'ALPHABETICAL'
+  }
 
   constructor (props) {
     super(props);
@@ -59,10 +66,10 @@ export default class SkinsSidebar extends PureComponent {
 
   render () {
     const {
-      rpTotal = 0,
-      count = 0,
+      rpTotal,
+      count,
       sortMethod,
-      filters = {},
+      filters,
       changeShowFilter,
       changeSortMethod
     } = this.props;

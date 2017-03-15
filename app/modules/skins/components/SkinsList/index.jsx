@@ -12,6 +12,10 @@ export default class SkinsList extends PureComponent {
     skins: PropTypes.array.isRequired
   }
 
+  static defaultProps = {
+    disableAnimations: false
+  }
+
   componentDidUpdate (prevProps) {
     if (this.areAnimationsDisabled() && prevProps.skins !== this.props.skins) {
       forceCheck();

@@ -3,7 +3,7 @@ import PersistentSettings from 'api/PersistentSettings';
 import LCUWatcher from 'api/LCUWatcher';
 import LCUProxy from 'api/LCUProxy';
 import { env } from 'utils';
-import AutoUpdater from './AutoUpdater';
+import AutoUpdater from './auto-updater';
 import store from './store';
 
 const debug = require('debug')('lsv:main');
