@@ -1,3 +1,5 @@
+import electron from 'electron';
+import logger from 'loglevel';
 import EventEmitter from 'events';
 import { configureStore, configureReducers } from 'store';
 
@@ -5,11 +7,12 @@ import * as builtinModules from './modules';
 
 export default class ModuleManager extends EventEmitter {
   static async initialize () {
-    const runner = new ModuleManager();
-    await Promise.all(Object.values(builtinModules).map(runner.register));
-    runner.initialized = true;
-    runner.updateReducers();
-    return runner;
+    const manager = new ModuleManager();
+    Object.values(builtinModules).map(manager.registerSync);
+   // manager.register('C:\\projects\\modules\\test.js');
+    manager.initialized = true;
+    manager.updateReducers();
+    return manager;
   }
 
   constructor (initialModules = {}) {
@@ -20,6 +23,7 @@ export default class ModuleManager extends EventEmitter {
 
     this.updateReducers = this.updateReducers.bind(this);
     this.register = this.register.bind(this);
+    this.registerSync = this.registerSync.bind(this);
     this.getStore = this.getStore.bind(this);
     this.getReducers = this.getReducers.bind(this);
     this.getModules = this.getModules.bind(this);
@@ -30,14 +34,27 @@ export default class ModuleManager extends EventEmitter {
     this.store.replaceReducer(configureReducers(this.getReducers()));
   }
 
-  register (newModule) {
+  async register (path) {
+    /* eslint-disable global-require */
+    /* eslint-disable import/no-dynamic-require */
+    try {
+      const newModule = await (function load () {
+        const m = eval('require')(path);
+        return Promise.resolve(m());
+      }());
+      this.registerSync.call(this, newModule);
+    } catch (err) {
+      logger.error(err);
+    }
+  }
+
+  registerSync (newModule) {
     this.modules[newModule.name] = newModule;
     this.updateReducers();
     if (this.initialized) {
       this.updateReducers();
       this.emit('module-loaded', newModule);
     }
-    return Promise.resolve();
   }
 
   getStore () {
@@ -62,7 +79,7 @@ export default class ModuleManager extends EventEmitter {
     return Object.keys(this.modules).reduce((routes, moduleName) => {
       const m = this.modules[moduleName];
       if (m.route) {
-        routes.push({ ...m.route, key: m.name });
+        routes.push({ ...m.route, key: m.name, name: moduleName });
       }
       return routes;
     }, []);

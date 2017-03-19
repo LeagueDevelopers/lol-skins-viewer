@@ -6,7 +6,7 @@ import path from 'path';
 import validate from 'webpack-validator';
 import {
   dependencies as externals
-} from './app/package.json';
+} from '../app/package.json';
 
 export default validate({
   module: {
@@ -30,18 +30,18 @@ export default validate({
 
   // https://webpack.github.io/docs/configuration.html#resolve
   resolve: {
-    root: [path.resolve(path.join(__dirname, 'app'))],
+    root: [path.resolve(path.join(__dirname, '..', 'app'))],
     extensions: ['', '.js', '.jsx', '.json'],
     packageMains: ['webpack', 'browser', 'web', 'browserify', ['jam', 'main'], 'main'],
     alias: {
-      utils: path.join(__dirname, 'app/utils'),
-      actions: path.join(__dirname, 'app/actions'),
-      api: path.join(__dirname, 'app/api'),
-      components: path.join(__dirname, 'app/components'),
-      containers: path.join(__dirname, 'app/containers'),
-      static: path.join(__dirname, 'app/static'),
-      selectors: path.join(__dirname, 'app/selectors'),
-      scssvariables: path.join(__dirname, 'variables.scss')
+      utils: path.join(__dirname, '..', 'app/utils'),
+      actions: path.join(__dirname, '..', 'app/actions'),
+      api: path.join(__dirname, '..', 'app/api'),
+      components: path.join(__dirname, '..', 'app/components'),
+      containers: path.join(__dirname, '..', 'app/containers'),
+      static: path.join(__dirname, '..', 'app/static'),
+      selectors: path.join(__dirname, '..', 'app/selectors'),
+      scssvariables: path.join(__dirname, '..', 'variables.scss')
     }
   },
 

@@ -8,7 +8,7 @@ import validate from 'webpack-validator';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import merge from 'webpack-merge';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-import baseConfig from './webpack.config.base';
+import baseConfig from './base';
 
 const config = validate(merge(baseConfig, {
   devtool: 'cheap-module-source-map',
@@ -19,8 +19,8 @@ const config = validate(merge(baseConfig, {
   ],
 
   output: {
-    path: path.join(__dirname, 'app/dist/renderer'),
-    publicPath: '../renderer/'
+    path: path.join(__dirname, '..', 'app/dist/renderer'),
+    publicPath: './renderer/'
   },
 
   resolve: {
@@ -84,7 +84,7 @@ const config = validate(merge(baseConfig, {
     new ExtractTextPlugin('style.css', { allChunks: true }),
     new HtmlWebpackPlugin({
       filename: '../app.html',
-      template: 'app/app.html',
+      template: './app/app.html',
       inject: false
     })
   ],

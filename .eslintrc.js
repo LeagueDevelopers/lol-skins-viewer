@@ -12,7 +12,7 @@ module.exports = {
     "no-restricted-syntax": [
       'error',
       'ForInStatement',
-//      'ForOfStatement', For async/await loops
+      'ForOfStatement',
       'LabeledStatement',
       'WithStatement',
     ],
@@ -46,7 +46,7 @@ module.exports = {
   "settings": {
     "import/resolver": {
       "webpack": {
-        "config": path.join(__dirname, "webpack.config.eslint.js")
+        "config": path.join(__dirname, "webpack", "eslint.js")
       }
     }
   }

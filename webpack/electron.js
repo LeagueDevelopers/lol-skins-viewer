@@ -2,22 +2,21 @@
  * Build config for electron 'Main Process' file
  */
 
+import path from 'path';
 import webpack from 'webpack';
 import validate from 'webpack-validator';
 import merge from 'webpack-merge';
-import CopyWebpackPlugin from 'copy-webpack-plugin';
-import baseConfig from './webpack.config.base';
+import baseConfig from './base';
 
 export default validate(merge(baseConfig, {
-  devtool: 'inline-source-map',
+  devtool: 'source-map',
 
   entry: ['babel-polyfill', './app/index.main'],
 
   // 'main.js' in root
   output: {
-    path: __dirname,
-    devtoolModuleFilenameTemplate: '[absolute-resource-path]',
-    filename: './app/dist/main.js'
+    path: path.join(__dirname, '..'),
+    filename: 'app/dist/main.js'
   },
 
   resolve: {
@@ -25,15 +24,23 @@ export default validate(merge(baseConfig, {
   },
 
   plugins: [
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: JSON.stringify('development')
+    // Minify the output
+    new webpack.optimize.UglifyJsPlugin({
+      compressor: {
+        warnings: false
       }
     }),
-    new CopyWebpackPlugin([{
-      from: 'app/app.html',
-      to: 'app/dist/app.html'
-    }])
+    // Add source map support for stack traces in node
+    // https://github.com/evanw/node-source-map-support
+    // new webpack.BannerPlugin(
+    //   'require("source-map-support").install();',
+    //   { raw: true, entryOnly: false }
+    // ),
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify('production')
+      }
+    })
   ],
 
   /**

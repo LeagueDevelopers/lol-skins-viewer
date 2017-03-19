@@ -1,9 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { remote } from 'electron';
-
-import { call } from 'utils';
 
 import { sortedSkins, rpTotal, countOwnedSkins } from 'selectors/skins';
 
@@ -41,27 +38,18 @@ export default class SkinsContainer extends Component {
     collectionValue: PropTypes.number,
     ownedSkinsCount: PropTypes.number.isRequired,
     lowSpec: PropTypes.bool,
-    skinsActions: PropTypes.object.isRequired,
-    onMount: PropTypes.func,
-    onUnmount: PropTypes.func
+    skinsActions: PropTypes.object.isRequired
   };
+
   static defaultProps = {
     collectionValue: 0,
-    lowSpec: false,
-    onMount: () => false,
-    onUnmount: () => false
+    lowSpec: false
   }
+
   componentDidMount () {
-    const { hasLoaded, onMount } = this.props;
-    // TODO: Move this to a decorator
-    call(onMount, this);
+    const { hasLoaded } = this.props;
     if (!hasLoaded) {
-      /*
-       * if we havent loaded yet, initiate LCUWatcher on the main process
-       * subsequent start() calls simply restart the watcher
-       */
-      const lcuWatcher = remote.getGlobal('LCUWatcher');
-      lcuWatcher.start();
+      this.reloadSkins();
     }
   }
 
@@ -72,11 +60,6 @@ export default class SkinsContainer extends Component {
     } else if (summoner !== nextProps.summoner) {
       this.reloadSkins(nextProps);
     }
-  }
-
-  componentWillUnmount () {
-    const { onUnmount } = this.props;
-    call(onUnmount, this);
   }
 
   reload = () => this.reloadSkins();

@@ -132,8 +132,8 @@
   "repository": "LeagueDevelopers/lol-skins-viewer",
   "scripts": {
     "build": "npm run clean && npm run build-main && npm run build-renderer",
-    "build-main": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.electron.js --profile --colors",
-    "build-renderer": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.production.js --profile --colors",
+    "build-main": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack/electron.js --profile --colors",
+    "build-renderer": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack/production.js --profile --colors",
     "clean": "rimraf app/dist",
     "dev": "cross-env DEBUG=lsv:* npm run hot-server -- --start-hot",
     "hot-server": "cross-env NODE_ENV=development node --max_old_space_size=2096 -r babel-register server.js",

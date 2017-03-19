@@ -1,13 +1,15 @@
 import { remote } from 'electron';
 import React, { PureComponent, PropTypes } from 'react';
 import settings from 'electron-settings';
+import debounce from 'lodash.debounce';
 import { windowScale } from 'utils';
 
-import Header from 'containers/Header';
+import Header from './Header';
 
 export default class App extends PureComponent {
   static propTypes = {
     location: PropTypes.object.isRequired, // from react-redux
+    route: PropTypes.object.isRequired,
     children: PropTypes.node.isRequired
   }
 
@@ -22,6 +24,9 @@ export default class App extends PureComponent {
         currentWindow.center();
       }
     });
+
+    this.lcuWatcher = remote.getGlobal('LCUWatcher');
+    this.lcuWatcher.start();
   }
 
   componentWillUnmount () {
@@ -49,7 +54,7 @@ export default class App extends PureComponent {
     }
   }
 
-  reload = () => {
+  reload = debounce(() => {
     if (this.childRefs && this.childRefs.length) {
       this.childRefs.forEach(child => {
         if (child && child.reload && child.reload.call) {
@@ -57,24 +62,14 @@ export default class App extends PureComponent {
         }
       });
     }
-  }
+    this.lcuWatcher.start();
+  }, 1000);
 
   render () {
-    const { location } = this.props;
-    // dirty af tbh
-    // ghetto solution to imperatively reloading components
-    // from parent component using the child's specific logic
-    const children = React.Children.map(this.props.children, child => React.cloneElement(child, {
-      onMount: comp => {
-        this.registerChild(comp);
-      },
-      onUnmount: comp => {
-        this.unregisterChild(comp);
-      }
-    }));
+    const { location, children, route } = this.props;
     return (
       <div className="app">
-        <Header reload={this.reload} location={location} />
+        <Header reload={this.reload} location={location} rootRoute={route} />
         {children}
       </div>
     );

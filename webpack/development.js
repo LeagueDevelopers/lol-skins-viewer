@@ -8,7 +8,7 @@ import webpack from 'webpack';
 import validate from 'webpack-validator';
 import merge from 'webpack-merge';
 import formatter from 'eslint-formatter-pretty';
-import baseConfig from './webpack.config.base';
+import baseConfig from './base';
 
 const port = process.env.PORT || 3000;
 

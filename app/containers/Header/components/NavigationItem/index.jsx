@@ -6,11 +6,10 @@ import cx from 'classnames';
 import style from './index.scss';
 
 function NavigationItem (props) {
-  const { to, children, className, currentPath, index } = props;
-  // naive... change to router.isActive eventually
-  const isActive = index ? currentPath === to : currentPath.includes(to);
+  const { to, children, router, index } = props;
+  const isActive = router.isActive(to, index);
   return (
-    <div className={cx(style.navigationItemWrapper, className)}>
+    <div className={style.navigationItemWrapper}>
       <div className={cx(style.navigationItem, { [style.active]: isActive })}>
         <span
           role="navigation"
@@ -27,9 +26,12 @@ function NavigationItem (props) {
 NavigationItem.propTypes = {
   to: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
-  className: PropTypes.string,
-  currentPath: PropTypes.string.isRequired,
+  router: PropTypes.object.isRequired,
   index: PropTypes.bool
+};
+
+NavigationItem.defaultProps = {
+  index: false
 };
 
 export default pure(NavigationItem);

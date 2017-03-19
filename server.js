@@ -11,8 +11,8 @@ import webpackDevMiddleware from 'webpack-dev-middleware';
 import webpackHotMiddleware from 'webpack-hot-middleware';
 import { spawn } from 'child_process';
 
-import config from './webpack.config.development';
-import electronConfig from './webpack.config.electron.development';
+import config from './webpack/development';
+import electronConfig from './webpack/electron.development';
 
 const argv = require('minimist')(process.argv.slice(2));
 

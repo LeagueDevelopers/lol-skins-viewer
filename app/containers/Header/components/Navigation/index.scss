@@ -1,0 +1,14 @@
+.navigation {
+	display: flex;
+	justify-content: space-between;
+
+	& > nav {
+		display: flex;
+		width: 100%;
+		align-items: center;
+	}
+
+	.left {
+		justify-content: flex-end;
+	}
+}

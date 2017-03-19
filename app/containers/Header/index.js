@@ -1,16 +1,14 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 
-import Header from 'components/Header';
+import Header from './components/Header';
 
-@connect((state, ownProps) => ({
+@connect((state, { location }) => ({
   hasLoaded: state.skins.hasLoaded,
   proxy: state.app.proxy,
   lcu: state.app.lcu,
   summoner: state.app.summoner,
-  pathname: ownProps.location.pathname,
-  newVersion: state.app.newVersion,
-  updateProgress: state.app.updateProgress
+  pathname: location.pathname
 }))
 export default class HeaderContainer extends Component {
   static propTypes = {
@@ -19,9 +17,8 @@ export default class HeaderContainer extends Component {
     lcu: PropTypes.oneOfType([PropTypes.bool, PropTypes.object]).isRequired,
     summoner: PropTypes.oneOfType([PropTypes.bool, PropTypes.object]).isRequired,
     pathname: PropTypes.string.isRequired,
-    newVersion: PropTypes.bool.isRequired,
-    updateProgress: PropTypes.number.isRequired,
-    reload: PropTypes.func.isRequired
+    reload: PropTypes.func.isRequired,
+    rootRoute: PropTypes.object.isRequired
   };
 
   render () {
@@ -31,9 +28,8 @@ export default class HeaderContainer extends Component {
       summoner,
       proxy,
       pathname,
-      newVersion,
-      updateProgress,
-      reload
+      reload,
+      rootRoute
     } = this.props;
 
     return (
@@ -43,9 +39,8 @@ export default class HeaderContainer extends Component {
         hasLoaded={hasLoaded}
         proxy={proxy}
         pathname={pathname}
-        newVersion={newVersion}
-        updateProgress={updateProgress}
         reload={reload}
+        rootRoute={rootRoute}
       />
     );
   }
