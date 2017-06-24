@@ -10,7 +10,7 @@ const DEFAULT_STATE = {
   newVersion: false
 };
 
-export default function lcu (state = DEFAULT_STATE, action) {
+export default function app (state = DEFAULT_STATE, action) {
   switch (action.type) {
     case 'PROXY_UP':
       return u({ proxy: action.payload }, state);

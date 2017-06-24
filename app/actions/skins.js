@@ -1,9 +1,9 @@
 import type { Summoner } from 'types';
 import { getData } from 'api/SkinsController';
 
-export function getSkins (port: number, password: string, summoner: Summoner) {
+export function getSkins (port: number, summoner: Summoner) {
   return dispatch =>
-    getData(port, password, summoner)
+    getData(port, summoner)
     .then(data => {
       if (data && data.champions && data.ownedChampionIds) {
         return dispatch({

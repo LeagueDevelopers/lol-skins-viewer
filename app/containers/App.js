@@ -1,17 +1,51 @@
-import { remote } from 'electron';
 import React, { PureComponent, PropTypes } from 'react';
+import { remote } from 'electron';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 import settings from 'electron-settings';
 import { windowScale } from 'utils';
 
 import Header from 'containers/Header';
+import ToastsComponent from 'components/Toasts';
 
+import { getSkins } from '../actions/skins';
+
+const Toasts = connect(state => ({ toasts: state.toasts }))(ToastsComponent);
+
+@connect(
+  state => ({
+    lcu: state.app.lcu,
+    proxy: state.app.proxy,
+    summoner: state.app.summoner,
+    hasLoaded: state.skins.hasLoaded
+  }),
+  dispatch => ({
+    skinsActions: bindActionCreators({ getSkins }, dispatch)
+  })
+)
 export default class App extends PureComponent {
   static propTypes = {
     location: PropTypes.object.isRequired, // from react-redux
-    children: PropTypes.node.isRequired
+    children: PropTypes.node.isRequired,
+    summoner: PropTypes.oneOfType([PropTypes.bool, PropTypes.object]).isRequired,
+    lcu: PropTypes.oneOfType([PropTypes.bool, PropTypes.object]).isRequired,
+    proxy: PropTypes.number.isRequired,
+    hasLoaded: PropTypes.bool.isRequired,
+    // eslint-disable-next-line
+    skinsActions: PropTypes.object.isRequired
   }
 
   componentDidMount () {
+    const { hasLoaded } = this.props;
+    if (!hasLoaded) {
+      /*
+       * if we havent loaded yet, initiate LCUWatcher on the main process
+       * subsequent start() calls simply restart the watcher
+       */
+      const lcuWatcher = remote.getGlobal('LCUWatcher');
+      lcuWatcher.start();
+    }
+
     this.scaleObserver = settings.observe('scale', ({ oldValue, newValue }) => {
       if (oldValue !== newValue) {
         const newSize = windowScale.getSize(newValue);
@@ -24,58 +58,44 @@ export default class App extends PureComponent {
     });
   }
 
+  componentWillReceiveProps (nextProps) {
+    const { hasLoaded, proxy, lcu, summoner } = this.props;
+    if (!hasLoaded && (proxy !== nextProps.proxy || lcu !== nextProps.lcu)) {
+      this.reloadSkins(nextProps);
+    } else if (summoner !== nextProps.summoner) {
+      this.reloadSkins(nextProps);
+    }
+  }
+
   componentWillUnmount () {
     if (this.scaleObserver && this.scaleObserver.dispose) {
       this.scaleObserver.dispose();
     }
   }
 
-  registerChild = child => {
-    if (!this.childRefs) {
-      this.childRefs = [];
+  reloadSkins = props => {
+    const { skinsActions, lcu, proxy, summoner } = props || this.props;
+    if (proxy && lcu && summoner) {
+      skinsActions.getSkins(proxy, summoner);
     }
-    if (this.childRefs.indexOf(child) === -1) {
-      this.childRefs.push(child);
-    }
-  }
+  };
 
-  unregisterChild = child => {
-    if (!this.childRefs) {
-      this.childRefs = [];
-    }
-    const index = this.childRefs.indexOf(child);
-    if (index >= 0) {
-      this.childRefs = this.childRefs.slice(index, 1);
-    }
-  }
-
-  reload = () => {
-    if (this.childRefs && this.childRefs.length) {
-      this.childRefs.forEach(child => {
-        if (child && child.reload && child.reload.call) {
-          child.reload();
-        }
-      });
-    }
-  }
+  reload = () => { this.reloadSkins(); }
 
   render () {
-    const { location } = this.props;
-    // dirty af tbh
-    // ghetto solution to imperatively reloading components
-    // from parent component using the child's specific logic
-    const children = React.Children.map(this.props.children, child => React.cloneElement(child, {
-      onMount: comp => {
-        this.registerChild(comp);
-      },
-      onUnmount: comp => {
-        this.unregisterChild(comp);
-      }
-    }));
+    const { children, location, summoner, lcu, proxy, hasLoaded } = this.props;
+    const child = React.cloneElement(React.Children.only(children), {
+      summoner,
+      lcu,
+      proxy,
+      hasLoaded
+    });
+
     return (
       <div className="app">
         <Header reload={this.reload} location={location} />
-        {children}
+        {child}
+        <Toasts />
       </div>
     );
   }

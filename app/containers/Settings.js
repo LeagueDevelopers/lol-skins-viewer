@@ -90,7 +90,7 @@ export default class Settings extends Component {
     const { clientPath, scale, lowSpec, hasChanges, isValid, settingsActions } = this.props;
     const { transition } = this.state;
     return (
-      <div className="settings">
+      <div className="content">
         {transition && this.renderModal()}
         <div className="container">
           <PathPicker {...clientPath} {...settingsActions} />

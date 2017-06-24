@@ -34,7 +34,7 @@ export default class Button extends PureComponent {
         if (this.state.isClick) {
           this.setState({ isClick: false });
         }
-      }, 600);
+      }, 300);
       onClick && onClick.call && onClick();
     }
   }

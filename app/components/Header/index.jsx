@@ -72,7 +72,7 @@ Header.propTypes = {
   lcu: PropTypes.oneOfType([PropTypes.bool, PropTypes.object]).isRequired,
   summoner: PropTypes.oneOfType([PropTypes.bool, PropTypes.object]).isRequired,
   pathname: PropTypes.string.isRequired,
-  reload: PropTypes.func,
+  reload: PropTypes.func.isRequired,
   updateProgress: PropTypes.number.isRequired,
   newVersion: PropTypes.bool.isRequired
 };

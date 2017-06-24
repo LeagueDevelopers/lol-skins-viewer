@@ -8,8 +8,8 @@ import style from './index.scss';
 function Navigation ({ className, currentPath }) {
   return (
     <nav className={cx(style.navigation, className)}>
-      <NavigationItem to="/" currentPath={currentPath} index>Skins</NavigationItem>
-      <NavigationItem to="/settings" currentPath={currentPath} index={false}>Settings</NavigationItem>
+      <NavigationItem to="/skins" currentPath={currentPath}>Skins</NavigationItem>
+      <NavigationItem to="/settings" currentPath={currentPath}>Settings</NavigationItem>
     </nav>
   );
 }
@@ -17,6 +17,10 @@ function Navigation ({ className, currentPath }) {
 Navigation.propTypes = {
   currentPath: PropTypes.string.isRequired,
   className: PropTypes.string
+};
+
+Navigation.defaultProps = {
+  className: undefined
 };
 
 export default Navigation;

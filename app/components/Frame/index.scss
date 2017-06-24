@@ -1,0 +1,90 @@
+.dialog {
+  border: 2px solid transparent;
+  border-image: linear-gradient(to top,#614A1F 0,#463714 5px,#463714 100%) 1 stretch;
+  position: relative;
+  background: #010A13;
+  box-shadow: 0 0 0 1px rgba(1,10,19,0.48);
+  box-sizing: border-box;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    top: -2px;
+    left: -2px;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.5);
+    pointer-events: none;
+  }
+
+  .contentWrapper {
+    .content {
+      padding: 18px 18px 48px 18px;
+      width: 296px;
+      text-align: center;
+      box-sizing: border-box;
+      font-family: 'LoL Display';
+
+			&.noButtons {
+				padding: 18px;
+			}
+
+      & h1 {
+        color: #F0E6D2;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        margin-top: -2px;
+      }
+
+      & p {
+        color: #A09B8C;
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 16px;
+        letter-spacing: 0.025em;
+        margin: 0;
+        font-family: 'LoL Body';
+
+				&:last-child {
+          margin-bottom: -2px;
+        }
+      }
+    }
+
+    .buttonGroup {
+      position: absolute;
+      bottom: -2px;
+      width: 100%;
+      justify-content: center;
+    }
+  }
+
+  .border {
+    &::before, &::after {
+      content: '';
+      position: absolute;
+      display: flex;
+      box-sizing: border-box;
+      left: 12px;
+      width: calc(100% - 24px);
+      height: 0;
+      border-style: solid;
+      border-width: 4px 4px 0 4px;
+      border-image-width: 4px 4px 0 4px;
+      border-image-slice: 4 4 0 4;
+      border-image-repeat: stretch;
+    }
+
+    &::before {
+      top: -5.5px;
+      border-image-source: url('static/lcu/sub-border-secondary-horizontal.png');
+    }
+
+    &::after {
+      bottom: -5.5px;
+      border-image-source: url('static/lcu/sub-border-primary-horizontal.png');
+    }
+  }
+}

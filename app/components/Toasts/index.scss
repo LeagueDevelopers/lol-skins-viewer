@@ -1,0 +1,19 @@
+.toasts {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	position: fixed;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	pointer-events: none;
+	z-index: 999999;
+
+	.toast {
+		cursor: pointer;
+		margin-bottom: 20px;
+		margin-right: 10px;
+		pointer-events: all;
+	}
+}

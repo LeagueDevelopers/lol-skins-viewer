@@ -14,19 +14,22 @@ export default class Input extends PureComponent {
     children: PropTypes.node,
     onChange: PropTypes.func.isRequired
   }
+
   onChange = event => {
     const { onChange } = this.props;
     if (onChange && onChange.call) {
+      event.preventDefault();
       onChange(event.target.value);
-      return false;
     }
   }
+
   onClear = () => {
     const { onChange } = this.props;
     if (onChange && onChange.call) {
       onChange('');
     }
   }
+
   render () {
     const { className, inputClassName, value, type, placeholder, hideClear, children } = this.props;
     const showClear = hideClear ? false : value !== '';

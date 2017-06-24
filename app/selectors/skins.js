@@ -25,7 +25,7 @@ export const skinsSelector = createSelector(
     return c.skins.map(s => {
       const metadata = skinMetadata[s.id];
       let tags = [];
-      let rpValue = 9999;
+      let rpValue = -1;
       if (metadata && metadata.rpValue >= 0) {
         rpValue = metadata.rpValue;
       }
@@ -48,11 +48,16 @@ export const skinsSelector = createSelector(
 export const rpTotal = createSelector(
   skinsSelector,
   skins => skins.filter(s => s.owned).reduce((total, s) => {
-    if (s.rpValue === 9999) {
+    if (s.rpValue === -1) {
       return total;
     }
     return total + s.rpValue;
   }, 0)
+);
+
+export const ownedSkins = createSelector(
+  skinsSelector,
+  skins => skins.filter(s => s.owned)
 );
 
 export const countOwnedSkins = createSelector(

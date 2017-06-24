@@ -1,5 +1,6 @@
 @import "~font-awesome/css/font-awesome.min.css";
 @import "./normalize.global.css";
+@import './variables.scss';
 
 body {
   background-image: url('./static/background.png');
@@ -7,6 +8,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+	font-size: 1em;
+	color: $lcu-text-light;
+	font-family: 'LoL Body';
 }
 
 * {
@@ -63,7 +67,7 @@ body {
   padding-left: 35px;
 }
 
-.settings {
+.content {
 	flex: 1;
 	display: flex;
 	flex-direction: column;
