@@ -18,6 +18,7 @@ export function share (uri) {
       method: 'POST',
       body: {
         summonerId: summoner.id,
+        platformId: summoner.platformId,
         skins
       },
       json: true
