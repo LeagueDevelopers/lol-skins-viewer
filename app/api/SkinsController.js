@@ -34,7 +34,7 @@ function transformResult (champions, mastery): Champion[] {
 }
 
 export async function getData (proxyPort: number, summoner: Summoner) {
-  const collectionResponse = await fetch(`http://127.0.0.1:${proxyPort}/lol-collections/v1/inventories/${summoner.id}/champions`);
+  const collectionResponse = await fetch(`http://127.0.0.1:${proxyPort}/lol-champions/v1/inventories/${summoner.id}/champions`);
   const masteryResponse = await fetch(`http://127.0.0.1:${proxyPort}/lol-collections/v1/inventories/${summoner.id}/champion-mastery`);
   if (collectionResponse.ok && masteryResponse.ok) {
     const collectionData = await collectionResponse.json();
