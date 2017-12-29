@@ -51,12 +51,12 @@ export const rpFiltered = createSelector(
   (skins, show) => {
     switch (show) {
       case 'ALL':
-      return skins.reduce((total, s) => {
-        if (s.rpValue === 9999) {
-          return total;
-        }
-        return total + s.rpValue;
-      }, 0)
+        return skins.reduce((total, s) => {
+          if (s.rpValue === 9999) {
+            return total;
+          }
+          return total + s.rpValue;
+        }, 0);
       default:
       case 'OWNED':
         return skins.filter(s => s.owned).reduce((total, s) => {
@@ -64,14 +64,14 @@ export const rpFiltered = createSelector(
             return total;
           }
           return total + s.rpValue;
-        }, 0)
+        }, 0);
       case 'UNOWNED':
         return skins.filter(s => !s.owned).reduce((total, s) => {
           if (s.rpValue === 9999) {
             return total;
           }
           return total + s.rpValue;
-        }, 0)
+        }, 0);
     }
   }
 );

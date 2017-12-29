@@ -26,7 +26,7 @@ describe('<SkinsSidebar />', () => {
       rpFiltered: 1234,
       count: 50,
       filters: {
-        show: "OWNED"
+        show: 'OWNED'
       },
       sortMethod: sortingOptions[0].value,
       changeShowFilter: jest.fn(),
@@ -53,7 +53,7 @@ describe('<SkinsSidebar />', () => {
       expect(wrapper.first().childAt(0).props().value).toBe(props.count);
 
       wrapper.instance().toggleSummary();
-  
+
       expect(wrapper.first().childAt(0).props().children).toBe('Estimated RP Value');
       expect(wrapper.first().childAt(0).props().value).toBe(props.rpFiltered);
     });
