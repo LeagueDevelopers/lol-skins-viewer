@@ -13,7 +13,7 @@ import style from './index.scss';
 
 export default class SkinsSidebar extends PureComponent {
   static propTypes = {
-    rpTotal: PropTypes.number,
+    rpFiltered: PropTypes.number,
     count: PropTypes.number,
     filters: PropTypes.object,
     sortMethod: PropTypes.string,
@@ -59,7 +59,7 @@ export default class SkinsSidebar extends PureComponent {
 
   render () {
     const {
-      rpTotal = 0,
+      rpFiltered = 0,
       count = 0,
       sortMethod,
       filters = {},
@@ -73,10 +73,10 @@ export default class SkinsSidebar extends PureComponent {
       <div className={style.sidebar}>
         <SummaryRing
           className={cx(style.ring, summary && style.rotated)}
-          value={!summary ? count : rpTotal}
+          value={!summary ? count : rpFiltered}
           onClick={this.toggleSummary}
         >
-          {!summary ? 'Total Skins' : 'Estimated RP Value'}
+          {!summary ? `${filters.show} Skins` : 'Estimated RP Value'}
         </SummaryRing>
         <div className={style.filters}>
           <Input type="search" value={search} onChange={this.handleSearchChange} placeholder="Search" />

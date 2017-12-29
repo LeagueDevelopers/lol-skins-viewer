@@ -5,7 +5,7 @@ exports[`<SkinsSidebar /> should render correctly 1`] = `
     className="ring"
     onClick={[Function]}
     value={50}>
-    Total Skins
+    OWNED Skins
   </SummaryRing>
   <div
     className="filters">
@@ -32,7 +32,7 @@ exports[`<SkinsSidebar /> should render correctly 1`] = `
           },
         ]
       }
-      value={true} />
+      value="OWNED" />
     <RadioInput
       onChange={[Function]}
       options={

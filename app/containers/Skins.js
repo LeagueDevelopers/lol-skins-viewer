@@ -5,7 +5,7 @@ import { remote } from 'electron';
 
 import { call } from 'utils';
 
-import { sortedSkins, rpTotal, countOwnedSkins } from 'selectors/skins';
+import { sortedSkins, rpFiltered, countFilteredSkins } from 'selectors/skins';
 
 import SkinsList from '../components/SkinsList';
 import SkinsSidebar from '../components/SkinsSidebar';
@@ -21,8 +21,8 @@ import * as skinsActionCreators from '../actions/skins';
     sortMethod: state.skins.sortMethod,
     filters: state.skins.filters,
     skins: sortedSkins(state),
-    collectionValue: rpTotal(state),
-    ownedSkinsCount: countOwnedSkins(state),
+    collectionValue: rpFiltered(state),
+    ownedSkinsCount: countFilteredSkins(state),
     lowSpec: state.settings.lowSpec.value
   }),
   dispatch => ({
@@ -100,7 +100,7 @@ export default class SkinsContainer extends Component {
     return (
       <section className="skins">
         <SkinsSidebar
-          rpTotal={collectionValue}
+          rpFiltered={collectionValue}
           count={ownedSkinsCount}
           sortMethod={sortMethod}
           filters={filters}

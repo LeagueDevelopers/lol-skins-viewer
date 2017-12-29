@@ -23,10 +23,10 @@ jest.mock('lodash.debounce', () => {
 describe('<SkinsSidebar />', () => {
   it('should render correctly', () => {
     const props = {
-      rpTotal: 1234,
+      rpFiltered: 1234,
       count: 50,
       filters: {
-        show: true
+        show: "OWNED"
       },
       sortMethod: sortingOptions[0].value,
       changeShowFilter: jest.fn(),
@@ -39,20 +39,24 @@ describe('<SkinsSidebar />', () => {
   });
 
   it('should toggle between RP Total and Skins Count', () => {
-    const props = {
-      rpTotal: 1234,
-      count: 50
-    };
+    ['ALL', 'OWNED', 'UNOWNED'].forEach((type) => {
+      const props = {
+        rpFiltered: 1234,
+        count: 50,
+        filters: {
+          show: type
+        }
+      };
+      const wrapper = shallow(<SkinsSidebar {...props} />);
 
-    const wrapper = shallow(<SkinsSidebar {...props} />);
+      expect(wrapper.first().childAt(0).props().children).toBe(`${type} Skins`);
+      expect(wrapper.first().childAt(0).props().value).toBe(props.count);
 
-    expect(wrapper.first().childAt(0).props().children).toBe('Total Skins');
-    expect(wrapper.first().childAt(0).props().value).toBe(props.count);
-
-    wrapper.instance().toggleSummary();
-
-    expect(wrapper.first().childAt(0).props().children).toBe('Estimated RP Value');
-    expect(wrapper.first().childAt(0).props().value).toBe(props.rpTotal);
+      wrapper.instance().toggleSummary();
+  
+      expect(wrapper.first().childAt(0).props().children).toBe('Estimated RP Value');
+      expect(wrapper.first().childAt(0).props().value).toBe(props.rpFiltered);
+    });
   });
 
   it('should debounce search change calls', () => {

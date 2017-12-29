@@ -45,19 +45,51 @@ export const skinsSelector = createSelector(
   })
 );
 
-export const rpTotal = createSelector(
+export const rpFiltered = createSelector(
   skinsSelector,
-  skins => skins.filter(s => s.owned).reduce((total, s) => {
-    if (s.rpValue === 9999) {
-      return total;
+  showUnownedSkins,
+  (skins, show) => {
+    switch (show) {
+      case 'ALL':
+      return skins.reduce((total, s) => {
+        if (s.rpValue === 9999) {
+          return total;
+        }
+        return total + s.rpValue;
+      }, 0)
+      default:
+      case 'OWNED':
+        return skins.filter(s => s.owned).reduce((total, s) => {
+          if (s.rpValue === 9999) {
+            return total;
+          }
+          return total + s.rpValue;
+        }, 0)
+      case 'UNOWNED':
+        return skins.filter(s => !s.owned).reduce((total, s) => {
+          if (s.rpValue === 9999) {
+            return total;
+          }
+          return total + s.rpValue;
+        }, 0)
     }
-    return total + s.rpValue;
-  }, 0)
+  }
 );
 
-export const countOwnedSkins = createSelector(
+export const countFilteredSkins = createSelector(
   skinsSelector,
-  skins => skins.filter(s => s.owned).length
+  showUnownedSkins,
+  (skins, show) => {
+    switch (show) {
+      case 'ALL':
+        return skins.length;
+      default:
+      case 'OWNED':
+        return skins.filter(s => s.owned).length;
+      case 'UNOWNED':
+        return skins.filter(s => !s.owned).length;
+    }
+  }
 );
 
 export const filterOptions = [
