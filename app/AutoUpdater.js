@@ -13,6 +13,7 @@ export default function AutoUpdater (browserWindow) {
 
   const platform = os.platform();
   if (platform === 'linux') {
+    // ¯\_(ツ)_/¯ sorry blitzcrankBot
     return;
   }
 

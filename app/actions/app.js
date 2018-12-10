@@ -1,4 +1,22 @@
-// import type { Summoner } from '../types';
+import { getChampions } from 'api/SummonerController';
+
+export function updateChampions (port, password, summoner) {
+  return dispatch =>
+    getChampions(port, password, summoner.id)
+      .then(data => {
+        if (data) {
+          return dispatch({
+            type: 'RECEIVE_CHAMPIONS',
+            payload: data
+          });
+        }
+        return dispatch({
+          type: 'ERROR',
+          payload: data,
+          error: true
+        });
+      });
+}
 
 export function up (instance) {
   if (instance) {

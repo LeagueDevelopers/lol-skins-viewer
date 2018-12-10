@@ -1,6 +1,6 @@
 # LoL Skins Viewer
 
-[![Build status](https://ci.appveyor.com/api/projects/status/o293j53s6pt5txyp/branch/master?svg=true)](https://ci.appveyor.com/project/s-coimbra21/lol-skins-viewer/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/o293j53s6pt5txyp/branch/master?svg=true)](https://ci.appveyor.com/project/s-coimbra21/dark-binding/branch/master)
 
 A League of Legends companion app that allows you to check which skins you own on your account
 

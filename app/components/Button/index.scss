@@ -153,16 +153,17 @@
 
   .buttonBg {
     opacity: 1;
-  }
+	}
+	
+	.borderTransition {
+		opacity: 0;
+	}
 }
 
 /* click state */
 .button.click {
   color: #E4E1D8;
-  border-image: linear-gradient(to top, #FFFFFF 0%, #FFFFFF 33%, #FFFFFF 66%, #FFFFFF 100%);
-  border-image-slice: 1;
   animation: clickScale 130ms linear 1, hoverTextShadow 400ms linear 1;
-
 
   .borderTransition {
     border-image: linear-gradient(to top, #C89C3C 0%, #DCC188 50%, #E1C998 71%, #F0E6D8 100%);

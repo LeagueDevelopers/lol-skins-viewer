@@ -60,18 +60,8 @@ export default class App extends PureComponent {
   }
 
   render () {
-    const { location } = this.props;
-    // dirty af tbh
-    // ghetto solution to imperatively reloading components
-    // from parent component using the child's specific logic
-    const children = React.Children.map(this.props.children, child => React.cloneElement(child, {
-      onMount: comp => {
-        this.registerChild(comp);
-      },
-      onUnmount: comp => {
-        this.unregisterChild(comp);
-      }
-    }));
+    const { location, children } = this.props;
+
     return (
       <div className="app">
         <Header reload={this.reload} location={location} />

@@ -1,5 +1,6 @@
 @import "~font-awesome/css/font-awesome.min.css";
 @import "./normalize.global.css";
+@import "./variables.scss";
 
 body {
   background-image: url('./static/background.png');
@@ -56,11 +57,25 @@ body {
 	color: #F0E6D2;
 }
 
-.skins {
+.bindings {
 	flex: 1;
 	display: flex;
 	flex-direction: row;
-  padding-left: 35px;
+	padding-left: 35px;
+	position: relative;
+	
+	.container {
+		width: 100%;
+		padding-top: 15px;
+	}
+
+	.modal {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
 }
 
 .settings {
@@ -109,6 +124,11 @@ body {
 
 html, body {
 	overflow: hidden;
+	color: $lcu-text-dark;
+	line-height: 16px;
+	letter-spacing: 0.025em;
+	font-family: 'LoL Body';
+	font-size: 12px;
 
 	::-webkit-scrollbar {
 	  width: 11px;
@@ -122,6 +142,10 @@ html, body {
 	  min-height: 32px;
 	  background-color: #785a28;
 	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'LoL Display';
 }
 
 body, img, iframe {

@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import Header from 'components/Header';
 
 @connect((state, ownProps) => ({
-  hasLoaded: state.skins.hasLoaded,
+  hasLoaded: state.bindings.hasLoaded,
   proxy: state.app.proxy,
   lcu: state.app.lcu,
   summoner: state.app.summoner,

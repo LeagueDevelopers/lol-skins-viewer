@@ -1,0 +1,26 @@
+@import "~variables.scss";
+
+.editor {
+	background: $lcu-bg;
+	height: 100%;
+	width: 100%;
+	padding-left: 15px;
+
+	.primary-bindings {
+		display: flex;
+		flex-direction: column;
+		width: 40%;
+
+		.row {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 10px;
+
+			.category {
+				.label {
+					margin-bottom: 5px;
+				}
+			}
+		}
+	}
+}

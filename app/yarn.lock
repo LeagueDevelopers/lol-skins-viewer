@@ -803,9 +803,9 @@ react-height@^2.1.1:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/react-height/-/react-height-2.2.0.tgz#c65de6a7f7245c848f5ec9d3087f0758b90d7a0b"
 
-"react-lazyload@github:s-coimbra21/react-lazyload#v2.2.0":
-  version "2.2.0"
-  resolved "https://codeload.github.com/s-coimbra21/react-lazyload/tar.gz/b5661a6c57f6073fdf0eb861bd42c6252616899a"
+react-lazyload@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/react-lazyload/-/react-lazyload-2.3.0.tgz#ccb134223012447074a96543954f44b055dc6185"
 
 react-markdown@^2.4.4:
   version "2.4.4"

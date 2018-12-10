@@ -1,0 +1,126 @@
+@import "~variables.scss";
+
+$active-color: rgb(70, 55, 20);
+
+.primary-hotkey {
+	position: relative;
+	height: 100px;
+	width: 60px;
+	margin-right: 5px;
+	padding: 1px;
+	float: left;
+	cursor: pointer;
+	background: linear-gradient(to bottom, rgb(129, 112, 76) 0%, rgb(71, 57, 33) 100%);
+
+	.background {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 1px;
+		bottom: 1px;
+		left: 1px;
+		right: 1px;
+		background: #1E2328;
+	}
+
+	.button {
+		border: 1px solid rgba(1, 10, 19, 0.5);
+		height: 75%;
+		color: $lcu-text-dark;
+		text-align: center;
+    padding-top: 68%;
+    font-size: 35px;
+    font-family: 'LoL Display';
+		font-weight: bold;
+		
+		&:hover {
+			color: $lcu-gold;
+		}
+	}
+
+	.spacer {
+		height: 1px;
+		background: rgb(89, 71, 40);
+	}
+
+	.quickcast-button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-grow: 1;
+		border: 1px solid rgba(1, 10, 19, 0.5);
+
+		.spark {
+			height: 16px;
+			fill: $lcu-text-dark;
+		}
+
+		&:hover .spark {
+			fill: $lcu-gold;
+		}
+	}
+
+	&:hover {
+		background: linear-gradient(to bottom, lighten(rgb(129, 112, 76), 35%) 0%, lighten(rgb(71, 57, 33), 35%) 100%);
+
+		.background {
+			background-image: linear-gradient(to bottom, #1E232A 0%, #1E232A 40%, rgba(118,97,51,0.8) 140%);
+		}
+
+		.spacer {
+			background: lighten(rgb(89, 71, 40), 35%);
+		}
+	}
+
+	&:active {
+		background: linear-gradient(to bottom, rgb(38, 34, 20), rgb(61, 50, 29));
+
+		.spacer {
+			background: rgb(38, 34, 20);
+		}
+	}
+
+	&.quickcast {
+		padding: 2px;
+		background: linear-gradient(to bottom, #785B28 0%, #C89C3C 55%, #C8A355 71%, #C8AA6E 100%);
+		border-image-slice: 1;
+
+		.button {
+			color: $lcu-gold;
+		}
+
+		.background {
+			top: 2px;
+			bottom: 2px;
+			left: 2px;
+			right: 2px;
+		}
+
+		.spacer {
+			height: 2px;
+			background: rgb(200, 164, 88);
+		}
+
+		.quickcast-button {
+			.spark {
+				fill: $lcu-gold;
+			}
+		}
+	
+		&:hover {
+			background: linear-gradient(to bottom, #C89C3C 0%, #DCC188 50%, #E1C998 71%, #F0E6D8 100%);
+
+			.spacer {
+				background: rgb(227, 205, 161);
+			}
+		}
+
+		&:active {
+			background: linear-gradient(to bottom, rgb(38, 34, 20), rgb(61, 50, 29));
+
+			.spacer {
+				background: rgb(38, 34, 20);
+			}
+		}
+	}
+}

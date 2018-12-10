@@ -5,11 +5,11 @@ import { routerMiddleware, push } from 'react-router-redux';
 import createLogger from 'redux-logger';
 import rootReducer from '../reducers';
 import appActionCreators from '../actions/app';
-import skinActionCreators from '../actions/skins';
+import bindingsActionCreators from '../actions/bindings';
 
 const actionCreators = {
   ...appActionCreators,
-  ...skinActionCreators,
+  ...bindingsActionCreators,
   push
 };
 

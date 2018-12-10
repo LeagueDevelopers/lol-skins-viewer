@@ -1,3 +1,5 @@
+$lcu-bg: rgb(1, 10, 19);
+$lcu-dark: rgb(60, 60, 65);
 $lcu-gold: rgb(94.1%, 90.2%, 82.4%);
 $lcu-gold-medium: rgb(80.4%, 74.5%, 56.9%);
 $lcu-gold-dark: rgb(78.4%, 60.8%, 23.5%);
@@ -7,3 +9,6 @@ $lcu-text-dark: rgb(62.7%, 60.8%, 54.9%);
 
 $lcu-gold-border-color: rgba(155, 125, 35, 0.5);
 $lcu-gold-input-border-color: rgb(47.1%, 35.3%, 15.7%);
+
+$lcu-gold-border-gradient: linear-gradient(to bottom, #f0e6d2, #c99c3d);
+$lcu-gold-border-gradient-active: linear-gradient(to top, #f0e6d2, #c99c3d);

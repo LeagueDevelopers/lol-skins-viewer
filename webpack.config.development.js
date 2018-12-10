@@ -44,7 +44,7 @@ export default validate(merge(baseConfig, {
         test: /\.global\.css$/,
         loaders: [
           'style-loader',
-          'css-loader?sourceMap'
+          'css-loader?camelCase=dashes&sourceMap'
         ]
       },
 
@@ -52,7 +52,7 @@ export default validate(merge(baseConfig, {
         test: /\.global\.scss$/,
         loaders: [
           'style-loader',
-          'css-loader?sourceMap',
+          'css-loader?camelCase=dashes&sourceMap',
           'sass-loader'
         ]
       },
@@ -61,7 +61,7 @@ export default validate(merge(baseConfig, {
         test: /^((?!\.global).)*\.css$/,
         loaders: [
           'style-loader',
-          'css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
+          'css-loader?modules&camelCase=dashes&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
         ]
       },
 
@@ -69,7 +69,7 @@ export default validate(merge(baseConfig, {
         test: /^((?!\.global).)*\.scss$/,
         loaders: [
           'style-loader',
-          'css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
+          'css-loader?modules&camelCase=dashes&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
           'sass-loader'
         ]
       },

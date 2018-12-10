@@ -1,5 +1,5 @@
 {
-  "name": "lol-skins-viewer",
+  "name": "dark-binding",
   "productName": "LoLSkinsViewer",
   "version": "1.1.3",
   "description": "An application that can show you all the skins you own",
@@ -32,7 +32,7 @@
     "react-dom": "^15.4.1",
     "react-flip-move": "^2.8.0",
     "react-height": "^2.1.1",
-    "react-lazyload": "github:s-coimbra21/react-lazyload#v2.2.0",
+    "react-lazyload": "^2.3.0",
     "react-markdown": "^2.4.4",
     "react-modal": "^1.6.4",
     "react-motion": "^0.4.5",

@@ -1,11 +1,9 @@
 import u from 'updeep';
 
 const DEFAULT_STATE = {
-  hasLoaded: false,
-  summoner: undefined,
-  ownedChampionIds: [],
-  champions: [],
-  skinMetadata: {},
+  editing: false,
+  hasChanges: false,
+  confirmCloseModal: false,
   filters: {
     show: 'OWNED',
     name: ''
@@ -15,8 +13,19 @@ const DEFAULT_STATE = {
 
 export default function skins (state = DEFAULT_STATE, action) {
   switch (action.type) {
-    case 'RECEIVE_SKINS':
-      return u({ hasLoaded: true, ...action.payload }, state);
+    case 'OPEN_EDITOR':
+      return u({
+        editing: {
+          id: action.payload.id,
+          original: action.payload.bindings,
+          current: action.payload.bindings
+        }
+      }, state);
+    case 'CLOSE_EDITOR': {
+      if (state.hasChanges) return u({ confirmCloseModal: true }, state);
+
+      return u({ editing: false }, state);
+    }
     case 'SKINS_FILTER_NAME_CHANGE':
       return u({ filters: { name: action.payload } }, state);
     case 'SKINS_FILTER_SHOW_CHANGE':

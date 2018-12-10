@@ -1,5 +1,5 @@
 {
-  "name": "lol-skins-viewer-app",
+  "name": "dark-binding-app",
   "version": "0.0.0",
   "private": true,
   "author": {
@@ -129,7 +129,7 @@
   "license": "MIT",
   "main": "main.js",
   "productName": "LoLSkinsViewer",
-  "repository": "LeagueDevelopers/lol-skins-viewer",
+  "repository": "LeagueDevelopers/dark-binding",
   "scripts": {
     "build": "npm run clean && npm run build-main && npm run build-renderer",
     "build-main": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.electron.js --profile --colors",
